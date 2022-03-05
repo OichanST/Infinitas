@@ -9,7 +9,7 @@
 		function init(){
 		
 			// localStorage.removeItem("playData");
-		
+
 			playData = localStorage.getItem("playData");
 			
 			if(playData){
@@ -97,24 +97,80 @@
 				}
 			});
 			
+			const spdp = document.forms[0].SPDP.value;
+			
+			const mergedMusicData = new Array();
+			
+			const lv = document.forms[0].LV.value;
+
+			musicData.forEach(function(rec){
+				if(rec[spdp + "N"]){
+					if(rec[spdp + "N"].DIFFICULT == lv){
+						mergedMusicData.push({
+							TITLE:rec.TITLE,
+							BPM:rec.BPM,
+							type:"N",
+							BSS:rec[spdp + "N"].BSS,
+							HBSS:rec[spdp + "N"].HBSS,
+							CN:rec[spdp + "N"].CN,
+							HCN:rec[spdp + "N"].HCN,
+							DIFFICULT:rec[spdp + "N"].DIFFICULT,
+							OPEN:rec[spdp + "N"].OPEN,
+							CLEARSTATUS:rec[spdp + "N"].CLEARSTATUS,
+							PLAYRESULT:rec[spdp + "N"].PLAYRESULT,
+							EXSCORE:rec[spdp + "N"].EXSCORE,
+							MISSCOUNT:rec[spdp + "N"].MISSCOUNT
+						});
+					}
+				}
+				if(rec[spdp + "H"]){
+					if(rec[spdp + "H"].DIFFICULT == lv){
+						mergedMusicData.push({
+							TITLE:rec.TITLE,
+							BPM:rec.BPM,
+							type:"H",
+							BSS:rec[spdp + "H"].BSS,
+							HBSS:rec[spdp + "H"].HBSS,
+							CN:rec[spdp + "H"].CN,
+							HCN:rec[spdp + "H"].HCN,
+							DIFFICULT:rec[spdp + "H"].DIFFICULT,
+							OPEN:rec[spdp + "H"].OPEN,
+							CLEARSTATUS:rec[spdp + "H"].CLEARSTATUS,
+							PLAYRESULT:rec[spdp + "H"].PLAYRESULT,
+							EXSCORE:rec[spdp + "H"].EXSCORE,
+							MISSCOUNT:rec[spdp + "H"].MISSCOUNT
+						});
+					}
+				}
+				if(rec[spdp + "A"]){
+					if(rec[spdp + "A"].DIFFICULT == lv){
+						mergedMusicData.push({
+							TITLE:rec.TITLE,
+							BPM:rec.BPM,
+							type:"A",
+							BSS:rec[spdp + "A"].BSS,
+							HBSS:rec[spdp + "A"].HBSS,
+							CN:rec[spdp + "A"].CN,
+							HCN:rec[spdp + "A"].HCN,
+							DIFFICULT:rec[spdp + "A"].DIFFICULT,
+							OPEN:rec[spdp + "A"].OPEN,
+							CLEARSTATUS:rec[spdp + "A"].CLEARSTATUS,
+							PLAYRESULT:rec[spdp + "A"].PLAYRESULT,
+							EXSCORE:rec[spdp + "A"].EXSCORE,
+							MISSCOUNT:rec[spdp + "A"].MISSCOUNT
+						});
+					}
+				}
+			});
+			
 			const dt = document.getElementById("dt");
 			dt.innerHTML = null;
 			
-			const spdp = document.forms[0].SPDP.value;
+			mergedMusicData.sort(function(a, b){
 			
-			musicData.sort(function(a, b){
-			
-				if(!a[spdp] && !b[spdp]){
-					return 0;
-				}else if(a[spdp] && !b[spdp]){
+				if(a.DIFFICULT > b.DIFFICULT){
 					return 1;
-				}else if(!a[spdp] && b[spdp]){
-					return -1;
-				}
-			
-				if(a[spdp].DIFFICULT > b[spdp].DIFFICULT){
-					return 1;
-				}else if(a[spdp].DIFFICULT < b[spdp].DIFFICULT){
+				}else if(a.DIFFICULT < b.DIFFICULT){
 					return -1;
 				}
 				if(a.TITLE > b.TITLE){
@@ -125,133 +181,127 @@
 				return 0;
 			});
 						
-			musicData.forEach(function(rec){
-				if(rec[spdp]){
-					let r = document.createElement("tr");
-					r.style.cursor = "pointer";
-					r.setAttribute("title", rec.TITLE);
-					r.onclick = function(){
-						let t = event.target;
-						while(t.tagName != "TR"){
-							t = t.parentNode;
-						}
-						const title = t.getAttribute("title");
-						openInputForm(title);
+			mergedMusicData.forEach(function(rec){
+			
+				let r = document.createElement("tr");
+				r.style.cursor = "pointer";
+				r.setAttribute("title", rec.TITLE);
+				r.setAttribute("type", rec.type);
+				r.onclick = function(){
+					let t = event.target;
+					while(t.tagName != "TR"){
+						t = t.parentNode;
 					}
-					
-					let color;
-					
-					if(spdp.substring(2, 3) == "N"){
-						color = "00A0FF";
-					}else if(spdp.substring(2, 3) == "H"){
-						color = "FFC000";
-					}else if(spdp.substring(2, 3) == "A"){
-						color = "FF0000";
-					}
-					
-					addText(r, rec[spdp].DIFFICULT, "width:1.2em;font-size:5.0em;text-align:center;color:#" + color + ";");
-					
-					const c = document.createElement("td");
-					
-					let divTitle = document.createElement("div");
-					divTitle.innerText = rec.TITLE;
-					divTitle.style = "font-size:1.1em;";
-					if(!rec[spdp].OPEN){
-						divTitle.style.color = "gray";
-					}
-					c.appendChild(divTitle);
-					
-					let div = document.createElement("div");
-					div.style = "display:flex;justify-content:space-between;";
-					
-					let divA = document.createElement("div");
-					
-					let divA1 = document.createElement("div");
-					divA1.style = "display:flex;justify-content:flex-start;";
-					
-					let div4 = document.createElement("div");
-					div4.innerText = "BPM:" + rec.BPM;
-					div4.style.width = "6.5em";
-					divA1.appendChild(div4);
-					
-					let div42 = document.createElement("div");
-					if(rec[spdp].BSS){
-						div42.innerText = "BSS";
-					}else if(rec[spdp].HBSS){
-						div42.innerText = "HBSS";
-					}else if(rec[spdp].HCN){
-						div42.innerText = "HCN";
-					}else if(rec[spdp].CN){
-						div42.innerText = "CN";
-					}
-					div42.style.width = "30%";
-					divA1.appendChild(div42);
-					
-					let divA2 = document.createElement("div");
-					divA2.style = "display:flex;justify-content:flex-start;";
-					
-					for(let idx = 0; idx < playData.length; idx++){
-						if(rec.TITLE == playData[idx].TITLE){
-						
-							let div5 = document.createElement("div");
-							div5.innerText = playData[idx][spdp].CLEARSTATUS;
-							div5.setAttribute("class", playData[idx][spdp].CLEARSTATUS.replaceAll(" ","_"));
-							div5.style = "width:5.5em;";
-							divA2.appendChild(div5);
-							
-							let div6 = document.createElement("div");
-							div6.innerText = playData[idx][spdp].PLAYRESULT;
-							div6.setAttribute("class", "PLAYRESULT " + playData[idx][spdp].PLAYRESULT);
-							div6.style = "width:2.2em;text-align:center;";
-							divA2.appendChild(div6);
-							
-							divA.appendChild(divA1);
-							
-							divA.appendChild(divA2);
-							
-							div.appendChild(divA);
-							
-							let divX = document.createElement("div");
-							divX.style = "width:7.0em;";
-							
-							let div7 = document.createElement("div");
-							div7.style = "display:flex;justify-content:space-between;";
-							
-							let div71 = document.createElement("div");
-							div71.innerText = "EX SCORE";
-							div7.appendChild(div71);
-							
-							let div72 = document.createElement("div");
-							div72.innerText = playData[idx][spdp].EXSCORE;
-							div7.appendChild(div72);
-							
-							divX.appendChild(div7);
-							
-							let div8 = document.createElement("div");
-							div8.style = "display:flex;justify-content:space-between;";
-							
-							let div81 = document.createElement("div");
-							div81.innerText = "MISS COUNT";
-							div8.appendChild(div81);
-							
-							let div82 = document.createElement("div");
-							div82.innerText = playData[idx][spdp].MISSCOUNT;
-							div8.appendChild(div82);
-							
-							divX.appendChild(div8);
-							
-							div.appendChild(divX);
-							
-							break;
-						}
-					}
-					
-					c.appendChild(div);
-					
-					r.appendChild(c);
-					
-					dt.appendChild(r);
+					const title = t.getAttribute("title");
+					const type = t.getAttribute("type");
+					openInputForm(title, type);
 				}
+				
+				let color;
+				
+				if(rec.type == "N"){
+					color = "00A0FF";
+				}else if(rec.type == "H"){
+					color = "FFC000";
+				}else if(rec.type == "A"){
+					color = "FF0000";
+				}
+				
+				addText(r, rec.DIFFICULT, "width:1.2em;font-size:5.0em;text-align:center;color:#" + color + ";");
+				
+				const c = document.createElement("td");
+				
+				let divTitle = document.createElement("div");
+				divTitle.innerText = rec.TITLE;
+				divTitle.style = "font-size:1.1em;";
+				if(!rec.OPEN){
+					divTitle.style.color = "gray";
+				}
+				c.appendChild(divTitle);
+				
+				let div = document.createElement("div");
+				div.style = "display:flex;justify-content:space-between;";
+				
+				let divA = document.createElement("div");
+				
+				let divA1 = document.createElement("div");
+				divA1.style = "display:flex;justify-content:flex-start;";
+				
+				let div4 = document.createElement("div");
+				div4.innerText = "BPM:" + rec.BPM;
+				div4.style.width = "6.5em";
+				divA1.appendChild(div4);
+				
+				let div42 = document.createElement("div");
+				if(rec.BSS){
+					div42.innerText = "BSS";
+				}else if(rec.HBSS){
+					div42.innerText = "HBSS";
+				}else if(rec.HCN){
+					div42.innerText = "HCN";
+				}else if(rec.CN){
+					div42.innerText = "CN";
+				}
+				div42.style.width = "30%";
+				divA1.appendChild(div42);
+				
+				let divA2 = document.createElement("div");
+				divA2.style = "display:flex;justify-content:flex-start;";
+				
+				let div5 = document.createElement("div");
+				div5.innerText = rec.CLEARSTATUS;
+				div5.setAttribute("class", rec.CLEARSTATUS.replaceAll(" ","_"));
+				div5.style = "width:5.5em;";
+				divA2.appendChild(div5);
+				
+				let div6 = document.createElement("div");
+				div6.innerText = rec.PLAYRESULT;
+				div6.setAttribute("class", "PLAYRESULT " + rec.PLAYRESULT);
+				div6.style = "width:2.2em;text-align:center;";
+				divA2.appendChild(div6);
+				
+				divA.appendChild(divA1);
+				
+				divA.appendChild(divA2);
+				
+				div.appendChild(divA);
+				
+				let divX = document.createElement("div");
+				divX.style = "width:7.0em;";
+				
+				let div7 = document.createElement("div");
+				div7.style = "display:flex;justify-content:space-between;";
+				
+				let div71 = document.createElement("div");
+				div71.innerText = "EX SCORE";
+				div7.appendChild(div71);
+				
+				let div72 = document.createElement("div");
+				div72.innerText = rec.EXSCORE;
+				div7.appendChild(div72);
+				
+				divX.appendChild(div7);
+				
+				let div8 = document.createElement("div");
+				div8.style = "display:flex;justify-content:space-between;";
+				
+				let div81 = document.createElement("div");
+				div81.innerText = "MISS COUNT";
+				div8.appendChild(div81);
+				
+				let div82 = document.createElement("div");
+				div82.innerText = rec.MISSCOUNT;
+				div8.appendChild(div82);
+				
+				divX.appendChild(div8);
+				
+				div.appendChild(divX);
+				
+				c.appendChild(div);
+				
+				r.appendChild(c);
+				
+				dt.appendChild(r);
 			});
 		}
 		
@@ -266,8 +316,8 @@
 			return cell;
 		}
 		
-		function openInputForm(title){
-			const spdp = document.forms[0].SPDP.value;
+		function openInputForm(title, type){
+			const spdp = document.forms[0].SPDP.value + type;
 			for(let i = 0; i < musicData.length; i++){
 				if(musicData[i].TITLE == title){
 					
@@ -585,8 +635,7 @@
 	<body onload="init();">
 		<div id="inputContainer" style="width:100%;display:none;position:absolute;z-index:2;background-color:black;border:10px solid gray;padding:0.75em;">
 			<div><span id="TITLE"></span>(<span id="SPDP"></span>)</div>
-			<div>TOTAL NOTES</div>
-			<div id="NOTES"></div>
+			<div>TOTAL NOTES<span id="NOTES" style="margin-left:0.2em;"></span></div>
 			<div id="inputArea">
 				<div><input type="checkbox" id="OPEN" onchange="openChange();"/><label for="OPEN">曲解禁済</label></div>
 				<div>クリア状況</div>
@@ -622,15 +671,29 @@
 			</div>
 		</div>
 		<form>
-			<div style="padding-top:0.5em;padding-left:0.5em;">
-				<select name="SPDP" value="SPN" onchange="init();" style="padding-left:0.2em;padding-right:0.2em;">
-					<option value="SPN">SPN</option>
-					<option value="SPH">SPH</option>
-					<option value="SPA">SPA</option>
-					<option value="DPN">DPN</option>
-					<option value="DPH">DPH</option>
-					<option value="DPA">DPA</option>
-				</select>
+			<div style="padding-top:0.5em;padding-left:0.5em;display:flex;justify-content:flex-start;">
+				<div style="margin-right:0.5em;">
+					<select name="SPDP" value="SP" onchange="init();" style="padding-left:0.2em;padding-right:0.2em;">
+						<option value="SP">SP</option>
+						<option value="DP">DP</option>
+					</select>
+				</div>
+				<div>
+					<select name="LV" value="1" onchange="init();" style="padding-left:0.2em;padding-right:0.2em;">
+						<option value="1">LEVEL 1</option>
+						<option value="2">LEVEL 2</option>
+						<option value="3">LEVEL 3</option>
+						<option value="4">LEVEL 4</option>
+						<option value="5">LEVEL 5</option>
+						<option value="6">LEVEL 6</option>
+						<option value="7">LEVEL 7</option>
+						<option value="8">LEVEL 8</option>
+						<option value="9">LEVEL 9</option>
+						<option value="10">LEVEL 10</option>
+						<option value="11">LEVEL 11</option>
+						<option value="12">LEVEL 12</option>
+					</select>
+				</div>
 			</div>
 		</form>
 		<div style="height:92.5%;overflow-y:scroll;">
