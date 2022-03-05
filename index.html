@@ -57,8 +57,6 @@
 				localStorage.setItem("playData", JSON.stringify(playData));
 			}
 			
-			console.log(JSON.stringify(playData));
-			
 			musicData.forEach(function(rec){
 				for(let i = 0; i < playData.length; i++){
 					
@@ -128,18 +126,21 @@
 						
 			musicData.forEach(function(rec){
 				if(rec[spdp]){
-					const r = document.createElement("tr");
+					let r = document.createElement("tr");
 					r.style.cursor = "pointer";
+					r.setAttribute("title", rec.TITLE);
 					r.onclick = function(){
 						let t = event.target;
-						if(t.tagName == "TD"){
+						while(t.tagName != "TR"){
 							t = t.parentNode;
 						}
-						const title = t.getElementsByTagName("TD")[2].innerText;
+						const title = t.getAttribute("title");
+						console.log(title);
 						openInputForm(title);
 					}
+					
 					let color;
-
+					
 					if(spdp.substring(2, 3) == "N"){
 						color = "00A0FF";
 					}else if(spdp.substring(2, 3) == "H"){
@@ -147,36 +148,108 @@
 					}else if(spdp.substring(2, 3) == "A"){
 						color = "FF0000";
 					}
-					if(rec[spdp].BSS){
-						addText(r, "BSS", "text-align:center;");
-					}else if(rec[spdp].HBSS){
-						addText(r, "HBSS", "text-align:center;");
-					}else if(rec[spdp].HCN){
-						addText(r, "HCN", "text-align:center;");
-					}else if(rec[spdp].CN){
-						addText(r, "CN", "text-align:center;");
-					}else{
-						addText(r, "", "text-align:center;");
-					}
-					addText(r, rec[spdp].DIFFICULT, "text-align:center;color:#" + color + ";");
-					if(rec[spdp].OPEN){
-						addText(r, rec.TITLE);
-					}else{
-						addText(r, rec.TITLE, "color:gray;");
-					}
 					
-					addText(r, rec.BPM, "text-align:center;");
+					addText(r, rec[spdp].DIFFICULT, "font-size:5.0em;text-align:center;padding-left:0.3em;padding-right:0.3em;color:#" + color + ";");
+					
+					const c = document.createElement("td");
+					
+					let divTitle = document.createElement("div");
+					divTitle.innerText = rec.TITLE;
+					divTitle.style = "font-size:1.2em;";
+					if(!rec[spdp].OPEN){
+						divTitle.style.color = "gray";
+					}
+					c.appendChild(divTitle);
+					
+					let div = document.createElement("div");
+					div.style = "display:flex;justify-content:space-between;";
+					
+					let divA = document.createElement("div");
+					
+					let divA1 = document.createElement("div");
+					divA1.style = "display:flex;justify-content:flex-start;";
+					
+					let div4 = document.createElement("div");
+					div4.innerText = "BPM:" + rec.BPM;
+					div4.style.width = "9.0em";
+					divA1.appendChild(div4);
+					
+					let div42 = document.createElement("div");
+					if(rec[spdp].BSS){
+						div42.innerText = "BSS";
+					}else if(rec[spdp].HBSS){
+						div42.innerText = "HBSS";
+					}else if(rec[spdp].HCN){
+						div42.innerText = "HCN";
+					}else if(rec[spdp].CN){
+						div42.innerText = "CN";
+					}
+					div42.style.width = "30%";
+					divA1.appendChild(div42);
+					
+					let divA2 = document.createElement("div");
+					divA2.style = "display:flex;justify-content:flex-start;";
 					
 					for(let idx = 0; idx < playData.length; idx++){
 						if(rec.TITLE == playData[idx].TITLE){
-							addText(r, playData[idx][spdp].CLEARSTATUS, "text-align:center;").setAttribute("class", playData[idx][spdp].CLEARSTATUS.replaceAll(" ","_"));
-							addText(r, playData[idx][spdp].PLAYRESULT, "text-align:center;").setAttribute("class", "PLAYRESULT " + playData[idx][spdp].PLAYRESULT);
-							addText(r, playData[idx][spdp].EXSCORE, "text-align:right;")
-							addText(r, playData[idx][spdp].MISSCOUNT, "text-align:right;");
+						
+							let div5 = document.createElement("div");
+							div5.innerText = playData[idx][spdp].CLEARSTATUS;
+							div5.setAttribute("class", playData[idx][spdp].CLEARSTATUS.replaceAll(" ","_"));
+							div5.style = "width:7.5em;text-align:center;";
+							divA2.appendChild(div5);
+							
+							let div6 = document.createElement("div");
+							div6.innerText = playData[idx][spdp].PLAYRESULT;
+							div6.setAttribute("class", "PLAYRESULT " + playData[idx][spdp].PLAYRESULT);
+							div6.style = "width:2.7em;text-align:center;";
+							divA2.appendChild(div6);
+							
+							divA.appendChild(divA1);
+							
+							divA.appendChild(divA2);
+							
+							div.appendChild(divA);
+							
+							let divX = document.createElement("div");
+							divX.style = "width:10.5em;";
+							
+							let div7 = document.createElement("div");
+							div7.style = "display:flex;justify-content:space-between;";
+							
+							let div71 = document.createElement("div");
+							div71.innerText = "EX SCORE";
+							div7.appendChild(div71);
+							
+							let div72 = document.createElement("div");
+							div72.innerText = playData[idx][spdp].EXSCORE;
+							div7.appendChild(div72);
+							
+							divX.appendChild(div7);
+							
+							let div8 = document.createElement("div");
+							div8.style = "display:flex;justify-content:space-between;";
+							
+							let div81 = document.createElement("div");
+							div81.innerText = "MISS COUNT";
+							div8.appendChild(div81);
+							
+							let div82 = document.createElement("div");
+							div82.innerText = playData[idx][spdp].MISSCOUNT;
+							div8.appendChild(div82);
+							
+							divX.appendChild(div8);
+							
+							div.appendChild(divX);
+							
 							break;
 						}
 					}
-
+					
+					c.appendChild(div);
+					
+					r.appendChild(c);
+					
 					dt.appendChild(r);
 				}
 			});
@@ -253,33 +326,37 @@
 			user-select:none;
 			background-color:black;
 			color:white;
-			font-size:1.5em;
+			font-size:5.0em;
 		}
 		input,select,button{
 			font-size:1.1em;
 		}
 		#dt{
 			border-collapse: separate;
-		    border-spacing: 0px 8px;
+		    border-spacing: 0px 20px;
 		}
 		#dt tr:hover{
 			background-color:rgba(255,255,255,0.1);
 		}
 		#dt th,#dt td{
-			font-size:1.5em;
-			padding:0.3em 0.5em 0.3em 0.5em;
+			font-size:3.5em;
+			/*padding:0.3em 0.5em 0.3em 0.5em;*/
 		}
-		#dt tr td:nth-child(2){
-			border-left:2px solid #D0D0D0;
-		    border-radius:10px 0px 0px 10px;
+		#dt th div,#dt td div{
+			font-size:1.0em;
+			/*padding:0.3em 0.5em 0.3em 0.5em;*/
 		}
-		#dt tr td:not(:nth-child(1)){
-			border-top:2px solid #D0D0D0;
-			border-bottom:2px solid #D0D0D0;
+		#dt tr td:first-child{
+			border-left:10px solid #D0D0D0;
+		    border-radius:25px 0px 0px 25px;
+		}
+		#dt tr td{
+			border-top:10px solid #D0D0D0;
+			border-bottom:10px solid #D0D0D0;
 		}
 		#dt tr td:last-child{
-			border-right:2px solid #D0D0D0;
-		    border-radius:0px 10px 10px 0px;
+			border-right:10px solid #D0D0D0;
+		    border-radius:0px 25px 25px 0px;
 		}
 		#inputArea{
 			font-size:1.0em;
@@ -297,7 +374,7 @@
 			cursor: pointer;
 			display: inline-block;
 			position: relative;
-			padding-left: 25px;
+			padding-left: 90px;
 			padding-right: 10px;
 		}
 		/* ラベルの左に表示させる正方形のボックス□ */
@@ -306,9 +383,9 @@
 			position: absolute;
 			display: block;
 			box-sizing: border-box;
-			width:20px;
-			height:20px;
-			margin-top:-12px;
+			width:70px;
+			height:70px;
+			margin-top:-40px;
 			left: 0;
 			top: 50%;
 			border: 1px solid;
@@ -321,14 +398,14 @@
 			position:absolute;
 			display:block;
 			box-sizing:border-box;
-			width:18px;
-			height:9px;
-			margin-top:-10px;
+			width:48px;
+			height:49px;
+			margin-top:-40px;
 			top:50%;
-			left:3px;
+			left:10px;
 			transform:rotate(-45deg);
-			border-bottom:3px solid;
-			border-left:3px solid;
+			border-bottom:15px solid;
+			border-left:15px solid;
 			border-color:#585753; /* チェックの色変更 お好きな色を */
 		}
 		.PLAYRESULT{
@@ -382,7 +459,7 @@
 		}
 	</style>
 	<body onload="init();">
-		<div id="inputContainer" style="display:none;position:absolute;z-index:2;background-color:black;border:2px solid gray;padding:0.75em;">
+		<div id="inputContainer" style="width:100%;display:none;position:absolute;z-index:2;background-color:black;border:10px solid gray;padding:0.75em;">
 			<div><span id="TITLE"></span>(<span id="SPDP"></span>)</div>
 			<table id="inputArea">
 				<tr>
@@ -391,7 +468,7 @@
 				<tr>
 					<td>クリア状況</td>
 					<td>
-						<select id="CLEARSTATUS">
+						<select id="CLEARSTATUS" style="padding-left:0.2em;padding-right:0.2em;">
 							<option value="NO PLAY">NO PLAY</option>
 							<option value="FAILED">FAILED</option>
 							<option value="ASSIST CLEAR">ASSIST CLEAR</option>
@@ -406,7 +483,7 @@
 				<tr>
 					<td>リザルト</td>
 					<td>
-						<select id="PLAYRESULT">
+						<select id="PLAYRESULT" style="padding-left:0.2em;padding-right:0.2em;">
 							<option value="F">F</option>
 							<option value="E">E</option>
 							<option value="D">D</option>
@@ -421,30 +498,32 @@
 				<tr>
 					<td>EX SCORE</td>
 					<td>
-						<input type="number" id="EXSCORE" min="0" max="9999" style="width:4em;"/>
+						<input type="number" id="EXSCORE" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
 					</td>
 				</tr>
 				<tr>
 					<td>MISS COUNT</td>
 					<td>
-						<input type="number" id="MISSCOUNT" min="0" max="9999" style="width:4em;"/>
+						<input type="number" id="MISSCOUNT" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
 					</td>
 				</tr>
 			</table>
 			<div style="text-align:center;margin-top:0.8em;">
-				<button type="button" onclick="cancel();">キャンセル</button>
-				<button type="button" onclick="save();">更新</button>
+				<button type="button" onclick="cancel();" style="padding-left:0.5em;padding-right:0.5em;">キャンセル</button>
+				<button type="button" onclick="save();" style="padding-left:0.5em;padding-right:0.5em;">更新</button>
 			</div>
 		</div>
 		<form>
-			<select name="SPDP" value="SPN" onchange="init();">
-				<option value="SPN">SPN</option>
-				<option value="SPH">SPH</option>
-				<option value="SPA">SPA</option>
-				<option value="DPN">DPN</option>
-				<option value="DPH">DPH</option>
-				<option value="DPA">DPA</option>
-			</select>
+			<div style="padding-top:1em;padding-left:0.5em;">
+				<select name="SPDP" value="SPN" onchange="init();" style="padding-left:0.2em;padding-right:0.2em;">
+					<option value="SPN">SPN</option>
+					<option value="SPH">SPH</option>
+					<option value="SPA">SPA</option>
+					<option value="DPN">DPN</option>
+					<option value="DPH">DPH</option>
+					<option value="DPA">DPA</option>
+				</select>
+			</div>
 		</form>
 		<div style="height:92.5%;overflow-y:scroll;">
 			<table id="dt"></table>
