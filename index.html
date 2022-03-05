@@ -136,7 +136,6 @@
 							t = t.parentNode;
 						}
 						const title = t.getAttribute("title");
-						console.log(title);
 						openInputForm(title);
 					}
 					
@@ -197,7 +196,7 @@
 							let div5 = document.createElement("div");
 							div5.innerText = playData[idx][spdp].CLEARSTATUS;
 							div5.setAttribute("class", playData[idx][spdp].CLEARSTATUS.replaceAll(" ","_"));
-							div5.style = "width:5.5em;text-align:center;";
+							div5.style = "width:5.5em;";
 							divA2.appendChild(div5);
 							
 							let div6 = document.createElement("div");
@@ -274,11 +273,26 @@
 					
 					document.getElementById("TITLE").innerText = title;
 					document.getElementById("SPDP").innerText = spdp;
+					document.getElementById("NOTES").innerText = musicData[i][spdp].NOTES;
 					document.getElementById("OPEN").checked = musicData[i][spdp].OPEN;
 					document.getElementById("CLEARSTATUS").value = musicData[i][spdp].CLEARSTATUS;
-					document.getElementById("PLAYRESULT").value = musicData[i][spdp].PLAYRESULT;
+					//document.getElementById("PLAYRESULT").value = musicData[i][spdp].PLAYRESULT;
 					document.getElementById("EXSCORE").value = musicData[i][spdp].EXSCORE;
 					document.getElementById("MISSCOUNT").value = musicData[i][spdp].MISSCOUNT;
+					
+					if(musicData[i][spdp].OPEN){
+						document.getElementById("CLEARSTATUS").disabled = false;
+						document.getElementById("PLAYRESULT").disabled = false;
+						document.getElementById("EXSCORE").disabled = false;
+						document.getElementById("MISSCOUNT").disabled = false;
+					}else{
+						document.getElementById("CLEARSTATUS").disabled = true;
+						document.getElementById("PLAYRESULT").disabled = true;
+						document.getElementById("EXSCORE").disabled = true;
+						document.getElementById("MISSCOUNT").disabled = true;
+					}
+					
+					calc(musicData[i][spdp].NOTES, musicData[i][spdp].EXSCORE);
 					
 					document.getElementById("inputContainer").style.display = "block";
 					
@@ -297,7 +311,7 @@
 				if(musicData[i].TITLE == title){
 					musicData[i][spdp].OPEN = document.getElementById("OPEN").checked;
 					musicData[i][spdp].CLEARSTATUS = document.getElementById("CLEARSTATUS").value;
-					musicData[i][spdp].PLAYRESULT= document.getElementById("PLAYRESULT").value;
+					musicData[i][spdp].PLAYRESULT= document.getElementById("PLAYRESULT").innerText;
 					musicData[i][spdp].EXSCORE= document.getElementById("EXSCORE").value;
 					musicData[i][spdp].MISSCOUNT= document.getElementById("MISSCOUNT").value;
 					break;
@@ -308,7 +322,7 @@
 				if(playData[i].TITLE == title){
 					playData[i][spdp].OPEN = document.getElementById("OPEN").checked;
 					playData[i][spdp].CLEARSTATUS = document.getElementById("CLEARSTATUS").value;
-					playData[i][spdp].PLAYRESULT= document.getElementById("PLAYRESULT").value;
+					playData[i][spdp].PLAYRESULT= document.getElementById("PLAYRESULT").innerText;
 					playData[i][spdp].EXSCORE= document.getElementById("EXSCORE").value;
 					playData[i][spdp].MISSCOUNT= document.getElementById("MISSCOUNT").value;
 					break;
@@ -320,6 +334,112 @@
 			document.getElementById("inputContainer").style.display = "none";
 			
 			init();
+		}
+		
+		function openChange(){
+			if(event.target.checked){
+				document.getElementById("CLEARSTATUS").disabled = false;
+				document.getElementById("EXSCORE").disabled = false;
+				document.getElementById("MISSCOUNT").disabled = false;
+			}else{
+				document.getElementById("CLEARSTATUS").disabled = true;
+				document.getElementById("EXSCORE").disabled = true;
+				document.getElementById("MISSCOUNT").disabled = true;
+			}
+		}
+		
+		function focusReset(){
+			event.target.value = "";
+		}
+		
+		function calcRate(){
+			
+			calc(parseInt(document.getElementById("NOTES").innerText, 10), event.target.value);
+		}
+		
+		function calc(notes, exscore){
+/*
+	AAA…8/9以上
+	AA…7/9以上
+	A…6/9以上
+	B…5/9以上
+	C…4/9以上
+	D…3/9以上
+	E…2/9以上
+	F…2/9未満
+*/					
+			const max = notes * 2;	
+			const rate = exscore / max;
+			
+			if(rate > (8 / 9)){
+			
+				document.getElementById("PLAYRESULT").innerText = "AAA";
+				
+				if(rate > (85 / 90)){
+					document.getElementById("DETAIL").innerText = "(MAX-" + (max - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(AAA+" + (exscore - parseInt(max * (8 / 9), 10)) + ")";
+				}
+			}else if(rate > (7 / 9)){
+				document.getElementById("PLAYRESULT").innerText = "AA";
+				
+				if(rate > (75 / 90)){
+					document.getElementById("DETAIL").innerText = "(AAA-" + (parseInt(max * (8 / 9), 10) - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(AA+" + (exscore - parseInt(max * (7 / 9), 10)) + ")";
+				}
+			}else if(rate > (6 / 9)){
+				document.getElementById("PLAYRESULT").innerText = "A";
+				
+				if(rate > (65 / 90)){
+					document.getElementById("DETAIL").innerText = "(AA-" + (parseInt(max * (7 / 9), 10) - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(A+" + (exscore - parseInt(max * (6 / 9), 10)) + ")";
+				}
+			}else if(rate > (5 / 9)){
+			
+				document.getElementById("PLAYRESULT").innerText = "B";
+				
+				if(rate > (55 / 90)){
+					document.getElementById("DETAIL").innerText = "(A-" + (parseInt(max * (6 / 9), 10) - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(B+" + (exscore - parseInt(max * (5 / 9), 10)) + ")";
+				}
+			}else if(rate > (4 / 9)){
+				document.getElementById("PLAYRESULT").innerText = "C";
+				
+				if(rate > (45 / 90)){
+					document.getElementById("DETAIL").innerText = "(B-" + (parseInt(max * (5 / 9), 10) - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(C+" + (exscore - parseInt(max * (4 / 9), 10)) + ")";
+				}
+			}else if(rate > (3 / 9)){
+				document.getElementById("PLAYRESULT").innerText = "D";
+				
+				if(rate > (35 / 90)){
+					document.getElementById("DETAIL").innerText = "(C-" + (parseInt(max * (4 / 9), 10) - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(D+" + (exscore - parseInt(max * (3 / 9), 10)) + ")";
+				}
+			}else if(rate > (2 / 9)){
+				document.getElementById("PLAYRESULT").innerText = "E";
+				
+				if(rate > (25 / 90)){
+					document.getElementById("DETAIL").innerText = "(D-" + (parseInt(max * (3 / 9), 10) - exscore) + ")";
+				}else{
+					document.getElementById("DETAIL").innerText = "(E+" + (exscore - parseInt(max * (2 / 9), 10)) + ")";
+				}
+			}else{
+				document.getElementById("PLAYRESULT").innerText = "F";
+				
+				if(exscore != 0){
+					if(rate > (10 / 90)){
+						document.getElementById("DETAIL").innerText = "(E-" + (parseInt(max * (2 / 9), 10) - exscore) + ")";
+					}else{
+						document.getElementById("DETAIL").innerText = "(F+" + exscore + ")";
+					}
+				}
+			}
 		}
 	</script>
 	<style type="text/css">
@@ -423,11 +543,14 @@
 		.AAA{
 			background:linear-gradient(#FFCC00 49%, #303030 1%, #FFCC00);
 		}
+		.AA{
+			background:linear-gradient(#E0E0E0 49%, #303030 1%, #E0E0E0);
+		}
 		.A{
 			background:linear-gradient(#00FFC0 49%, #303030 1%, #00FFC0);
 		}
 		.NO_PLAY{
-			color:#00CCFF;
+			color:#B0B0B0;
 		}
 		.FAILED{
 			color:#FF0000;
@@ -462,8 +585,10 @@
 	<body onload="init();">
 		<div id="inputContainer" style="width:100%;display:none;position:absolute;z-index:2;background-color:black;border:10px solid gray;padding:0.75em;">
 			<div><span id="TITLE"></span>(<span id="SPDP"></span>)</div>
+			<div>TOTAL NOTES</div>
+			<div id="NOTES"></div>
 			<div id="inputArea">
-				<div><input type="checkbox" id="OPEN"/><label for="OPEN">曲解禁済</label></div>
+				<div><input type="checkbox" id="OPEN" onchange="openChange();"/><label for="OPEN">曲解禁済</label></div>
 				<div>クリア状況</div>
 				<div>
 					<select id="CLEARSTATUS" style="padding-left:0.2em;padding-right:0.2em;">
@@ -478,25 +603,17 @@
 					</select>
 				</div>
 				<div>リザルト</div>
-				<div>
-					<select id="PLAYRESULT" style="padding-left:0.2em;padding-right:0.2em;">
-						<option value="F">F</option>
-						<option value="E">E</option>
-						<option value="D">D</option>
-						<option value="C">C</option>
-						<option value="B">B</option>
-						<option value="A">A</option>
-						<option value="AA">AA</option>
-						<option value="AAA">AAA</option>
-					</select>
+				<div style="display:flex;justify-content:flex-start;">
+					<div id="PLAYRESULT"></div>
+					<div id="DETAIL"></div>
 				</div>
 				<div>EX SCORE</div>
 				<div>
-					<input type="number" id="EXSCORE" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
+					<input type="number" id="EXSCORE" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;" onfocus="focusReset();" onchange="calcRate();"/>
 				</div>
 				<div>MISS COUNT</div>
 				<div>
-					<input type="number" id="MISSCOUNT" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
+					<input type="number" id="MISSCOUNT" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;" onfocus="focusReset();"/>
 				</div>
 			</div>
 			<div style="text-align:center;margin-top:0.8em;">
