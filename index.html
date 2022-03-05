@@ -340,7 +340,7 @@
 			background-color:rgba(255, 255, 255, 0.1);
 		}
 		#dt th,#dt td{
-			font-size:3.5em;
+			font-size:3.4em;
 			/*padding:0.3em 0.5em 0.3em 0.5em;*/
 		}
 		#dt th div,#dt td div{
@@ -462,53 +462,43 @@
 	<body onload="init();">
 		<div id="inputContainer" style="width:100%;display:none;position:absolute;z-index:2;background-color:black;border:10px solid gray;padding:0.75em;">
 			<div><span id="TITLE"></span>(<span id="SPDP"></span>)</div>
-			<table id="inputArea">
-				<tr>
-					<td colspan="2"><input type="checkbox" id="OPEN"/><label for="OPEN">曲解禁済</label></td>
-				</tr>
-				<tr>
-					<td>クリア状況</td>
-					<td>
-						<select id="CLEARSTATUS" style="padding-left:0.2em;padding-right:0.2em;">
-							<option value="NO PLAY">NO PLAY</option>
-							<option value="FAILED">FAILED</option>
-							<option value="ASSIST CLEAR">ASSIST CLEAR</option>
-							<option value="EASY CLEAR">EASY CLEAR</option>
-							<option value="CLEAR">CLEAR</option>
-							<option value="HARD CLEAR">HARD CLEAR</option>
-							<option value="EX HARD CLEAR">EX HARD CLEAR</option>
-							<option value="FULL COMBO">FULL COMBO</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td>リザルト</td>
-					<td>
-						<select id="PLAYRESULT" style="padding-left:0.2em;padding-right:0.2em;">
-							<option value="F">F</option>
-							<option value="E">E</option>
-							<option value="D">D</option>
-							<option value="C">C</option>
-							<option value="B">B</option>
-							<option value="A">A</option>
-							<option value="AA">AA</option>
-							<option value="AAA">AAA</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td>EX SCORE</td>
-					<td>
-						<input type="number" id="EXSCORE" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
-					</td>
-				</tr>
-				<tr>
-					<td>MISS COUNT</td>
-					<td>
-						<input type="number" id="MISSCOUNT" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
-					</td>
-				</tr>
-			</table>
+			<div id="inputArea">
+				<div><input type="checkbox" id="OPEN"/><label for="OPEN">曲解禁済</label></div>
+				<div>クリア状況</div>
+				<div>
+					<select id="CLEARSTATUS" style="padding-left:0.2em;padding-right:0.2em;">
+						<option value="NO PLAY">NO PLAY</option>
+						<option value="FAILED">FAILED</option>
+						<option value="ASSIST CLEAR">ASSIST CLEAR</option>
+						<option value="EASY CLEAR">EASY CLEAR</option>
+						<option value="CLEAR">CLEAR</option>
+						<option value="HARD CLEAR">HARD CLEAR</option>
+						<option value="EX HARD CLEAR">EX HARD CLEAR</option>
+						<option value="FULL COMBO">FULL COMBO</option>
+					</select>
+				</div>
+				<div>リザルト</div>
+				<div>
+					<select id="PLAYRESULT" style="padding-left:0.2em;padding-right:0.2em;">
+						<option value="F">F</option>
+						<option value="E">E</option>
+						<option value="D">D</option>
+						<option value="C">C</option>
+						<option value="B">B</option>
+						<option value="A">A</option>
+						<option value="AA">AA</option>
+						<option value="AAA">AAA</option>
+					</select>
+				</div>
+				<div>EX SCORE</div>
+				<div>
+					<input type="number" id="EXSCORE" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
+				</div>
+				<div>MISS COUNT</div>
+				<div>
+					<input type="number" id="MISSCOUNT" min="0" max="9999" style="width:4em;text-align:right;padding-right:0.2em;"/>
+				</div>
+			</div>
 			<div style="text-align:center;margin-top:0.8em;">
 				<button type="button" onclick="cancel();" style="padding-left:0.5em;padding-right:0.5em;">キャンセル</button>
 				<button type="button" onclick="save();" style="padding-left:0.5em;padding-right:0.5em;">更新</button>
