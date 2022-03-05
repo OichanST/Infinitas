@@ -1,0 +1,135 @@
+body{
+	user-select:none;
+	background-color:black;
+	color:white;
+	font-size:5.0em;
+}
+input,select,button{
+	font-size:1.1em;
+}
+#dt{
+	border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+#dt tr:hover{
+	background-color:rgba(255, 255, 255, 0.1);
+}
+#dt th,#dt td{
+	font-size:3.2em;
+	/*padding:0.3em 0.5em 0.3em 0.5em;*/
+}
+#dt th div,#dt td div{
+	font-size:1.0em;
+	/*padding:0.3em 0.5em 0.3em 0.5em;*/
+}
+#dt tr td:first-child{
+	border-left:7px solid #D0D0D0;
+    border-radius:25px 0px 0px 25px;
+}
+#dt tr td{
+	border-top:7px solid #D0D0D0;
+	border-bottom:7px solid #D0D0D0;
+}
+#dt tr td:last-child{
+	border-right:7px solid #D0D0D0;
+    border-radius:0px 25px 25px 0px;
+}
+/* 元々のチェックボックス（非表示） */
+input[type="checkbox"]{
+	display: none;
+}
+/* チェックボックスの代わりを成すラベル */
+input[type="checkbox"]+label{
+	display: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	padding-left: 90px;
+	padding-right: 10px;
+}
+/* ラベルの左に表示させる正方形のボックス□ */
+input[type="checkbox"]+label::before{
+	content: "";
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	width:70px;
+	height:70px;
+	margin-top:-40px;
+	left: 0;
+	top: 50%;
+	border: 1px solid;
+	border-color:  #585753; /* 枠の色変更 お好きな色を */
+	background-color: #FFF; /* 背景の色変更 お好きな色を */
+}
+/* チェックが入った時のレ点 */
+input[type="checkbox"]:checked+label::after{
+	content:"";
+	position:absolute;
+	display:block;
+	box-sizing:border-box;
+	width:48px;
+	height:49px;
+	margin-top:-40px;
+	top:50%;
+	left:10px;
+	transform:rotate(-45deg);
+	border-bottom:15px solid;
+	border-left:15px solid;
+	border-color:#585753; /* チェックの色変更 お好きな色を */
+}
+.PLAYRESULT{
+	text-shadow:
+		 2px  2px 0 black,
+		-2px -2px 0 black,
+		-2px  2px 0 black,
+		 2px -2px 0 black,
+		 0px  2px 0 black,
+		 0   -2px 0 black,
+		-2px  0   0 black,
+		 2px  0   0 black;
+}
+.AAA{
+	background:linear-gradient(#FFCC00 49%, #303030 1%, #FFCC00);
+}
+.AA{
+	background:linear-gradient(#E0E0E0 49%, #303030 1%, #E0E0E0);
+}
+.A{
+	background:linear-gradient(#00FFC0 49%, #303030 1%, #00FFC0);
+}
+.B,.C,.D,.E,.F{
+	background:linear-gradient(#606060 49%, #303030 1%, #606060);
+}
+.NO_PLAY{
+	color:#B0B0B0;
+}
+.FAILED{
+	color:#FF0000;
+}
+.EASY_CLEAR{
+	color:#00FF00;
+}
+.CLEAR{
+	color:#00FFC0;
+}
+.HARD_CLEAR{
+	color:#FF0000;
+}
+.EX_HARD_CLEAR{
+	color:#FFE000;
+}
+.FULL_COMBO{
+	animation:flash 0.25s linear infinite;
+}
+@keyframes flash{
+	24%,74%{
+		color:white;
+	}
+	25%{
+		color:red;
+	}
+	75%{
+		color:blue;
+	}
+}
