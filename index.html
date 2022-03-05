@@ -58,6 +58,7 @@
 			}
 			
 			musicData.forEach(function(rec){
+			
 				for(let i = 0; i < playData.length; i++){
 					
 					if(rec.TITLE == playData[i].TITLE){
@@ -171,7 +172,7 @@
 					
 					let div4 = document.createElement("div");
 					div4.innerText = "BPM:" + rec.BPM;
-					div4.style.width = "9.0em";
+					div4.style.width = "8.0em";
 					divA1.appendChild(div4);
 					
 					let div42 = document.createElement("div");
@@ -196,13 +197,13 @@
 							let div5 = document.createElement("div");
 							div5.innerText = playData[idx][spdp].CLEARSTATUS;
 							div5.setAttribute("class", playData[idx][spdp].CLEARSTATUS.replaceAll(" ","_"));
-							div5.style = "width:6.5em;text-align:center;";
+							div5.style = "width:6.0em;text-align:center;";
 							divA2.appendChild(div5);
 							
 							let div6 = document.createElement("div");
 							div6.innerText = playData[idx][spdp].PLAYRESULT;
 							div6.setAttribute("class", "PLAYRESULT " + playData[idx][spdp].PLAYRESULT);
-							div6.style = "width:2.7em;text-align:center;";
+							div6.style = "width:2.2em;text-align:center;";
 							divA2.appendChild(div6);
 							
 							divA.appendChild(divA1);
@@ -336,7 +337,7 @@
 		    border-spacing: 0px 20px;
 		}
 		#dt tr:hover{
-			background-color:rgba(255,255,255,0.1);
+			background-color:rgba(255, 255, 255, 0.1);
 		}
 		#dt th,#dt td{
 			font-size:3.5em;
@@ -514,7 +515,7 @@
 			</div>
 		</div>
 		<form>
-			<div style="padding-top:1em;padding-left:0.5em;">
+			<div style="padding-top:0.5em;padding-left:0.5em;">
 				<select name="SPDP" value="SPN" onchange="init();" style="padding-left:0.2em;padding-right:0.2em;">
 					<option value="SPN">SPN</option>
 					<option value="SPH">SPH</option>
