@@ -421,31 +421,31 @@
 			const max = notes * 2;	
 			const rate = exscore / max;
 			
-			if(rate >= Math.ceil(8 / 9)){
+			if(rate >= (8 / 9)){
 			
 				document.getElementById("PLAYRESULT").innerText = "AAA";
 				
-				if(rate > (85 / 90)){
+				if(rate >= (85 / 90)){
 					document.getElementById("DETAIL").innerText = "(MAX-" + (max - exscore) + ")";
 				}else{
 					document.getElementById("DETAIL").innerText = "(AAA+" + (exscore - Math.ceil(max * (8 / 9))) + ")";
 				}
-			}else if(rate >= Math.ceil(7 / 9)){
+			}else if(rate >= (7 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "AA";
 				document.getElementById("DETAIL").innerText = "(AAA-" + (Math.ceil(max * (8 / 9)) - exscore) + ")";
-			}else if(rate >= Math.ceil(6 / 9)){
+			}else if(rate >= (6 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "A";
 				document.getElementById("DETAIL").innerText = "(AA-" + (Math.ceil(max * (7 / 9)) - exscore) + ")";
-			}else if(rate >= Math.ceil(5 / 9)){
+			}else if(rate >= (5 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "B";
 				document.getElementById("DETAIL").innerText = "(A-" + (Math.ceil(max * (6 / 9)) - exscore) + ")";
-			}else if(rate >= Math.ceil(4 / 9)){
+			}else if(rate >= (4 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "C";
 				document.getElementById("DETAIL").innerText = "(B-" + (Math.ceil(max * (5 / 9)) - exscore) + ")";
-			}else if(rate >= Math.ceil(3 / 9)){
+			}else if(rate >= (3 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "D";
 				document.getElementById("DETAIL").innerText = "(C-" + (Math.ceil(max * (4 / 9)) - exscore) + ")";
-			}else if(rate >= Math.ceil(2 / 9)){
+			}else if(rate >= (2 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "E";
 				document.getElementById("DETAIL").innerText = "(D-" + (Math.ceil(max * (3 / 9)) - exscore) + ")";
 			}else{
