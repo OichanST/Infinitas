@@ -425,7 +425,7 @@
 			if(rate >= (8 / 9)){
 			
 				document.getElementById("PLAYRESULT").innerText = "AAA";
-				document.getElementById("PLAYRESULT").setAttribute("class", "AAA");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT AAA");
 				if(rate >= (85 / 90)){
 					document.getElementById("DETAIL").innerText = "(MAX-" + (max - exscore) + ")";
 				}else{
@@ -433,31 +433,31 @@
 				}
 			}else if(rate >= (7 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "AA";
-				document.getElementById("PLAYRESULT").setAttribute("class", "AA");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT AA");
 				document.getElementById("DETAIL").innerText = "(AAA-" + (Math.ceil(max * (8 / 9)) - exscore) + ")";
 			}else if(rate >= (6 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "A";
-				document.getElementById("PLAYRESULT").setAttribute("class", "A");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT A");
 				document.getElementById("DETAIL").innerText = "(AA-" + (Math.ceil(max * (7 / 9)) - exscore) + ")";
 			}else if(rate >= (5 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "B";
-				document.getElementById("PLAYRESULT").setAttribute("class", "B");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT B");
 				document.getElementById("DETAIL").innerText = "(A-" + (Math.ceil(max * (6 / 9)) - exscore) + ")";
 			}else if(rate >= (4 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "C";
-				document.getElementById("PLAYRESULT").setAttribute("class", "C");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT C");
 				document.getElementById("DETAIL").innerText = "(B-" + (Math.ceil(max * (5 / 9)) - exscore) + ")";
 			}else if(rate >= (3 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "D";
-				document.getElementById("PLAYRESULT").setAttribute("class", "D");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT D");
 				document.getElementById("DETAIL").innerText = "(C-" + (Math.ceil(max * (4 / 9)) - exscore) + ")";
 			}else if(rate >= (2 / 9)){
 				document.getElementById("PLAYRESULT").innerText = "E";
-				document.getElementById("PLAYRESULT").setAttribute("class", "E");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT E");
 				document.getElementById("DETAIL").innerText = "(D-" + (Math.ceil(max * (3 / 9)) - exscore) + ")";
 			}else{
 				document.getElementById("PLAYRESULT").innerText = "F";
-				document.getElementById("PLAYRESULT").setAttribute("class", "F");
+				document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT F");
 				if(exscore != 0){
 					document.getElementById("DETAIL").innerText = "(E-" + (Math.ceil(max * (2 / 9)) - exscore) + ")";
 				}else{
