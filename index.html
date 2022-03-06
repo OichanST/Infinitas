@@ -275,6 +275,9 @@
 				let div4 = document.createElement("div");
 				div4.innerText = "BPM:" + rec.BPM;
 				div4.style.width = "6.5em";
+				if(!rec.OPEN){
+					div4.style.color = "gray";
+				}
 				divA1.appendChild(div4);
 				
 				let div42 = document.createElement("div");
@@ -317,30 +320,32 @@
 				let div7 = document.createElement("div");
 				div7.style = "display:flex;justify-content:space-between;";
 				
-				let div71 = document.createElement("div");
-				div71.innerText = "EX SCORE";
-				div7.appendChild(div71);
-				
-				let div72 = document.createElement("div");
-				div72.innerText = rec.EXSCORE;
-				div7.appendChild(div72);
-				
-				divX.appendChild(div7);
-				
-				let div8 = document.createElement("div");
-				div8.style = "display:flex;justify-content:space-between;";
-				
-				let div81 = document.createElement("div");
-				div81.innerText = "MISS COUNT";
-				div8.appendChild(div81);
-				
-				let div82 = document.createElement("div");
-				div82.innerText = rec.MISSCOUNT;
-				div8.appendChild(div82);
-				
-				divX.appendChild(div8);
-				
-				div.appendChild(divX);
+				if(rec.OPEN){
+					let div71 = document.createElement("div");
+					div71.innerText = "EX SCORE";
+					div7.appendChild(div71);
+					
+					let div72 = document.createElement("div");
+					div72.innerText = rec.EXSCORE;
+					div7.appendChild(div72);
+					
+					divX.appendChild(div7);
+					
+					let div8 = document.createElement("div");
+					div8.style = "display:flex;justify-content:space-between;";
+					
+					let div81 = document.createElement("div");
+					div81.innerText = "MISS COUNT";
+					div8.appendChild(div81);
+					
+					let div82 = document.createElement("div");
+					div82.innerText = rec.MISSCOUNT;
+					div8.appendChild(div82);
+					
+					divX.appendChild(div8);
+					
+					div.appendChild(divX);
+				}
 				
 				c.appendChild(div);
 				
