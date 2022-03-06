@@ -288,14 +288,12 @@
 				divA1.appendChild(div4);
 				
 				let div42 = document.createElement("div");
-				if(rec.BSS){
-					div42.innerText = "BSS";
-				}else if(rec.HBSS){
-					div42.innerText = "HBSS";
-				}else if(rec.HCN){
-					div42.innerText = "HCN";
-				}else if(rec.CN){
+				if(rec.BSS || rec.CN){
 					div42.innerText = "CN";
+					div42.setAttribute("class", "CN");
+				}else if(rec.HBSS || rec.HCN){
+					div42.innerText = "HCN";
+					div42.setAttribute("class", "HCN");
 				}
 				div42.style.width = "30%";
 				divA1.appendChild(div42);

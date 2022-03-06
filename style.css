@@ -101,6 +101,14 @@ input[type="checkbox"]:checked+label::after{
 .B,.C,.D,.E,.F{
 	background:linear-gradient(#606060 49%, #303030 1%, #606060);
 }
+.CN{
+	text-align:center;
+	background:linear-gradient(#FFFF00 10%, rgba(0,0,0,0) 10% 80%, #FFFF00 80% 90%,rgba(0,0,0,0) 90%);
+}
+.HCN{
+	text-align:center;
+	background:linear-gradient(#FF0000 10%, rgba(0,0,0,0) 10% 80%, #FF0000 80% 90%,rgba(0,0,0,0) 90%);
+}
 .NO_PLAY{
 	color:#B0B0B0;
 }
