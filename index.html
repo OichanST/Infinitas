@@ -6,8 +6,11 @@
 	<script>
 	
 		let playData;
+		let mergedMusicData;
 	
 		function init(){
+		
+			console.log("init call");
 		
 			const initialData = {
 				OPEN:false,
@@ -144,7 +147,7 @@
 			
 			const spdp = document.forms[0].SPDP.value;
 			
-			const mergedMusicData = new Array();
+			mergedMusicData = new Array();
 			
 			const lv = document.forms[0].LV.value;
 
@@ -227,6 +230,10 @@
 			});
 						
 			mergedMusicData.forEach(function(rec){
+			
+				if(document.getElementById("hideOpenData").checked && !rec.OPEN){
+					return;
+				}
 			
 				let r = document.createElement("tr");
 				r.style.cursor = "pointer";
@@ -514,11 +521,117 @@
 				}
 			}
 		}
+		
+		function openOption(){
+			
+			document.getElementById("total").innerText = mergedMusicData.length;
+			
+			let notOpenCnt = 0;
+			let noPlayCnt = 0;
+			let failedCnt = 0;
+			let assistClearCnt = 0;
+			let easyClearCnt = 0;
+			let clearCnt = 0;
+			let hardClearCnt = 0;
+			let exhClearCnt = 0;
+			let fullComboCnt = 0;
+			let aaaCnt = 0;
+			let aaCnt = 0;
+			let aCnt = 0;
+			let bCnt = 0;
+			let cCnt = 0;
+			let dCnt = 0;
+			let eCnt = 0;
+			let fCnt = 0;
+			
+			mergedMusicData.forEach(function(rec){
+			
+				if(!rec.OPEN){
+					notOpenCnt++;
+				}else{
+					switch(rec.CLEARSTATUS){
+						case "NO PLAY":
+							noPlayCnt++;
+							break;
+						case "FAILED":
+							failedCnt++;
+							break;
+						case "ASSIST CLEAR":
+							assistClearCnt++;
+							break;
+						case "EASY CLEAR":
+							easyClearCnt++;
+							break;
+						case "CLEAR":
+							clearCnt++;
+							break;
+						case "HARD CLEAR":
+							hardClearCnt++;
+							break;
+						case "EX HARD CLEAR":
+							exhClearCnt++;
+							break;
+						case "FULL COMBO":
+							fullComboCnt++;
+							break;
+					}
+					switch(rec.PLAYRESULT){
+						case "AAA":
+							aaaCnt++;
+							break;
+						case "AA":
+							aaCnt++;
+							break;
+						case "A":
+							aCnt++;
+							break;
+						case "B":
+							bCnt++;
+							break;
+						case "C":
+							cCnt++;
+							break;
+						case "D":
+							dCnt++;
+							break;
+						case "E":
+							eCnt++;
+							break;
+						case "F":
+							fCnt++;
+							break;
+					}
+				}
+			});
+			document.getElementById("notOpenCnt").innerText = notOpenCnt;
+			document.getElementById("noPlayCnt").innerText = noPlayCnt;
+			document.getElementById("failedCnt").innerText = failedCnt;
+			document.getElementById("assistClearCnt").innerText = assistClearCnt;
+			document.getElementById("easyClearCnt").innerText = easyClearCnt;
+			document.getElementById("clearCnt").innerText = clearCnt;
+			document.getElementById("hardClearCnt").innerText = hardClearCnt;
+			document.getElementById("exhClearCnt").innerText = exhClearCnt;
+			document.getElementById("fullComboCnt").innerText = fullComboCnt;
+
+			document.getElementById("aaaCnt").innerText = aaaCnt;
+			document.getElementById("aaCnt").innerText = aaCnt;
+			document.getElementById("aCnt").innerText = aCnt;
+			document.getElementById("bCnt").innerText = bCnt;
+			document.getElementById("cCnt").innerText = cCnt;
+			document.getElementById("dCnt").innerText = dCnt;
+			document.getElementById("eCnt").innerText = eCnt;
+			document.getElementById("fCnt").innerText = fCnt;
+			
+			document.getElementById("optionContainer").style.display = "block";
+		}
+		function closeOption(){
+			document.getElementById("optionContainer").style.display = "none";
+		}
 	</script>
 	<body onload="init();">
 		<div id="inputContainer" style="width:calc(100% - 1.0em - 30px);display:none;position:absolute;z-index:2;background-color:black;border:7px solid gray;padding:0.5em;">
 			<div><span id="TITLE"></span>(<span id="SPDP"></span>)</div>
-			<div><span id="NOTES" style="margin-right:0.2em;"></span>NOTES</div>
+			<div><span id="NOTES" style="margin-rvight:0.2em;"></span>NOTES</div>
 			<div id="inputArea">
 				<div><input type="checkbox" id="OPEN" onchange="openChange();"/><label for="OPEN">曲解禁済</label></div>
 				<div>クリア状況</div>
@@ -553,6 +666,68 @@
 				<button type="button" onclick="save();" style="padding-left:0.3em;padding-right:0.3em;">更新</button>
 			</div>
 		</div>
+		<div id="optionContainer" style="width:calc(100% - 1.0em - 30px);display:none;;position:absolute;z-index:2;background-color:black;border:7px solid gray;padding:0.5em;">
+			<div>曲数<span id="total" style="margin-left:0.5em;"></span>曲</div>
+			<table style="font-size:1em;">
+				<tr>
+					<td>未解禁</td><td style="padding-left:0.5em;"><span id="notOpenCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="NO_PLAY">NO PLAY</td><td style="padding-left:0.5em;"><span id="noPlayCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="FAILED">FAILED</td><td style="padding-left:0.5em;"><span id="failedCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="ASSIST_CLEAR">ASSIST CLEAR</td><td style="padding-left:0.5em;"><span id="assistClearCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="EASY_CLEAR">EASY CLEAR</td><td style="padding-left:0.5em;"><span id="easyClearCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="CLEAR">CLEAR</td><td style="padding-left:0.5em;"><span id="clearCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="HARD_CLEAR">HARD CLEAR</td><td style="padding-left:0.5em;"><span id="hardClearCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="EX_HARD_CLEAR">EX HARD CLEAR</td><td style="padding-left:0.5em;"><span id="exhClearCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="FULL_COMBO">FULL COMBO</td><td style="padding-left:0.5em;"><span id="fullComboCnt"></span>曲</td>
+				</tr>
+			</table>
+			<table style="font-size:1em;">
+				<tr>
+					<td class="PLAYRESULT AAA" style="text-align:center;padding-left:0.2em;padding-right:0.2em;">AAA</td><td style="padding-left:0.5em;"><span id="aaaCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT AA" style="text-align:center;">AA</td><td style="padding-left:0.5em;"><span id="aaCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT A" style="text-align:center;">A</td><td style="padding-left:0.5em;"><span id="aCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT B" style="text-align:center;">B</td><td style="padding-left:0.5em;"><span id="bCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT C" style="text-align:center;">C</td><td style="padding-left:0.5em;"><span id="cCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT D" style="text-align:center;">D</td><td style="padding-left:0.5em;"><span id="dCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT E" style="text-align:center;">E</td><td style="padding-left:0.5em;"><span id="eCnt"></span>曲</td>
+				</tr>
+				<tr>
+					<td class="PLAYRESULT F" style="text-align:center;">F</td><td style="padding-left:0.5em;"><span id="fCnt"></span>曲</td>
+				</tr>
+			</table>
+			<input type="checkbox" id="hideOpenData" onchange="init();"><label for="hideOpenData">未解禁曲を表示しない</label>
+			<div style="text-align:center;margin-top:0.8em;">
+				<button type="button" onclick="closeOption();" style="padding-left:0.3em;padding-right:0.3em;">閉じる</button>
+			</div>
+		</div>
 		<form>
 			<div style="padding-top:0.5em;padding-left:0.5em;display:flex;justify-content:flex-start;">
 				<div style="margin-right:0.5em;">
@@ -576,6 +751,9 @@
 						<option value="11">LEVEL 11</option>
 						<option value="12">LEVEL 12</option>
 					</select>
+				</div>
+				<div style="cursor:pointer;margin-left:0.5em;font-size:0.7em;border:10px solid gray;border-radius:15px;padding-left:0.4em;padding-right:0.4em;font-weight:bold;background-color:#303030;" onclick="openOption();">
+					Ξ
 				</div>
 			</div>
 		</form>

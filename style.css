@@ -107,6 +107,9 @@ input[type="checkbox"]:checked+label::after{
 .FAILED{
 	color:#FF0000;
 }
+.ASSIST_CLEAR{
+	color:#FF00FF;
+}
 .EASY_CLEAR{
 	color:#00FF00;
 }
