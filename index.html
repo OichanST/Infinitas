@@ -9,24 +9,68 @@
 	
 		function init(){
 		
+			const initialData = {
+				OPEN:false,
+				CLEARSTATUS:"NO PLAY",
+				PLAYRESULT:"F",
+				EXSCORE:0,
+				MISSCOUNT:0
+			}
+				
 			// localStorage.removeItem("playData");
 
 			playData = localStorage.getItem("playData");
 			
 			if(playData){
 				playData = JSON.parse(playData);
+				
+
+				musicData.forEach(function(rec){
+					
+					let hasData = false;
+					
+					for(let i = 0; i < playData.length; i++){
+					
+						if(rec.TITLE == playData[i].TITLE){
+							hasData = true;
+							break;
+						}
+					}
+					
+					if(!hasData){
+						const copyData = {};
+						
+						copyData.TITLE = rec.TITLE;
+						
+						if(rec.SPN){
+							copyData.SPN = JSON.parse(JSON.stringify(initialData));
+						}
+						if(rec.SPH){
+							copyData.SPH = JSON.parse(JSON.stringify(initialData));
+						}
+						if(rec.SPA){
+							copyData.SPA = JSON.parse(JSON.stringify(initialData));
+						}
+						if(rec.DPN){
+							copyData.DPN = JSON.parse(JSON.stringify(initialData));
+						}
+						if(rec.DPH){
+							copyData.DPH = JSON.parse(JSON.stringify(initialData));
+						}
+						if(rec.DPA){
+							copyData.DPA = JSON.parse(JSON.stringify(initialData));
+						}
+						
+						playData.push(copyData);
+					}
+				});
+				
+				localStorage.setItem("playData", JSON.stringify(playData));
+				
 			}else{
 				
 				playData = new Array();
-				
-				const initialData = {
-					OPEN:false,
-					CLEARSTATUS:"NO PLAY",
-					PLAYRESULT:"F",
-					EXSCORE:0,
-					MISSCOUNT:0
-				}
-				
+
 				musicData.forEach(function(rec){
 				
 					const copyData = {};
