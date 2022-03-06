@@ -309,11 +309,13 @@
 				div5.style = "width:6.5em;";
 				divA2.appendChild(div5);
 				
-				let div6 = document.createElement("div");
-				div6.innerText = rec.PLAYRESULT;
-				div6.setAttribute("class", "PLAYRESULT " + rec.PLAYRESULT);
-				div6.style = "width:2.2em;text-align:center;";
-				divA2.appendChild(div6);
+				if(rec.OPEN){
+					let div6 = document.createElement("div");
+					div6.innerText = rec.PLAYRESULT;
+					div6.setAttribute("class", "PLAYRESULT " + rec.PLAYRESULT);
+					div6.style = "width:2.2em;text-align:center;";
+					divA2.appendChild(div6);
+				}
 				
 				divA.appendChild(divA1);
 				
