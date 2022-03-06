@@ -8,27 +8,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:6,
-			NOTES:0 
+			NOTES:570 
 		},
 		SPH:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1041 
 		},
 		SPA:{
 			DIFFICULT:12,
-			NOTES:0 
+			NOTES:1581 
 		},
 		DPN:{
 			DIFFICULT:6,
-			NOTES:0 
+			NOTES:595 
 		},
 		DPH:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1095 
 		},
 		DPA:{
 			DIFFICULT:12,
-			NOTES:0 
+			NOTES:1515 
 		}
 	},
 	{
@@ -6405,27 +6405,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:487 
 		},
 		SPH:{
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:751 
 		},
 		SPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1230 
 		},
 		DPN:{
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:471 
 		},
 		DPH:{
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:777 
 		},
 		DPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1220 
 		}
 	},
 	{
@@ -11679,27 +11679,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:453 
 		},
 		SPH:{
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:682 
 		},
 		SPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1117 
 		},
 		DPN:{
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:455 
 		},
 		DPH:{
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:735 
 		},
 		DPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1187 
 		}
 	},
 	{
@@ -26178,27 +26178,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:6,
-			NOTES:0 
+			NOTES:618 
 		},
 		SPH:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:923 
 		},
 		SPA:{
 			DIFFICULT:11,
-			NOTES:0 
+			NOTES:1369 
 		},
 		DPN:{
 			DIFFICULT:6,
-			NOTES:0 
+			NOTES:596 
 		},
 		DPH:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:943 
 		},
 		DPA:{
 			DIFFICULT:11,
-			NOTES:0 
+			NOTES:1397 
 		}
 	},
 	{
@@ -28728,27 +28728,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:4,
-			NOTES:0 
+			NOTES:404 
 		},
 		SPH:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:720 
 		},
 		SPA:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:1014 
 		},
 		DPN:{
 			DIFFICULT:4,
-			NOTES:0 
+			NOTES:441 
 		},
 		DPH:{
 			DIFFICULT:7,
-			NOTES:0 
+			NOTES:725 
 		},
 		DPA:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:992 
 		}
 	},
 	{
@@ -29185,32 +29185,32 @@
 		SPN:{
 			CN:true,
 			DIFFICULT:6,
-			NOTES:0 
+			NOTES:585 
 		},
 		SPH:{
 			CN:true,
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1104 
 		},
 		SPA:{
 			CN:true,
 			DIFFICULT:12,
-			NOTES:0 
+			NOTES:1751 
 		},
 		DPN:{
 			CN:true,
 			DIFFICULT:6,
-			NOTES:0 
+			NOTES:580 
 		},
 		DPH:{
 			CN:true,
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:1103 
 		},
 		DPA:{
 			CN:true,
 			DIFFICULT:12,
-			NOTES:0 
+			NOTES:1749 
 		}
 	},
 	{
@@ -33758,29 +33758,29 @@
 		SPN:{
 			CN:true,
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:487 
 		},
 		SPH:{
 			CN:true,
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:770 
 		},
 		SPA:{
 			CN:true,
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1200 
 		},
 		DPN:{
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:498 
 		},
 		DPH:{
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:767 
 		},
 		DPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1200 
 		}
 	},
 	{
@@ -35472,27 +35472,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:4,
-			NOTES:0 
+			NOTES:451 
 		},
 		SPH:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:903 
 		},
 		SPA:{
 			DIFFICULT:11,
-			NOTES:0 
+			NOTES:1242 
 		},
 		DPN:{
 			DIFFICULT:4,
-			NOTES:0 
+			NOTES:482 
 		},
 		DPH:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:970 
 		},
 		DPA:{
 			DIFFICULT:11,
-			NOTES:0 
+			NOTES:1284 
 		}
 	},
 	{
@@ -37679,6 +37679,77 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1346 
+		}
+	},
+	{
+		TITLE:'Abraxas',
+		GENRE:'DUBSTEP',
+		ARTIST:'SYUNN',
+		FOLDER:'CANNON BALLERS',
+		BPM:'165',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:403 
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:844 
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1241 
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:414 
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:921 
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1254 
+		}
+	},
+	{
+		TITLE:'#MAGiCVLGiRL_TRVP_B3VTZ',
+		GENRE:'NEON/TWERKCORE',
+		ARTIST:'DJ Noriken',
+		FOLDER:'SINOBUZ',
+		BPM:'100',
+		TIME:'',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:588 
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:991 
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1753 
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:592 
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:956 
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1500 
 		}
 	}
 ];
