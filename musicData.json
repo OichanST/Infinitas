@@ -28731,7 +28731,7 @@
 			NOTES:404 
 		},
 		SPH:{
-			DIFFICULT:9,
+			DIFFICULT:7,
 			NOTES:720 
 		},
 		SPA:{
@@ -37750,6 +37750,361 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1500 
+		}
+	},
+	{
+		TITLE:'BEMANI PRO LEAGUE Theme',
+		GENRE:'BPL EDM',
+		ARTIST:'BEMANI Sound Team "Sota F."',
+		FOLDER:'Cast Hour',
+		BPM:'134',
+		TIME:'',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:393 
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:712 
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:996 
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:495 
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:717 
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:1024 
+		}
+	},
+	{
+		TITLE:'Brave Spirits',
+		GENRE:'MELODIC RIDDIM',
+		ARTIST:'MK',
+		FOLDER:'Cast Hour',
+		BPM:'152',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:362 
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:722 
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1250 
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:362 
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:718 
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1249 
+		}
+	},
+	{
+		TITLE:'Game Changers',
+		GENRE:'HARD MIXTURE',
+		ARTIST:'Yuta Imai',
+		FOLDER:'Cast Hour',
+		BPM:'105-210',
+		TIME:'',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:390 
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:740 
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1395 
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:386 
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:759 
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1353 
+		}
+	},
+	{
+		TITLE:'Hat Surprise',
+		GENRE:'UK HARDCORE',
+		ARTIST:'Hommmarju',
+		FOLDER:'Cast Hour',
+		BPM:'180',
+		TIME:'',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:349 
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:825 
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1234 
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:350 
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:820 
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1246 
+		}
+	},
+	{
+		TITLE:'No Day But Today!',
+		GENRE:'J-POP',
+		ARTIST:'NU-KO & yunocy',
+		FOLDER:'Cast Hour',
+		BPM:'150',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:376 
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:680 
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1000 
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:376 
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:697 
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1098 
+		}
+	},
+	{
+		TITLE:'inner\'s Proof ft. KANASA from bless4',
+		GENRE:'THEME SONG',
+		ARTIST:'BEMANI Sound Team "HuΣeR" & kors k',
+		FOLDER:'Cast Hour',
+		BPM:'100',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:385 
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:696 
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1118 
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:386 
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:678 
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1089 
+		}
+	},
+	{
+		TITLE:'One for All',
+		GENRE:'EUPHOLID FRENCHCORE',
+		ARTIST:'RoughSketch',
+		FOLDER:'Cast Hour',
+		BPM:'195',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:516 
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:910 
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1632 
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:524 
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:946 
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1554 
+		}
+	},
+	{
+		TITLE:'《GRANDMASTER》',
+		GENRE:'TRIUMPH',
+		ARTIST:'Blacklolita',
+		FOLDER:'Cast Hour',
+		BPM:'160',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:499 
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:939 
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1504 
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:496 
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:934 
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1508 
+		}
+	},
+	{
+		TITLE:'TOMAHAWK',
+		GENRE:'SUPER HARDCORE NOVA',
+		ARTIST:'かめりあ',
+		FOLDER:'Cast Hour',
+		BPM:'215',
+		TIME:'',
+		SPN:{
+			MSS:true,
+			DIFFICULT:6,
+			NOTES:697 
+		},
+		SPH:{
+			MSS:true,
+			DIFFICULT:10,
+			NOTES:1215 
+		},
+		SPA:{
+			MSS:true,
+			DIFFICULT:12,
+			NOTES:1830 
+		},
+		DPN:{
+			MSS:true,
+			DIFFICULT:7,
+			NOTES:713 
+		},
+		DPH:{
+			MSS:true,
+			DIFFICULT:10,
+			NOTES:1318 
+		},
+		DPA:{
+			MSS:true,
+			DIFFICULT:12,
+			NOTES:1841 
+		}
+	},
+	{
+		TITLE:'Yplon',
+		GENRE:'HARD STACC',
+		ARTIST:'BEMANI Sound Team "setup"',
+		FOLDER:'VISTROVER',
+		BPM:'160',
+		TIME:'',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:567 
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:913 
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1466 
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:579 
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:896 
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1402 
 		}
 	}
 ];
