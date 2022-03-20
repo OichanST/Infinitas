@@ -219,7 +219,7 @@ function init(){
 			color = "FF0000";
 		}
 		
-		addText(r, rec.DIFFICULT, "width:1.2em;font-size:5.0em;text-align:center;color:#" + color + ";");
+		addText(r, rec.DIFFICULT, "width:1.2em;font-size:5.0em;text-align:center;color:#" + color + ";").setAttribute("class", "TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_"));
 		
 		const c = document.createElement("td");
 		
