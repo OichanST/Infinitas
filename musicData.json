@@ -38106,5 +38106,125 @@
 			DIFFICULT:11,
 			NOTES:1402 
 		}
+	},
+	{
+		TITLE:'童話回廊',
+		GENRE:'空想ファンタジーシリーズ',
+		ARTIST:'DJ TOTTO',
+		FOLDER:'SINOBUZ',
+		BPM:'262',
+		TIME:'',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:484 
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:905 
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1592 
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:483 
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:912 
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1478 
+		}
+	},
+	{
+		TITLE:'255',
+		GENRE:'HYPER SPEED RAVE',
+		ARTIST:'255',
+		FOLDER:'CANNON BALLERS',
+		BPM:'255',
+		TIME:'',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:469 
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:823 
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1676 
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:564 
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:953 
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1590 
+		}
+	},
+	{
+		TITLE:'Prelude',
+		GENRE:'TRANCE',
+		ARTIST:'NAOKI underground',
+		FOLDER:'9th style',
+		BPM:'135-140',
+		TIME:'',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:442 
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:707 
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1034 
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:441 
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:707 
+		},
+	},
+	{
+		TITLE:'MOON RACE',
+		GENRE:'FUTURE HOUSE',
+		ARTIST:'ELEKTEL',
+		FOLDER:'HAPPY SKY',
+		BPM:'147',
+		TIME:'',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:434 
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:598 
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:957 
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:433 
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:598 
+		},
 	}
 ];

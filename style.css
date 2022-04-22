@@ -78,6 +78,18 @@ input[type="checkbox"]:checked+label::after{
 	border-left:15px solid;
 	border-color:#585753; /* チェックの色変更 お好きな色を */
 }
+.DIFFICULT{
+	text-align:center;
+	text-shadow:
+		 2px  2px 0 black,
+		-2px -2px 0 black,
+		-2px  2px 0 black,
+		 2px -2px 0 black,
+		 0px  2px 0 black,
+		 0   -2px 0 black,
+		-2px  0   0 black,
+		 2px  0   0 black;
+}
 .PLAYRESULT{
 	text-shadow:
 		 2px  2px 0 black,
@@ -131,25 +143,41 @@ input[type="checkbox"]:checked+label::after{
 .FULL_COMBO{
 	animation:flash 0.25s linear infinite;
 }
+.TOP_N{
+	color:#00A0FF;
+	background-color:rgba(64, 196, 255, 0.5);
+}
+.TOP_H{
+	color:#FFC000;
+	background-color:yellow;
+}
+.TOP_A{
+	color:#FF0000;
+	background-color:rgba(355, 0, 0, 0.5);
+}
 .TOP_ASSIST_CLEAR{
 	background-color:#FF00FF;
 }
 .TOP_EASY_CLEAR{
 	background-color:#00FF00;
 }
+.TOP_NO_PLAY{
+	background-color:rgba(0,0,0,0) !important;
+}
+.TOP_FAIL{
+	
+}
 .TOP_CLEAR{
-	background-color:yellow;
+
 }
 .TOP_HARD_CLEAR{
 	background-color:white;
 }
 .TOP_EX_HARD_CLEAR{
-	background-color:yellow;
-	animation:exHard 1.5s linear infinite;
+	animation:exHard 1.5s steps(1, end) infinite;
 }
 .TOP_FULL_COMBO{
-	background-color:yellow;
-	animation:fullCombo 1.5s linear infinite;
+	animation:fullCombo 1.5s steps(1, end) infinite;
 }
 @keyframes flash{
 	24%,74%{
@@ -163,10 +191,10 @@ input[type="checkbox"]:checked+label::after{
 	}
 }
 @keyframes fullCombo{
-	25%,75%{
-		background-color:yellow;
+	33%{
+		background-color:white;
 	}
-	50%{
+	66%{
 		background-color:rgba(64, 196, 255, 0.75);
 	}
 }
