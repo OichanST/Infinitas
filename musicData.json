@@ -3177,7 +3177,7 @@
 		BPM:'65',
 		TIME:'1:45',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:297 
 		},
 		SPH:{
@@ -4715,7 +4715,7 @@
 		BPM:'150',
 		TIME:'1:54',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:363 
 		},
 		SPH:{
@@ -4963,7 +4963,7 @@
 		BPM:'166',
 		TIME:'1:55',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:361 
 		},
 		SPH:{
@@ -7506,11 +7506,11 @@
 		BPM:'126',
 		TIME:'1:16',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:250 
 		},
 		SPH:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:255 
 		},
 		SPA:{
@@ -13620,7 +13620,7 @@
 		BPM:'125',
 		TIME:'1:38',
 		SPN:{
-			DIFFICULT:2,
+			DIFFICULT:3,
 			NOTES:272 
 		},
 		SPH:{
@@ -13628,7 +13628,7 @@
 			NOTES:326 
 		},
 		SPA:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:348 
 		},
 		DPN:{
@@ -21585,7 +21585,7 @@
 		BPM:'179',
 		TIME:'2:04',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:370 
 		},
 		SPH:{
@@ -23865,7 +23865,7 @@
 		BPM:'141',
 		TIME:'2:07',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:335 
 		},
 		SPH:{
@@ -27195,7 +27195,7 @@
 			NOTES:141 
 		},
 		SPH:{
-			DIFFICULT:2,
+			DIFFICULT:3,
 			NOTES:198 
 		},
 		DPN:{
@@ -33566,7 +33566,7 @@
 		BPM:'146',
 		TIME:'1:58',
 		SPN:{
-			DIFFICULT:3,
+			DIFFICULT:4,
 			NOTES:329 
 		},
 		SPH:{
