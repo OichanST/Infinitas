@@ -24843,7 +24843,7 @@
 		BPM:'125',
 		TIME:'2:03',
 		SPN:{
-			DIFFICULT:5,
+			DIFFICULT:6,
 			NOTES:627 
 		},
 		SPH:{
@@ -30095,7 +30095,7 @@
 			NOTES:663 
 		},
 		SPH:{
-			DIFFICULT:9,
+			DIFFICULT:7,
 			NOTES:893 
 		},
 		SPA:{
