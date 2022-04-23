@@ -610,7 +610,7 @@
 		BPM:'101',
 		TIME:'※',
 		SPN:{
-			DIFFICULT:1,
+			DIFFICULT:2,
 			NOTES:99 
 		},
 		SPH:{
@@ -11218,11 +11218,11 @@
 		BPM:'102',
 		TIME:'1:21',
 		SPN:{
-			DIFFICULT:1,
+			DIFFICULT:2,
 			NOTES:137 
 		},
 		SPH:{
-			DIFFICULT:1,
+			DIFFICULT:2,
 			NOTES:137 
 		},
 		DPN:{
@@ -15077,7 +15077,7 @@
 		BPM:'132',
 		TIME:'1:09',
 		SPN:{
-			DIFFICULT:1,
+			DIFFICULT:2,
 			NOTES:98 
 		},
 		SPH:{
@@ -27191,7 +27191,7 @@
 		BPM:'84',
 		TIME:'1:35',
 		SPN:{
-			DIFFICULT:1,
+			DIFFICULT:2,
 			NOTES:141 
 		},
 		SPH:{
