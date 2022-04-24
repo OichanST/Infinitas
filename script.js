@@ -232,7 +232,7 @@ function init(){
 		
 		divDifficult.innerText = rec.DIFFICULT;
 		
-		divDifficult.style = "width:1.5em;";
+		divDifficult.style = "width:1.5em;padding-top:0.2em;";
 		
 		divDifficult.setAttribute("class", "DIFFICULT DIF_" + rec.type);
 		
@@ -241,6 +241,7 @@ function init(){
 		let divTitle = createDiv();
 		
 		divTitle.innerText = rec.TITLE;
+		divTitle.style = "padding-top:0.2em;padding-bottom:0.2em;";
 		
 		if(!rec.OPEN){
 			divTitle.style.color = "gray";
@@ -252,7 +253,7 @@ function init(){
 		
 		let div1 = createDiv();
 		
-		div1.style = "font-size:1.5em;display:flex;justify-content:flex-start;";
+		div1.style = "font-size:3.0em;display:flex;justify-content:flex-start;";
 		
 		/*
 		let divA = createDiv();
@@ -296,7 +297,7 @@ function init(){
 		if(rec.OPEN){
 		
 			let divDet = createDiv();
-			divDet.style = "font-size:1.5em;display:flex;justify-content:space-between;";
+			divDet.style = "font-size:3.0em;display:flex;justify-content:space-between;";
 			
 			let divA = createDiv();
 		
@@ -347,7 +348,7 @@ function init(){
 		const ret = calc(rec.NOTES, rec.EXSCORE);
 		
 		let div5 = createDiv();
-		div5.style = "font-size:1.5em;display:flex;justify-content:space-between;"
+		div5.style = "font-size:3.0em;display:flex;justify-content:space-between;"
 		
 		let div51 = createDiv();
 		div51.innerText = rec.CLEARSTATUS;
