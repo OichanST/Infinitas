@@ -114,6 +114,7 @@ function init(){
 				mergedMusicData.push({
 					TITLE:rec.TITLE,
 					BPM:rec.BPM,
+					NOTES:rec[spdp + "N"].NOTES,
 					type:"N",
 					BSS:rec[spdp + "N"].BSS,
 					HBSS:rec[spdp + "N"].HBSS,
@@ -133,6 +134,7 @@ function init(){
 				mergedMusicData.push({
 					TITLE:rec.TITLE,
 					BPM:rec.BPM,
+					NOTES:rec[spdp + "H"].NOTES,
 					type:"H",
 					BSS:rec[spdp + "H"].BSS,
 					HBSS:rec[spdp + "H"].HBSS,
@@ -152,6 +154,7 @@ function init(){
 				mergedMusicData.push({
 					TITLE:rec.TITLE,
 					BPM:rec.BPM,
+					NOTES:rec[spdp + "A"].NOTES,
 					type:"A",
 					BSS:rec[spdp + "A"].BSS,
 					HBSS:rec[spdp + "A"].HBSS,
@@ -209,108 +212,163 @@ function init(){
 			openInputForm(title, type);
 		}
 		
-		addText(r, rec.DIFFICULT, "width:1.2em;font-size:5.0em;").setAttribute("class", "DIFFICULT TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_") + " TOP_" + rec.type);
+		let cell = createCell();
 		
-		const c = document.createElement("td");
+		let divHeader = createDiv();
+		
+		divHeader.style = "font-size:3.0em;background-color:rgba(32,32,32,0.5);display:flex;justify-content:flex-start;border:5px solid rgb(255,128,0);border-radius:12px;";
+		
+		let divStat = createDiv();
+		
+		divStat.innerHtml = "&nbsp;";
+		
+		divStat.style = "width:0.5em;border-radius:6px 0px 0px 6px;";
+		
+		divStat.setAttribute("class", "TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_") + " TOP_" + rec.type);
+		
+		divHeader.appendChild(divStat);
+		
+		let divDifficult = createDiv();
+		
+		divDifficult.innerText = rec.DIFFICULT;
+		
+		divDifficult.style = "width:1.5em;";
+		
+		divDifficult.setAttribute("class", "DIFFICULT DIF_" + rec.type);
+		
+		divHeader.appendChild(divDifficult);
 		
 		let divTitle = createDiv();
+		
 		divTitle.innerText = rec.TITLE;
-		divTitle.style = "font-size:1.1em;";
+		
 		if(!rec.OPEN){
 			divTitle.style.color = "gray";
 		}
-		c.appendChild(divTitle);
 		
-		let div = createDiv();
-		div.style = "display:flex;justify-content:space-between;";
+		divHeader.appendChild(divTitle);
 		
+		cell.appendChild(divHeader);
+		
+		let div1 = createDiv();
+		
+		div1.style = "font-size:1.5em;display:flex;justify-content:flex-start;";
+		
+		/*
 		let divA = createDiv();
 		
 		let divA1 = createDiv();
+		
 		divA1.style = "display:flex;justify-content:flex-start;";
+		*/
 		
-		let div4 = createDiv();
-		div4.innerText = "BPM:" + rec.BPM;
-		div4.style.width = "6.5em";
-		if(!rec.OPEN){
-			div4.style.color = "gray";
-		}
-		divA1.appendChild(div4);
-		
-		let div42 = createDiv();
+		let divCN = createDiv();
 		if(rec.BSS || rec.CN){
-			div42.innerText = "CN";
-			div42.setAttribute("class", "CN");
+			divCN.innerText = "CN";
+			divCN.setAttribute("class", "CN");
 		}else if(rec.HBSS || rec.HCN){
-			div42.innerText = "HCN";
-			div42.setAttribute("class", "HCN");
+			divCN.innerText = "HCN";
+			divCN.setAttribute("class", "HCN");
 		}
-		div42.style = "width:2.2em;text-align:center;";
-		divA1.appendChild(div42);
 		
-		let divA2 = createDiv();
-		divA2.style = "display:flex;justify-content:flex-start;";
+		divCN.style = "width:2.2em;text-align:center;margin-left:0.25em;margin-right:0.25em;";
 		
-		let div5 = createDiv();
-		div5.innerText = rec.CLEARSTATUS;
-		div5.setAttribute("class", rec.CLEARSTATUS.replaceAll(" ", "_"));
-		div5.style.width = "6.5em";
-		divA2.appendChild(div5);
+		div1.appendChild(divCN);
+		
+		let divBPM = createDiv();
+		divBPM.innerText = "BPM:" + rec.BPM;
+		divBPM.style.width = "7.0em";
+		if(!rec.OPEN){
+			divBPM.style.color = "gray";
+		}
+		div1.appendChild(divBPM);
+		
+		let divNOTES = createDiv();
+		divNOTES.style.width = "7.0em";
+		divNOTES.innerText = "NOTES:" + rec.NOTES;
+		if(!rec.OPEN){
+			divNOTES.style.color = "gray";
+		}
+		div1.appendChild(divNOTES);
+		
+		cell.appendChild(div1);
 		
 		if(rec.OPEN){
+		
+			let divDet = createDiv();
+			divDet.style = "font-size:1.5em;display:flex;justify-content:space-between;";
+			
+			let divA = createDiv();
+		
+			let div2 = createDiv();
+			div2.style = "display:flex;justify-content:flex-start;";
+
+			let div21 = createDiv();
+			div21.style = "width:7em;";
+			div21.innerText = "EX SCORE";
+			div2.appendChild(div21);
+			
+			let div22 = createDiv();
+			div22.style = "text-align:right;width:3em;";
+			div22.innerText = rec.EXSCORE;
+			div2.appendChild(div22);
+			
+			divA.appendChild(div2);
+			
+			let div3 = createDiv();
+			div3.style = "display:flex;justify-content:flex-start;";
+			
+			let div31 = createDiv();
+			div31.style = "width:7em;";
+			div31.innerText = "MISS COUNT";
+			div3.appendChild(div31);
+			
+			let div32 = createDiv();
+			div32.style = "text-align:right;width:3em;";
+			div32.innerText = rec.MISSCOUNT;
+			
+			div3.appendChild(div32);
+			
+			divA.appendChild(div3);
+			
+			divDet.appendChild(divA);
+			
 			let div6 = createDiv();
 			div6.innerText = rec.PLAYRESULT;
 			div6.setAttribute("class", "PLAYRESULT " + rec.PLAYRESULT);
-			div6.style = "width:2.2em;text-align:center;";
-			divA2.appendChild(div6);
+			div6.style = "width:2.5em;font-size:2.0em;padding-left:0.2em;padding-right:0.2em;text-align:center;";
+			
+			divDet.appendChild(div6);
+			
+			cell.appendChild(divDet);
+			
 		}
 		
-		divA.appendChild(divA1);
+		const ret = calc(rec.NOTES, rec.EXSCORE);
 		
-		divA.appendChild(divA2);
+		let div5 = createDiv();
+		div5.style = "font-size:1.5em;display:flex;justify-content:space-between;"
 		
-		div.appendChild(divA);
+		let div51 = createDiv();
+		div51.innerText = rec.CLEARSTATUS;
+		div51.setAttribute("class", rec.CLEARSTATUS.replaceAll(" ", "_"));
+		div5.appendChild(div51);
 		
-		let divX = createDiv();
-		divX.style = "width:7.0em;padding-right:0.15em;";
+		let div52 = createDiv();
+		div52.style = "width:5.8em;text-align:center;";
+		div52.innerText = ret.detail;
+		div5.appendChild(div52);
 		
-		let div7 = createDiv();
-		div7.style = "display:flex;justify-content:space-between;";
-		
-		if(rec.OPEN){
-			let div71 = createDiv();
-			div71.innerText = "EX SCORE";
-			div7.appendChild(div71);
-			
-			let div72 = createDiv();
-			div72.innerText = rec.EXSCORE;
-			div7.appendChild(div72);
-			
-			divX.appendChild(div7);
-			
-			let div8 = createDiv();
-			div8.style = "display:flex;justify-content:space-between;";
-			
-			let div81 = createDiv();
-			div81.innerText = "MISS COUNT";
-			div8.appendChild(div81);
-			
-			let div82 = createDiv();
-			div82.innerText = rec.MISSCOUNT;
-			
-			div8.appendChild(div82);
-			
-			divX.appendChild(div8);
-			
-			div.appendChild(divX);
-		}
-		
-		c.appendChild(div);
-		
-		r.appendChild(c);
+		cell.appendChild(div5);
+
+		r.appendChild(cell);
 		
 		dt.appendChild(r);
 	});
+}
+
+function createCell(){
+	return document.createElement("td");
 }
 
 function createDiv(){
@@ -476,10 +534,19 @@ function focusReset(){
 
 function calcRate(){
 	
-	calc(parseInt(document.getElementById("NOTES").innerText, 10), event.target.value);
+	const res = calc(parseInt(document.getElementById("NOTES").innerText, 10), event.target.value);
+	document.getElementById("PLAYRESULT").innerText = res.result;
+	document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT " + res.result);
+	if(res.detail != ""){
+		document.getElementById("DETAIL").innerText = "(" + res.detail + ")";
+	}
 }
 
 function calc(notes, exscore){
+	const ret = {
+		result:"",
+		detail:""
+	};
 	/*
 		AAAc8/9ˆÈã
 		AAc7/9ˆÈã
@@ -496,46 +563,41 @@ function calc(notes, exscore){
 	
 	if(rate >= (8 / 9)){
 	
-		document.getElementById("PLAYRESULT").innerText = "AAA";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT AAA");
+		ret.result = "AAA";
+
 		if(rate >= (85 / 90)){
-			document.getElementById("DETAIL").innerText = "(MAX-" + (max - exscore) + ")";
+			ret.detail = "MAX-" + (max - exscore);
 		}else{
-			document.getElementById("DETAIL").innerText = "(AAA+" + (exscore - Math.ceil(max * (8 / 9))) + ")";
+			ret.detail= "AAA+" + (exscore - Math.ceil(max * (8 / 9)));
 		}
 	}else if(rate >= (7 / 9)){
-		document.getElementById("PLAYRESULT").innerText = "AA";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT AA");
-		document.getElementById("DETAIL").innerText = "(AAA-" + (Math.ceil(max * (8 / 9)) - exscore) + ")";
+		ret.result = "AA";
+		ret.detail = "AAA-" + (Math.ceil(max * (8 / 9)) - exscore);
 	}else if(rate >= (6 / 9)){
-		document.getElementById("PLAYRESULT").innerText = "A";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT A");
-		document.getElementById("DETAIL").innerText = "(AA-" + (Math.ceil(max * (7 / 9)) - exscore) + ")";
+		ret.result = "A";
+		ret.detail = "AA-" + (Math.ceil(max * (7 / 9)) - exscore);
 	}else if(rate >= (5 / 9)){
-		document.getElementById("PLAYRESULT").innerText = "B";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT B");
-		document.getElementById("DETAIL").innerText = "(A-" + (Math.ceil(max * (6 / 9)) - exscore) + ")";
+		ret.result = "B";
+		ret.detail = "A-" + (Math.ceil(max * (6 / 9)) - exscore);
 	}else if(rate >= (4 / 9)){
-		document.getElementById("PLAYRESULT").innerText = "C";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT C");
-		document.getElementById("DETAIL").innerText = "(B-" + (Math.ceil(max * (5 / 9)) - exscore) + ")";
+		ret.result = "C";
+		ret.detail = "B-" + (Math.ceil(max * (5 / 9)) - exscore);
 	}else if(rate >= (3 / 9)){
-		document.getElementById("PLAYRESULT").innerText = "D";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT D");
-		document.getElementById("DETAIL").innerText = "(C-" + (Math.ceil(max * (4 / 9)) - exscore) + ")";
+		ret.result = "D";
+		ret.detail = "C-" + (Math.ceil(max * (4 / 9)) - exscore);
 	}else if(rate >= (2 / 9)){
-		document.getElementById("PLAYRESULT").innerText = "E";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT E");
-		document.getElementById("DETAIL").innerText = "(D-" + (Math.ceil(max * (3 / 9)) - exscore) + ")";
+		ret.result = "E";
+		ret.detail= "D-" + (Math.ceil(max * (3 / 9)) - exscore);
 	}else{
-		document.getElementById("PLAYRESULT").innerText = "F";
-		document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT F");
+		ret.result = "F";
+
 		if(exscore != 0){
-			document.getElementById("DETAIL").innerText = "(E-" + (Math.ceil(max * (2 / 9)) - exscore) + ")";
+			ret.detail = "E-" + (Math.ceil(max * (2 / 9)) - exscore);
 		}else{
-			document.getElementById("DETAIL").innerText = "";
+			ret.detail = "";
 		}
 	}
+	return ret;
 }
 
 function openOption(){

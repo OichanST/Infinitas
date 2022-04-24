@@ -10,30 +10,19 @@ input,select,button{
 #dt{
 	border-collapse: separate;
     border-spacing: 0px 20px;
+    width:100%;
 }
+/*
 #dt tr:hover{
 	background-color:rgba(255, 255, 255, 0.1);
 }
 #dt th,#dt td{
 	font-size:3.2em;
-	/*padding:0.3em 0.5em 0.3em 0.5em;*/
 }
 #dt th div,#dt td div{
 	font-size:1.0em;
-	/*padding:0.3em 0.5em 0.3em 0.5em;*/
 }
-#dt tr td:first-child{
-	border-left:7px solid #D0D0D0;
-    border-radius:25px 0px 0px 25px;
-}
-#dt tr td{
-	border-top:7px solid #D0D0D0;
-	border-bottom:7px solid #D0D0D0;
-}
-#dt tr td:last-child{
-	border-right:7px solid #D0D0D0;
-    border-radius:0px 25px 25px 0px;
-}
+*/
 /* 元々のチェックボックス（非表示） */
 input[type="checkbox"]{
 	display: none;
@@ -144,16 +133,22 @@ input[type="checkbox"]:checked+label::after{
 	animation:flash 0.25s linear infinite;
 }
 .TOP_N{
-	color:#00A0FF;
 	background-color:rgba(64, 196, 255, 0.5);
 }
 .TOP_H{
-	color:#FFC000;
 	background-color:yellow;
 }
 .TOP_A{
-	color:#FF0000;
 	background-color:rgba(355, 0, 0, 0.5);
+}
+.DIF_N{
+	color:#00A0FF;
+}
+.DIF_H{
+	color:#FFC000;
+}
+.DIF_A{
+	color:#FF0000;
 }
 .TOP_ASSIST_CLEAR{
 	background-color:#FF00FF;
