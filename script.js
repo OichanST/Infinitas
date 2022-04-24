@@ -214,34 +214,30 @@ function init(){
 		
 		let cell = createCell();
 		
-		let divHeader = createDiv();
+		let divHeader = createDiv({
+			style:"font-size:3.5em;background-color:rgba(32,32,32,0.5);display:flex;justify-content:flex-start;border:5px solid rgb(255,128,0);border-radius:12px;"
+		});
 		
-		divHeader.style = "font-size:3.5em;background-color:rgba(32,32,32,0.5);display:flex;justify-content:flex-start;border:5px solid rgb(255,128,0);border-radius:12px;";
-		
-		let divStat = createDiv();
-		
-		divStat.innerHtml = "&nbsp;";
-		
-		divStat.style = "width:0.5em;border-radius:6px 0px 0px 6px;";
-		
-		divStat.setAttribute("class", "TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_") + " TOP_" + rec.type);
+		let divStat = createDiv({
+			style:"width:0.5em;border-radius:6px 0px 0px 6px;",
+			html:"&nbsp;",
+			class:"TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_") + " TOP_" + rec.type
+		});
 		
 		divHeader.appendChild(divStat);
 		
-		let divDifficult = createDiv();
-		
-		divDifficult.innerText = rec.DIFFICULT;
-		
-		divDifficult.style = "width:1.5em;padding-top:0.2em;";
-		
-		divDifficult.setAttribute("class", "DIFFICULT DIF_" + rec.type);
+		let divDifficult = createDiv({
+			style:"width:1.5em;padding-top:0.2em;",
+			text:rec.DIFFICULT,
+			class:"DIFFICULT DIF_" + rec.type
+		});
 		
 		divHeader.appendChild(divDifficult);
 		
-		let divTitle = createDiv();
-		
-		divTitle.innerText = rec.TITLE;
-		divTitle.style = "padding-top:0.2em;padding-bottom:0.2em;";
+		let divTitle = createDiv({
+			style:"padding-top:0.2em;padding-bottom:0.2em;",
+			text:rec.TITLE
+		});
 		
 		if(!rec.OPEN){
 			divTitle.style.color = "gray";
@@ -251,19 +247,14 @@ function init(){
 		
 		cell.appendChild(divHeader);
 		
-		let div1 = createDiv();
+		let div1 = createDiv({
+			style:"font-size:3.0em;display:flex;justify-content:flex-start;"
+		});
 		
-		div1.style = "font-size:3.0em;display:flex;justify-content:flex-start;";
+		let divCN = createDiv({
+			style:"width:2.2em;text-align:center;margin-left:0.25em;margin-right:0.25em;"
+		});
 		
-		/*
-		let divA = createDiv();
-		
-		let divA1 = createDiv();
-		
-		divA1.style = "display:flex;justify-content:flex-start;";
-		*/
-		
-		let divCN = createDiv();
 		if(rec.BSS || rec.CN){
 			divCN.innerText = "CN";
 			divCN.setAttribute("class", "CN");
@@ -272,21 +263,24 @@ function init(){
 			divCN.setAttribute("class", "HCN");
 		}
 		
-		divCN.style = "width:2.2em;text-align:center;margin-left:0.25em;margin-right:0.25em;";
-		
 		div1.appendChild(divCN);
 		
-		let divBPM = createDiv();
-		divBPM.innerText = "BPM:" + rec.BPM;
-		divBPM.style.width = "6.0em";
+		let divBPM = createDiv({
+			style:"width:6.0em;",
+			text:"BPM:" + rec.BPM
+		});
+
 		if(!rec.OPEN){
 			divBPM.style.color = "gray";
 		}
+		
 		div1.appendChild(divBPM);
 		
-		let divNOTES = createDiv();
-		divNOTES.style.width = "6.0em";
-		divNOTES.innerText = "NOTES:" + rec.NOTES;
+		let divNOTES = createDiv({
+			style:"width:6.0em;",
+			text:"NOTES:" + rec.NOTES
+		});
+
 		if(!rec.OPEN){
 			divNOTES.style.color = "gray";
 		}
@@ -296,37 +290,47 @@ function init(){
 		
 		if(rec.OPEN){
 		
-			let divDet = createDiv();
-			divDet.style = "font-size:3.0em;display:flex;justify-content:space-between;";
+			let divDet = createDiv({
+				style:"font-size:3.0em;display:flex;justify-content:space-between;"
+			});
 			
 			let divA = createDiv();
 		
-			let div2 = createDiv();
-			div2.style = "display:flex;justify-content:flex-start;";
+			let div2 = createDiv({
+				style:"display:flex;justify-content:flex-start;"
+			});
 
-			let div21 = createDiv();
-			div21.style = "width:6.5em;";
-			div21.innerText = "EX SCORE";
+			let div21 = createDiv({
+				style:"width:6.5em;",
+				text:"EX SCORE"
+			});
+			
 			div2.appendChild(div21);
 			
-			let div22 = createDiv();
-			div22.style = "text-align:right;width:3em;";
-			div22.innerText = rec.EXSCORE;
+			let div22 = createDiv({
+				style:"text-align:right;width:3em;",
+				text:rec.EXSCORE
+			});
+			
 			div2.appendChild(div22);
 			
 			divA.appendChild(div2);
 			
-			let div3 = createDiv();
-			div3.style = "display:flex;justify-content:flex-start;";
+			let div3 = createDiv({
+				style:"display:flex;justify-content:flex-start;"
+			});
 			
-			let div31 = createDiv();
-			div31.style = "width:6.5em;";
-			div31.innerText = "MISS COUNT";
+			let div31 = createDiv({
+				style:"width:6.5em;",
+				text:"MISS COUNT"
+			});
+			
 			div3.appendChild(div31);
 			
-			let div32 = createDiv();
-			div32.style = "text-align:right;width:3em;";
-			div32.innerText = rec.MISSCOUNT;
+			let div32 = createDiv({
+				style:"text-align:right;width:3em;",
+				text:rec.MISSCOUNT
+			});
 			
 			div3.appendChild(div32);
 			
@@ -334,30 +338,35 @@ function init(){
 			
 			divDet.appendChild(divA);
 			
-			let div6 = createDiv();
-			div6.innerText = rec.PLAYRESULT;
-			div6.setAttribute("class", "PLAYRESULT " + rec.PLAYRESULT);
-			div6.style = "width:2.0em;font-size:2.0em;padding-left:0.2em;padding-right:0.2em;text-align:center;";
+			let div6 = createDiv({
+				style:"width:2.0em;font-size:2.0em;padding-left:0.1em;padding-right:0.1em;text-align:center;",
+				text:rec.PLAYRESULT,
+				class:"PLAYRESULT " + rec.PLAYRESULT
+			});
 			
 			divDet.appendChild(div6);
 			
 			cell.appendChild(divDet);
-			
 		}
 		
 		const ret = calc(rec.NOTES, rec.EXSCORE);
 		
-		let div5 = createDiv();
-		div5.style = "font-size:3.0em;display:flex;justify-content:space-between;"
+		let div5 = createDiv({
+			style:"font-size:3.0em;display:flex;justify-content:space-between;"
+		});
 		
-		let div51 = createDiv();
-		div51.innerText = rec.CLEARSTATUS;
-		div51.setAttribute("class", rec.CLEARSTATUS.replaceAll(" ", "_"));
+		let div51 = createDiv({
+			text:rec.CLEARSTATUS,
+			class:rec.CLEARSTATUS.replaceAll(" ", "_")
+		});
+
 		div5.appendChild(div51);
 		
-		let div52 = createDiv();
-		div52.style = "width:4.7em;text-align:center;";
-		div52.innerText = ret.detail;
+		let div52 = createDiv({
+			style:"width:4.7em;text-align:center;",
+			text:ret.detail
+		});
+
 		div5.appendChild(div52);
 		
 		cell.appendChild(div5);
@@ -372,8 +381,23 @@ function createCell(){
 	return document.createElement("td");
 }
 
-function createDiv(){
-	return document.createElement("div");
+function createDiv(option){
+	const div = document.createElement("div");
+	if(option){
+		if(option.style){
+			div.style = option.style;
+		}
+		if(option.text){
+			div.innerText = option.text;
+		}
+		if(option.html){
+			div.innerHtml = option.html;
+		}
+		if(option.class){
+			div.setAttribute("class", option.class);
+		}
+	}
+	return div;
 }
 
 function makeInitData(rec){
