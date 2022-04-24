@@ -216,7 +216,7 @@ function init(){
 		
 		let divHeader = createDiv();
 		
-		divHeader.style = "font-size:3.0em;background-color:rgba(32,32,32,0.5);display:flex;justify-content:flex-start;border:5px solid rgb(255,128,0);border-radius:12px;";
+		divHeader.style = "font-size:3.5em;background-color:rgba(32,32,32,0.5);display:flex;justify-content:flex-start;border:5px solid rgb(255,128,0);border-radius:12px;";
 		
 		let divStat = createDiv();
 		
@@ -278,14 +278,14 @@ function init(){
 		
 		let divBPM = createDiv();
 		divBPM.innerText = "BPM:" + rec.BPM;
-		divBPM.style.width = "7.0em";
+		divBPM.style.width = "6.0em";
 		if(!rec.OPEN){
 			divBPM.style.color = "gray";
 		}
 		div1.appendChild(divBPM);
 		
 		let divNOTES = createDiv();
-		divNOTES.style.width = "7.0em";
+		divNOTES.style.width = "6.0em";
 		divNOTES.innerText = "NOTES:" + rec.NOTES;
 		if(!rec.OPEN){
 			divNOTES.style.color = "gray";
@@ -305,7 +305,7 @@ function init(){
 			div2.style = "display:flex;justify-content:flex-start;";
 
 			let div21 = createDiv();
-			div21.style = "width:7em;";
+			div21.style = "width:6.5em;";
 			div21.innerText = "EX SCORE";
 			div2.appendChild(div21);
 			
@@ -320,7 +320,7 @@ function init(){
 			div3.style = "display:flex;justify-content:flex-start;";
 			
 			let div31 = createDiv();
-			div31.style = "width:7em;";
+			div31.style = "width:6.5em;";
 			div31.innerText = "MISS COUNT";
 			div3.appendChild(div31);
 			
@@ -337,7 +337,7 @@ function init(){
 			let div6 = createDiv();
 			div6.innerText = rec.PLAYRESULT;
 			div6.setAttribute("class", "PLAYRESULT " + rec.PLAYRESULT);
-			div6.style = "width:2.5em;font-size:2.0em;padding-left:0.2em;padding-right:0.2em;text-align:center;";
+			div6.style = "width:2.0em;font-size:2.0em;padding-left:0.2em;padding-right:0.2em;text-align:center;";
 			
 			divDet.appendChild(div6);
 			
@@ -356,7 +356,7 @@ function init(){
 		div5.appendChild(div51);
 		
 		let div52 = createDiv();
-		div52.style = "width:5.8em;text-align:center;";
+		div52.style = "width:4.7em;text-align:center;";
 		div52.innerText = ret.detail;
 		div5.appendChild(div52);
 		
