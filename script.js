@@ -471,6 +471,9 @@ function openInputForm(title, type){
 			document.getElementById("CLEARSTATUS").value = musicData[i][spdp].CLEARSTATUS;
 			document.getElementById("EXSCORE").value = musicData[i][spdp].EXSCORE;
 			document.getElementById("MISSCOUNT").value = musicData[i][spdp].MISSCOUNT;
+			const res = calc(musicData[i][spdp].NOTES, musicData[i][spdp].EXSCORE);
+			document.getElementById("PLAYRESULT").innerText = res.result;
+			document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT " + res.result);
 			
 			if(musicData[i][spdp].OPEN){
 				document.getElementById("CLEARSTATUS").disabled = false;
@@ -483,8 +486,6 @@ function openInputForm(title, type){
 				document.getElementById("EXSCORE").disabled = true;
 				document.getElementById("MISSCOUNT").disabled = true;
 			}
-			
-			calc(musicData[i][spdp].NOTES, musicData[i][spdp].EXSCORE);
 			
 			document.getElementById("inputContainer").style.display = "block";
 			
