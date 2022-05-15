@@ -474,7 +474,11 @@ function openInputForm(title, type){
 			const res = calc(musicData[i][spdp].NOTES, musicData[i][spdp].EXSCORE);
 			document.getElementById("PLAYRESULT").innerText = res.result;
 			document.getElementById("PLAYRESULT").setAttribute("class", "PLAYRESULT " + res.result);
-			
+			if(res.detail != ""){
+				document.getElementById("DETAIL").innerText = "(" + res.detail + ")";
+			}else{
+				document.getElementById("DETAIL").innerText = "";
+			}
 			if(musicData[i][spdp].OPEN){
 				document.getElementById("CLEARSTATUS").disabled = false;
 				document.getElementById("PLAYRESULT").disabled = false;
