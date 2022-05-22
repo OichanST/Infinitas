@@ -100,6 +100,21 @@ function dataInit(){
 	init();
 }
 
+var clearStatusFilter = null;
+var playResultFilter = null;
+
+function filter(argType, argFilter){
+	if(argType == 'CLEARSTATUS'){
+		playResultFilter = null;
+		clearStatusFilter = argFilter;
+	}else if(argType == 'PLAYRESULT'){
+		playResultFilter = argFilter;
+		clearStatusFilter = null;
+	}
+	init();
+	closeOption();
+}
+
 function init(){
 	// SP/DPŽæ“¾
 	const spdp = document.forms[0].SPDP.value;
@@ -196,6 +211,20 @@ function init(){
 	
 		if(document.getElementById("hideOpenData").checked && !rec.OPEN){
 			return;
+		}
+		
+		if(clearStatusFilter != null){
+			if(clearStatusFilter == '–¢‰ð‹Ö' && rec.OPEN){
+				return;
+			}else if(clearStatusFilter != rec.CLEARSTATUS){
+				return;
+			}
+		}
+		
+		if(playResultFilter != null){
+			if(playResultFilter != rec.PLAYRESULT){
+				return;
+			}
 		}
 		
 		let r = document.createElement("tr");

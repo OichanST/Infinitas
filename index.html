@@ -46,53 +46,66 @@
 			<div>曲数<span id="total" style="margin-left:0.5em;"></span>曲</div>
 			<table style="font-size:1em;">
 				<tr>
-					<td>未解禁</td><td style="padding-left:0.5em;text-align:right;"><span id="notOpenCnt"></span>曲</td>
+					<td onclick="filter('CLEARSTATUS', '未解禁');" style="cursor:pointer;">未解禁</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="notOpenCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="NO_PLAY">NO PLAY</td><td style="padding-left:0.5em;text-align:right;"><span id="noPlayCnt"></span>曲</td>
+					<td class="NO_PLAY" onclick="filter('CLEARSTATUS', 'NO PLAY');" style="cursor:pointer;">NO PLAY</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="noPlayCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="FAILED">FAILED</td><td style="padding-left:0.5em;text-align:right;"><span id="failedCnt"></span>曲</td>
+					<td class="FAILED" onclick="filter('CLEARSTATUS', 'FAILED');" style="cursor:pointer;">FAILED</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="failedCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="ASSIST_CLEAR">ASSIST CLEAR</td><td style="padding-left:0.5em;text-align:right;"><span id="assistClearCnt"></span>曲</td>
+					<td class="ASSIST_CLEAR" onclick="filter('CLEARSTATUS', 'ASSIST CLEAR');" style="cursor:pointer;">ASSIST CLEAR</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="assistClearCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="EASY_CLEAR">EASY CLEAR</td><td style="padding-left:0.5em;text-align:right;"><span id="easyClearCnt"></span>曲</td>
+					<td class="EASY_CLEAR" onclick="filter('CLEARSTATUS', 'EASY CLEAR');" style="cursor:pointer;">EASY CLEAR</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="easyClearCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="CLEAR">CLEAR</td><td style="padding-left:0.5em;text-align:right;"><span id="clearCnt"></span>曲</td>
+					<td class="CLEAR" onclick="filter('CLEARSTATUS', 'CLEAR');" style="cursor:pointer;">CLEAR</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="clearCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="HARD_CLEAR">HARD CLEAR</td><td style="padding-left:0.5em;text-align:right;"><span id="hardClearCnt"></span>曲</td>
+					<td class="HARD_CLEAR" onclick="filter('CLEARSTATUS', 'HARD CLEAR');" style="cursor:pointer;">HARD CLEAR</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="hardClearCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="EX_HARD_CLEAR">EX HARD CLEAR</td><td style="padding-left:0.5em;text-align:right;"><span id="exhClearCnt"></span>曲</td>
+					<td class="EX_HARD_CLEAR" onclick="filter('CLEARSTATUS', 'EX HARD CLEAR');" style="cursor:pointer;">EX HARD CLEAR</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="exhClearCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="FULL_COMBO">FULL COMBO</td><td style="padding-left:0.5em;text-align:right;"><span id="fullComboCnt"></span>曲</td>
+					<td class="FULL_COMBO" onclick="filter('CLEARSTATUS', 'FULL COMBO');" style="cursor:pointer;">FULL COMBO</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="fullComboCnt"></span>曲</td>
 				</tr>
 			</table>
 			<table style="font-size:1em;">
 				<tr>
-					<td class="PLAYRESULT AAA" style="text-align:center;padding-left:0.2em;padding-right:0.2em;">AAA</td><td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="aaaCnt"></span>曲</td>
-				
-					<td class="PLAYRESULT AA" style="text-align:center;padding-left:0.5em;padding-right:0.5em;">AA</td><td style="padding-left:0.5em;text-align:right;"><span id="aaCnt"></span>曲</td>
+					<td class="PLAYRESULT AAA" style="cursor:pointer;text-align:center;padding-left:0.2em;padding-right:0.2em;" onclick="filter('PLAYRESULT', 'AAA');">AAA</td>
+					<td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="aaaCnt"></span>曲</td>
+					<td class="PLAYRESULT AA" style="cursor:pointer;text-align:center;padding-left:0.5em;padding-right:0.5em;" onclick="filter('PLAYRESULT', 'AA');">AA</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="aaCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="PLAYRESULT A" style="text-align:center;">A</td><td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="aCnt"></span>曲</td>
-				
-					<td class="PLAYRESULT B" style="text-align:center;">B</td><td style="padding-left:0.5em;text-align:right;"><span id="bCnt"></span>曲</td>
+					<td class="PLAYRESULT A" style="cursor:pointer;text-align:center;" onclick="filter('PLAYRESULT', 'A');">A</td>
+					<td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="aCnt"></span>曲</td>
+					<td class="PLAYRESULT B" style="cursor:pointer;text-align:center;" onclick="filter('PLAYRESULT', 'B');">B</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="bCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="PLAYRESULT C" style="text-align:center;">C</td><td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="cCnt"></span>曲</td>
-				
-					<td class="PLAYRESULT D" style="text-align:center;">D</td><td style="padding-left:0.5em;text-align:right;"><span id="dCnt"></span>曲</td>
+					<td class="PLAYRESULT C" style="cursor:pointer;text-align:center;" onclick="filter('PLAYRESULT', 'C');">C</td>
+					<td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="cCnt"></span>曲</td>
+					<td class="PLAYRESULT D" style="cursor:pointer;text-align:center;" onclick="filter('PLAYRESULT', 'D');">D</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="dCnt"></span>曲</td>
 				</tr>
 				<tr>
-					<td class="PLAYRESULT E" style="text-align:center;">E</td><td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="eCnt"></span>曲</td>
-				
-					<td class="PLAYRESULT F" style="text-align:center;">F</td><td style="padding-left:0.5em;text-align:right;"><span id="fCnt"></span>曲</td>
+					<td class="PLAYRESULT E" style="cursor:pointer;text-align:center;" onclick="filter('PLAYRESULT', 'E');">E</td>
+					<td style="padding-left:0.5em;text-align:right;padding-right:0.5em;"><span id="eCnt"></span>曲</td>
+					<td class="PLAYRESULT F" style="cursor:pointer;text-align:center;" onclick="filter('PLAYRESULT', 'F');">F</td>
+					<td style="padding-left:0.5em;text-align:right;"><span id="fCnt"></span>曲</td>
 				</tr>
 			</table>
 			<div style="margin-top:0.5em;">
@@ -111,7 +124,7 @@
 					</select>
 				</div>
 				<div>
-					<select name="LV" value="1" onchange="init();" style="padding-left:0.2em;padding-right:0.2em;">
+					<select name="LV" value="1" onchange="filterOption = null;init();" style="padding-left:0.2em;padding-right:0.2em;">
 						<option value="1">LEVEL 1</option>
 						<option value="2">LEVEL 2</option>
 						<option value="3">LEVEL 3</option>
