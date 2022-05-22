@@ -1,59 +1,59 @@
 // Play Data
 let playData;
-// •\¦—pƒf[ƒ^
+// è¡¨ç¤ºç”¨ãƒ‡ãƒ¼ã‚¿
 let mergedMusicData;
 /**
- * ‰Šú•\¦ˆ—
+ * åˆæœŸè¡¨ç¤ºå‡¦ç†
  */
 function dataInit(){
 	
 	// localStorage.removeItem("playData");
 	
-	// ƒXƒgƒŒ[ƒW‚©‚çƒf[ƒ^‚ğæ“¾
+	// ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã‹ã‚‰ãƒ‡ãƒ¼ã‚¿ã‚’å–å¾—
 	playData = localStorage.getItem("playData");
-	// æ“¾‚Å‚«‚½ê‡
+	// å–å¾—ã§ããŸå ´åˆ
 	if(playData){
-		// JSON•ÏŠ·
+		// JSONå¤‰æ›
 		playData = JSON.parse(playData);
-		// ‹Èƒf[ƒ^ƒ‹[ƒv
+		// æ›²ãƒ‡ãƒ¼ã‚¿ãƒ«ãƒ¼ãƒ—
 		musicData.forEach(function(rec){
-			// ƒf[ƒ^—L–³
+			// ãƒ‡ãƒ¼ã‚¿æœ‰ç„¡
 			let hasData = false;
-			// ƒvƒŒƒCƒf[ƒ^ƒ‹[ƒv
+			// ãƒ—ãƒ¬ã‚¤ãƒ‡ãƒ¼ã‚¿ãƒ«ãƒ¼ãƒ—
 			for(let i = 0; i < playData.length; i++){
-				// “¯ƒ^ƒCƒgƒ‹‚Ì‹È‚Ìê‡
+				// åŒã‚¿ã‚¤ãƒˆãƒ«ã®æ›²ã®å ´åˆ
 				if(rec.TITLE == playData[i].TITLE){
-					// ƒf[ƒ^—L
+					// ãƒ‡ãƒ¼ã‚¿æœ‰
 					hasData = true;
-					// ‚±‚êˆÈãƒ‹[ƒv‚µ‚È‚¢
+					// ã“ã‚Œä»¥ä¸Šãƒ«ãƒ¼ãƒ—ã—ãªã„
 					break;
 				}
 			}
-			// ƒf[ƒ^‚ª–³‚¢ê‡
+			// ãƒ‡ãƒ¼ã‚¿ãŒç„¡ã„å ´åˆ
 			if(!hasData){
-				// ƒvƒŒƒCƒf[ƒ^‚Ì‰Šú¶¬
+				// ãƒ—ãƒ¬ã‚¤ãƒ‡ãƒ¼ã‚¿ã®åˆæœŸç”Ÿæˆ
 				playData.push(makeInitData(rec));
 			}
 		});
-		// ƒXƒgƒŒ[ƒW‚ğXV
+		// ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã‚’æ›´æ–°
 		localStorage.setItem("playData", JSON.stringify(playData));
-	// ƒf[ƒ^‚È‚µ
+	// ãƒ‡ãƒ¼ã‚¿ãªã—
 	}else{
-		// ƒvƒŒƒCƒf[ƒ^‚Ì‰Šú‰»
+		// ãƒ—ãƒ¬ã‚¤ãƒ‡ãƒ¼ã‚¿ã®åˆæœŸåŒ–
 		playData = new Array();
-		// ‹Èƒf[ƒ^ƒ‹[ƒv
+		// æ›²ãƒ‡ãƒ¼ã‚¿ãƒ«ãƒ¼ãƒ—
 		musicData.forEach(function(rec){
-			// ƒvƒŒƒCƒf[ƒ^‚Ì‰Šú¶¬
+			// ãƒ—ãƒ¬ã‚¤ãƒ‡ãƒ¼ã‚¿ã®åˆæœŸç”Ÿæˆ
 			playData.push(makeInitData(rec));
 		});
-		// ƒXƒgƒŒ[ƒW‚ğXV
+		// ã‚¹ãƒˆãƒ¬ãƒ¼ã‚¸ã‚’æ›´æ–°
 		localStorage.setItem("playData", JSON.stringify(playData));
 	}
-	// ‹Èƒf[ƒ^‚ğƒ‹[ƒv
+	// æ›²ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ«ãƒ¼ãƒ—
 	musicData.forEach(function(rec){
-		// ƒvƒŒƒCƒf[ƒ^‚ğƒ‹[ƒv
+		// ãƒ—ãƒ¬ã‚¤ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ«ãƒ¼ãƒ—
 		for(let i = 0; i < playData.length; i++){
-			// ‹È–¼‚ª“¯‚¶ê‡
+			// æ›²åãŒåŒã˜å ´åˆ
 			if(rec.TITLE == playData[i].TITLE){
 				
 				if(rec.SPN){
@@ -115,12 +115,17 @@ function filter(argType, argFilter){
 	closeOption();
 }
 
+function clearFilter(){
+	clearStatusFilter = null;
+	playResultFilter = null;
+}
+
 function init(){
-	// SP/DPæ“¾
+	// SP/DPå–å¾—
 	const spdp = document.forms[0].SPDP.value;
-	// •\¦—pƒf[ƒ^‚Ì‰Šú‰»
+	// è¡¨ç¤ºç”¨ãƒ‡ãƒ¼ã‚¿ã®åˆæœŸåŒ–
 	mergedMusicData = new Array();
-	// LVæ“¾
+	// LVå–å¾—
 	const lv = document.forms[0].LV.value;
 
 	musicData.forEach(function(rec){
@@ -185,9 +190,9 @@ function init(){
 			}
 		}
 	});
-	// Data Tableæ“¾
+	// Data Tableå–å¾—
 	const dt = document.getElementById("dt");
-	// •\¦“à—e‚ğƒNƒŠƒA
+	// è¡¨ç¤ºå†…å®¹ã‚’ã‚¯ãƒªã‚¢
 	dt.innerHTML = null;
 	
 	mergedMusicData.sort(function(a, b){
@@ -214,10 +219,14 @@ function init(){
 		}
 		
 		if(clearStatusFilter != null){
-			if(clearStatusFilter == '–¢‰ğ‹Ö' && rec.OPEN){
-				return;
-			}else if(clearStatusFilter != rec.CLEARSTATUS){
-				return;
+			if(clearStatusFilter == 'æœªè§£ç¦'){
+				if(rec.OPEN){
+					return;
+				}
+			}else{
+				 if(clearStatusFilter != rec.CLEARSTATUS){
+					return;
+				}
 			}
 		}
 		
@@ -430,7 +439,7 @@ function createDiv(option){
 }
 
 function makeInitData(rec){
-	// ‰Šú‰»ƒf[ƒ^
+	// åˆæœŸåŒ–ãƒ‡ãƒ¼ã‚¿
 	const initialData = {
 		OPEN:false,
 		CLEARSTATUS:"NO PLAY",
@@ -438,35 +447,35 @@ function makeInitData(rec){
 		EXSCORE:0,
 		MISSCOUNT:0
 	}
-	// ƒRƒs[—pƒf[ƒ^‚Ì€”õ
+	// ã‚³ãƒ”ãƒ¼ç”¨ãƒ‡ãƒ¼ã‚¿ã®æº–å‚™
 	const copyData = {};
-	// ƒ^ƒCƒgƒ‹‚ğƒRƒs[
+	// ã‚¿ã‚¤ãƒˆãƒ«ã‚’ã‚³ãƒ”ãƒ¼
 	copyData.TITLE = rec.TITLE;
-	// SPNƒf[ƒ^‚ÌƒRƒs[
+	// SPNãƒ‡ãƒ¼ã‚¿ã®ã‚³ãƒ”ãƒ¼
 	if(rec.SPN){
 		copyData.SPN = JSON.parse(JSON.stringify(initialData));
 	}
-	// SPHƒf[ƒ^‚ÌƒRƒs[
+	// SPHãƒ‡ãƒ¼ã‚¿ã®ã‚³ãƒ”ãƒ¼
 	if(rec.SPH){
 		copyData.SPH = JSON.parse(JSON.stringify(initialData));
 	}
-	// SPAƒf[ƒ^‚ÌƒRƒs[
+	// SPAãƒ‡ãƒ¼ã‚¿ã®ã‚³ãƒ”ãƒ¼
 	if(rec.SPA){
 		copyData.SPA = JSON.parse(JSON.stringify(initialData));
 	}
-	// DPNƒf[ƒ^‚ÌƒRƒs[
+	// DPNãƒ‡ãƒ¼ã‚¿ã®ã‚³ãƒ”ãƒ¼
 	if(rec.DPN){
 		copyData.DPN = JSON.parse(JSON.stringify(initialData));
 	}
-	// DPHƒf[ƒ^‚ÌƒRƒs[
+	// DPHãƒ‡ãƒ¼ã‚¿ã®ã‚³ãƒ”ãƒ¼
 	if(rec.DPH){
 		copyData.DPH = JSON.parse(JSON.stringify(initialData));
 	}
-	// DPAƒf[ƒ^‚ÌƒRƒs[
+	// DPAãƒ‡ãƒ¼ã‚¿ã®ã‚³ãƒ”ãƒ¼
 	if(rec.DPA){
 		copyData.DPA = JSON.parse(JSON.stringify(initialData));
 	}
-	// ƒRƒs[ƒf[ƒ^‚ğ•Ô‹p
+	// ã‚³ãƒ”ãƒ¼ãƒ‡ãƒ¼ã‚¿ã‚’è¿”å´
 	return copyData;
 }
 
@@ -607,14 +616,14 @@ function calc(notes, exscore){
 		detail:""
 	};
 	/*
-		AAAc8/9ˆÈã
-		AAc7/9ˆÈã
-		Ac6/9ˆÈã
-		Bc5/9ˆÈã
-		Cc4/9ˆÈã
-		Dc3/9ˆÈã
-		Ec2/9ˆÈã
-		Fc2/9–¢–
+		AAAâ€¦8/9ä»¥ä¸Š
+		AAâ€¦7/9ä»¥ä¸Š
+		Aâ€¦6/9ä»¥ä¸Š
+		Bâ€¦5/9ä»¥ä¸Š
+		Câ€¦4/9ä»¥ä¸Š
+		Dâ€¦3/9ä»¥ä¸Š
+		Eâ€¦2/9ä»¥ä¸Š
+		Fâ€¦2/9æœªæº€
 	*/
 	const max = notes * 2;
 	
