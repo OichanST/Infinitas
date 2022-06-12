@@ -17302,27 +17302,27 @@
 		TIME:'',
 		SPN:{
 			DIFFICULT:5,
-			NOTES:0 
+			NOTES:730 
 		},
 		SPH:{
 			DIFFICULT:8,
-			NOTES:0 
+			NOTES:1100 
 		},
 		SPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1348 
 		},
 		DPN:{
 			DIFFICULT:7,
-			NOTES:0 
+			NOTES:752 
 		},
 		DPH:{
 			DIFFICULT:9,
-			NOTES:0 
+			NOTES:1130 
 		},
 		DPA:{
 			DIFFICULT:10,
-			NOTES:0 
+			NOTES:1572 
 		}
 	},
 	{
@@ -39378,6 +39378,76 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1953
+		}
+	},
+	{
+		TITLE:'Let\'s bounce !!',
+		GENRE:'FUTURE HOUSE',
+		ARTIST:'BEMANI Sound Team "Sota F."',
+		FOLDER:'CANNON BALLERS',
+		BPM:'138',
+		TIME:'1:58',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:373
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:658
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1146
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:396
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:684
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1143
+		}
+	},
+	{
+		TITLE:'Xperanza',
+		GENRE:'HYBRID HARDCORE',
+		ARTIST:'aran',
+		FOLDER:'CANNON BALLERS',
+		BPM:'200',
+		TIME:'2:05',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:701
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1238
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1637
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:690
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1141
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1698
 		}
 	}
 ];
