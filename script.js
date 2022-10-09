@@ -203,10 +203,14 @@ function init(){
 			return -1;
 		}
 		
-		if(a.TITLE.match(/^[0-9|\.]/) && !(b.TITLE.match(/^[0-9|\.]/) && b.TITLE.match(/^[a-zA-Z]/))){
-			return 1;
-		}else if(!(a.TITLE.match(/^[0-9|\.]/) && a.TITLE.match(/^[a-zA-Z]/)) && b.TITLE.match(/^[0-9|\.]/)){
-			return -1;
+		if(a.TITLE.match(/^[0-9|\.]/) && !b.TITLE.match(/^[0-9|\.]/)){
+			if(b.TITLE.match(/^[a-zA-Z]/))){
+				return 1;
+			}
+		}else if(!a.TITLE.match(/^[0-9|\.]/) && b.TITLE.match(/^[0-9|\.]/)){
+			f(a.TITLE.match(/^[a-zA-Z]/))){
+				return -1;
+			}
 		}
 		
 		if(a.TITLE.toUpperCase() > b.TITLE.toUpperCase()){
