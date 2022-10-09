@@ -226,8 +226,8 @@ function init(){
 		
 		if(!a.SORT && !b.SORT){
 		
-			let aTITLE = a.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0");
-			let bTITLE = b.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0");
+			let aTITLE = a.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0").replace("Ü", "U");
+			let bTITLE = b.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0").replace("Ü", "U");
 			
 			if(aTITLE == "ＵＬＴｉＭΛＴＥ"){
 				aTITLE = "ULTiMATE";
