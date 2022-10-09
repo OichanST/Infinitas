@@ -640,7 +640,7 @@ function calc(notes, exscore){
 	const rate = exscore / max;
 	
 	if(rate == 1){
-		ret.result = "MAX";
+		ret.result = "AAA";
 		ret.detail = "MAX+0";
 	}else if(rate >= (8 / 9)){
 		ret.result = "AAA";
