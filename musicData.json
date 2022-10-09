@@ -41813,5 +41813,106 @@
 			DIFFICULT:10,
 			NOTES:1045
 		}
+	},
+	{
+		TITLE:'Snow Goose',
+		GENRE:'ELECTRIC POP',
+		ARTIST:'Mutsuhiko Izumi',
+		FOLDER:'Lincle',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'1:41',
+		SPN:{
+			DIFFICULT:3,
+			NOTES:188
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:691
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1238
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:239
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1017
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1394
+		}
+	},
+	{
+		TITLE:'Welcome',
+		GENRE:'HARDCORE',
+		ARTIST:'Uraken',
+		FOLDER:'copula',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:440
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:919
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1357
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:727
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:967
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1326
+		}
+	},
+	{
+		TITLE:'MAXIVCORD',
+		GENRE:'ADMIRABLE',
+		ARTIST:'BEMANI Sound Team "dj TAKA"',
+		FOLDER:'CANNON BALLERS',
+		CATEGORY:'',
+		BPM:'154',
+		TIME:'1:38',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:413
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:752
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1256
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:418
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:771
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1175
+		}
 	}
 ];
