@@ -41774,5 +41774,44 @@
 			DIFFICULT:12,
 			NOTES:1915
 		}
+	},
+	{
+		TITLE:'HEARTACHE',
+		GENRE:'HEALING FUTURE',
+		ARTIST:'BEMANI Sound Team "HuΣeR" feat.ゆきまめ',
+		FOLDER:'Cast Hour',
+		CATEGORY:'',
+		BPM:'90',
+		TIME:'1:59',
+		SPN:{
+			MSS:true,
+			DIFFICULT:3,
+			NOTES:251
+		},
+		SPH:{
+			MSS:true,
+			DIFFICULT:7,
+			NOTES:603
+		},
+		SPA:{
+			MSS:true,
+			DIFFICULT:10,
+			NOTES:930
+		},
+		DPN:{
+			MSS:true,
+			DIFFICULT:3,
+			NOTES:371
+		},
+		DPH:{
+			MSS:true,
+			DIFFICULT:7,
+			NOTES:689
+		},
+		DPA:{
+			MSS:true,
+			DIFFICULT:10,
+			NOTES:1045
+		}
 	}
 ];
