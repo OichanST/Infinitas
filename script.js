@@ -203,9 +203,9 @@ function init(){
 			return -1;
 		}
 		
-		if(a.TITLE.match(/^[0-9|\.]/) && !b.TITLE.match(/^[0-9|\.]/)){
+		if(a.TITLE.match(/^[0-9|\.]/) && !(b.TITLE.match(/^[0-9|\.]/) && b.TITLE.match(/^[a-zA-Z]/))){
 			return 1;
-		}else if(!a.TITLE.match(/^[0-9|\.]/) && b.TITLE.match(/^[0-9|\.]/)){
+		}else if(!(a.TITLE.match(/^[0-9|\.]/) && a.TITLE.match(/^[a-zA-Z]/)) && b.TITLE.match(/^[0-9|\.]/)){
 			return -1;
 		}
 		
