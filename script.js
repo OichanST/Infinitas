@@ -221,9 +221,17 @@ function init(){
 		}
 		
 		if(!a.SORT && !b.SORT){
-			if(a.TITLE.toUpperCase() > b.TITLE.toUpperCase()){
+			let aTITLE = a.TITLE;
+			let bTITLE = b.TITLE;
+			if(aTITLE.startsWith("(")){
+				aTITLE = aTITLE.replace("(", "");
+			}
+			if(bTITLE.startsWith("(")){
+				bTITLE = bTITLE.replace("(", "");
+			}
+			if(aTITLE.toUpperCase() > bTITLE.toUpperCase()){
 				return 1;
-			}else if(a.TITLE.toUpperCase() < b.TITLE.toUpperCase()){
+			}else if(aTITLE.toUpperCase() < bTITLE.toUpperCase()){
 				return -1;
 			}
 		}
