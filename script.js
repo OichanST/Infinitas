@@ -213,10 +213,23 @@ function init(){
 			}
 		}
 		
-		if(a.TITLE.toUpperCase() > b.TITLE.toUpperCase()){
+		if(a.SORT && !b.SORT){
 			return 1;
-		}else if(a.TITLE.toUpperCase() < b.TITLE.toUpperCase()){
+		}
+		if(!a.SORT && b.SORT){
 			return -1;
+		}
+		
+		if(!a.SORT && !b.SORT){
+			if(a.TITLE.toUpperCase() > b.TITLE.toUpperCase()){
+				return 1;
+			}else if(a.TITLE.toUpperCase() < b.TITLE.toUpperCase()){
+				return -1;
+			}
+		}
+		
+		if(a.SORT && b.SORT){
+			return a.SORT - b.SORT;
 		}
 		
 		return 0;
