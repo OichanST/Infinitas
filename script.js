@@ -219,19 +219,24 @@ function init(){
 		if(a.SORT && !b.SORT){
 			return 1;
 		}
+		
 		if(!a.SORT && b.SORT){
 			return -1;
 		}
 		
 		if(!a.SORT && !b.SORT){
-			let aTITLE = a.TITLE;
-			let bTITLE = b.TITLE;
-			if(aTITLE.startsWith("(")){
-				aTITLE = aTITLE.replace("(", "");
+		
+			let aTITLE = a.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0");
+			let bTITLE = b.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0");
+			
+			if(aTITLE == "ＵＬＴｉＭΛＴＥ"){
+				aTITLE = "ULTiMATE";
 			}
-			if(bTITLE.startsWith("(")){
-				bTITLE = bTITLE.replace("(", "");
+			
+			if(bTITLE == "ＵＬＴｉＭΛＴＥ"){
+				bTITLE = "ULTiMATE";
 			}
+
 			if(aTITLE.toUpperCase() > bTITLE.toUpperCase()){
 				return 1;
 			}else if(aTITLE.toUpperCase() < bTITLE.toUpperCase()){

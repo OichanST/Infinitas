@@ -370,7 +370,7 @@
 	},
 	{
 		TITLE:'†渚の小悪魔ラヴリィ～レイディオ†(IIDX EDIT)',
-		SORT:'117',
+		SORT:'116',
 		GENRE:'Hi-CORE',
 		ARTIST:'夏色ビキニのPrim',
 		FOLDER:'tricoro',
@@ -1750,12 +1750,12 @@
 		},
 		SPH:{
 			CN:true,
-			DIFFICULT:8,
+			DIFFICULT:9,
 			NOTES:879
 		},
 		SPA:{
 			CN:true,
-			DIFFICULT:10,
+			DIFFICULT:11,
 			NOTES:1480
 		},
 		DPN:{
@@ -1765,12 +1765,12 @@
 		},
 		DPH:{
 			CN:true,
-			DIFFICULT:8,
+			DIFFICULT:9,
 			NOTES:913
 		},
 		DPA:{
 			CN:true,
-			DIFFICULT:10,
+			DIFFICULT:11,
 			NOTES:1554
 		}
 	},
@@ -27434,7 +27434,7 @@
 			NOTES:627 
 		},
 		SPH:{
-			DIFFICULT:9,
+			DIFFICULT:8,
 			NOTES:1026 
 		},
 		SPA:{
@@ -33324,7 +33324,7 @@
 			NOTES:893 
 		},
 		SPA:{
-			DIFFICULT:10,
+			DIFFICULT:9,
 			NOTES:972 
 		},
 		DPN:{
@@ -36798,7 +36798,7 @@
 	},
 	{
 		TITLE:'ナイトシティー・アヴァンチュール',
-		SORT:'115',
+		SORT:'117',
 		GENRE:'歌謡ニューウェーブ',
 		ARTIST:'森永真由美',
 		FOLDER:'CANNON BALLERS',
@@ -40422,7 +40422,7 @@
 	},
 	{
 		TITLE:'嘆きの樹',
-		SORT:'116',
+		SORT:'115',
 		GENRE:'CONTEMPORARY',
 		ARTIST:'金獅子',
 		FOLDER:'DistorteD',
@@ -42188,6 +42188,72 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1586
+		}
+	},
+	{
+		TITLE:'Blind Justice ～Torn souls, Hurt Faiths～',
+		GENRE:'EPIC POETRY',
+		ARTIST:'Zektbach',
+		FOLDER:'GOLD',
+		CATEGORY:'',
+		BPM:'137-165',
+		TIME:'2:09',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:679
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:1001
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1245
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:618
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:950
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1134
+		}
+	},
+	{
+		TITLE:'Parasite World',
+		GENRE:'HYPER J-CORE',
+		ARTIST:'TЁЯRA underground',
+		FOLDER:'DistorteD',
+		CATEGORY:'',
+		BPM:'135',
+		TIME:'1:50',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:686
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:966
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1194
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:703
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:985
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1195
 		}
 	}
 ];
