@@ -208,7 +208,7 @@ function init(){
 				return 1;
 			}
 		}else if(!a.TITLE.match(/^[0-9|\.]/) && b.TITLE.match(/^[0-9|\.]/)){
-			f(a.TITLE.match(/^[a-zA-Z]/)){
+			if(a.TITLE.match(/^[a-zA-Z]/)){
 				return -1;
 			}
 		}
