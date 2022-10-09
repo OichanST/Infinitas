@@ -133,6 +133,7 @@ function init(){
 			if(rec[spdp + "N"].DIFFICULT == lv){
 				mergedMusicData.push({
 					TITLE:rec.TITLE,
+					SORT:rec.SORT,
 					BPM:rec.BPM,
 					NOTES:rec[spdp + "N"].NOTES,
 					type:"N",
@@ -153,6 +154,7 @@ function init(){
 			if(rec[spdp + "H"].DIFFICULT == lv){
 				mergedMusicData.push({
 					TITLE:rec.TITLE,
+					SORT:rec.SORT,
 					BPM:rec.BPM,
 					NOTES:rec[spdp + "H"].NOTES,
 					type:"H",
@@ -173,6 +175,7 @@ function init(){
 			if(rec[spdp + "A"].DIFFICULT == lv){
 				mergedMusicData.push({
 					TITLE:rec.TITLE,
+					SORT:rec.SORT,
 					BPM:rec.BPM,
 					NOTES:rec[spdp + "A"].NOTES,
 					type:"A",
