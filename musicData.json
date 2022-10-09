@@ -67,6 +67,7 @@
 	},
 	{
 		TITLE:'!Viva!',
+		SORT:'203',
 		GENRE:'TRIBAL HOUSE',
 		ARTIST:'Ryu*',
 		FOLDER:'SINOBUZ',
@@ -104,6 +105,7 @@
 	},
 	{
 		TITLE:'#MAGiCVLGiRL_TRVP_B3VTZ',
+		SORT:'102',
 		GENRE:'NEON/TWERKCORE',
 		ARTIST:'DJ Noriken',
 		FOLDER:'SINOBUZ',
@@ -138,6 +140,7 @@
 	},
 	{
 		TITLE:'#The_Relentless',
+		SORT:'187',
 		GENRE:'DUBCORE',
 		ARTIST:'DJ Noriken',
 		FOLDER:'PENDUAL',
@@ -287,6 +290,7 @@
 	},
 	{
 		TITLE:'《GRANDMASTER》',
+		SORT:'53',
 		GENRE:'TRIUMPH',
 		ARTIST:'Blacklolita',
 		FOLDER:'Cast Hour',
@@ -326,6 +330,7 @@
 	},
 	{
 		TITLE:'〆',
+		SORT:'157',
 		GENRE:'HiTECH',
 		ARTIST:'lapix',
 		FOLDER:'SINOBUZ',
@@ -365,6 +370,7 @@
 	},
 	{
 		TITLE:'†渚の小悪魔ラヴリィ～レイディオ†(IIDX EDIT)',
+		SORT:'117',
 		GENRE:'Hi-CORE',
 		ARTIST:'夏色ビキニのPrim',
 		FOLDER:'tricoro',
@@ -592,6 +598,45 @@
 		DPA:{
 			DIFFICULT:5,
 			NOTES:329 
+		}
+	},
+	{
+		TITLE:'24h Endurance Race',
+		GENRE:'HARDCORE',
+		ARTIST:'BEMANI Sound Team "Risk Junk"',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'184',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:504
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1096
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1743
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:634
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1160
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1915
 		}
 	},
 	{
@@ -1590,6 +1635,7 @@
 	},
 	{
 		TITLE:'ÆTHER',
+		SORT:'1',
 		GENRE:'ASTRAL HARDCORE',
 		ARTIST:'TAG underground',
 		FOLDER:'SPADA',
@@ -1687,6 +1733,45 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1320 
+		}
+	},
+	{
+		TITLE:'Afterimage d\'automne',
+		GENRE:'ASYMMETRY ART',
+		ARTIST:'BEMANI Sound Team "猫叉劇団"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'232',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:519
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:879
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1480
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:525
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:913
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1554
 		}
 	},
 	{
@@ -2988,6 +3073,39 @@
 		}
 	},
 	{
+		TITLE:'Arca',
+		GENRE:'GENESIS',
+		ARTIST:'BEMANI Sound Team "Akhuta Works"',
+		FOLDER:'SINOBUZ',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:468
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:961
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1602
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:485
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:975
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1606
+		}
+	},
+	{
 		TITLE:'Arcana',
 		GENRE:'UPLIFTING TRANCE',
 		ARTIST:'Maozon',
@@ -4046,6 +4164,39 @@
 		}
 	},
 	{
+		TITLE:'Believe In Me',
+		GENRE:'HARDCORE',
+		ARTIST:'Uraken feat. Calyn Tsukishima',
+		FOLDER:'Resort Anthem',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:533
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:962
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1213
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:502
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:916
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1200
+		}
+	},
+	{
 		TITLE:'Believe in you',
 		GENRE:'HARDCORE RAVE',
 		ARTIST:'DJ Shimamura feat. Renna',
@@ -4278,6 +4429,45 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1574 
+		}
+	},
+	{
+		TITLE:'BLACK JACKAL',
+		GENRE:'DANCE MUSIC',
+		ARTIST:'Akira Complex',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'1:58',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:428
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:812
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1183
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:428
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:813
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1138
 		}
 	},
 	{
@@ -4830,6 +5020,39 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:967 
+		}
+	},
+	{
+		TITLE:'Bow shock!!',
+		GENRE:'JAZZ PIANO TRANCE',
+		ARTIST:'Xceon',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'165',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:408
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:986
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1566
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:417
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:974
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1583
 		}
 	},
 	{
@@ -5436,6 +5659,39 @@
 		}
 	},
 	{
+		TITLE:'Broken My Heart',
+		GENRE:'HYPER EUROBEAT',
+		ARTIST:'NAOKI feat.PAULA TERRY',
+		FOLDER:'4th style',
+		CATEGORY:'',
+		BPM:'160',
+		TIME:'1:43',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:474
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:751
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:914
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:405
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:742
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:914
+		}
+	},
+	{
 		TITLE:'Broken Sword',
 		GENRE:'DUAL ANTIQUE',
 		ARTIST:'金獅子 VS 麒麟',
@@ -5834,6 +6090,45 @@
 		}
 	},
 	{
+		TITLE:'Carry Me Away',
+		GENRE:'FUTURE CORE',
+		ARTIST:'lapix',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'2:00',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:575
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:933
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1613
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:595
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:957
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1568
+		}
+	},
+	{
 		TITLE:'Castle on the Moon',
 		GENRE:'DANCE SPEED',
 		ARTIST:'青龍',
@@ -6227,6 +6522,39 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1061 
+		}
+	},
+	{
+		TITLE:'Chewingood!!!',
+		GENRE:'CHIP RAVE',
+		ARTIST:'TORIENA',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'190',
+		TIME:'1:58',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:435
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:761
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1317
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:446
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:780
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1304
 		}
 	},
 	{
@@ -7952,6 +8280,39 @@
 		}
 	},
 	{
+		TITLE:'DAY DREAM',
+		GENRE:'DARK PROGRESSIVE',
+		ARTIST:'Mutsuhiko Izumi',
+		FOLDER:'Lincle',
+		CATEGORY:'',
+		BPM:'80-300',
+		TIME:'1:30',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:295
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:685
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1075
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:318
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:644
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1018
+		}
+	},
+	{
 		TITLE:'Dazzlin\' Darlin',
 		GENRE:'HANDZ UP',
 		ARTIST:'HHH',
@@ -9131,6 +9492,39 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1127 
+		}
+	},
+	{
+		TITLE:'Dr. Chemical & Killing Machine',
+		GENRE:'INDUSTRIAL TECHNO',
+		ARTIST:'Hommarju',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'165',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:567
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:964
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1700
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:586
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:978
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1919
 		}
 	},
 	{
@@ -12257,6 +12651,43 @@
 		}
 	},
 	{
+		TITLE:'GENE',
+		GENRE:'TECHNO GRAFFITI',
+		ARTIST:'VINCENT GANATCH',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'163',
+		TIME:'※',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:664
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1009
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:2183
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:659
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:990
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1986
+		}
+	},
+	{
 		TITLE:'GENERATE feat.綾倉盟',
 		GENRE:'ELECTRONIC DANCE',
 		ARTIST:'Masayoshi Minoshima',
@@ -12864,6 +13295,51 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1363 
+		}
+	},
+	{
+		TITLE:'GO OVER WITH GLARE -ROOTAGE 26-',
+		GENRE:'HARD STYLE',
+		ARTIST:'BEMANI Sound Team "L.E.D.-G"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:548
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1160
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:2000
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:558
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1129
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1769
 		}
 	},
 	{
@@ -13704,6 +14180,45 @@
 			BSS:true,
 			DIFFICULT:10,
 			NOTES:1215 
+		}
+	},
+	{
+		TITLE:'HEARTACHE',
+		GENRE:'HEALING FUTURE',
+		ARTIST:'BEMANI Sound Team "HuΣeR" feat.ゆきまめ',
+		FOLDER:'Cast Hour',
+		CATEGORY:'',
+		BPM:'90',
+		TIME:'1:59',
+		SPN:{
+			MSS:true,
+			DIFFICULT:3,
+			NOTES:251
+		},
+		SPH:{
+			MSS:true,
+			DIFFICULT:7,
+			NOTES:603
+		},
+		SPA:{
+			MSS:true,
+			DIFFICULT:10,
+			NOTES:930
+		},
+		DPN:{
+			MSS:true,
+			DIFFICULT:3,
+			NOTES:371
+		},
+		DPH:{
+			MSS:true,
+			DIFFICULT:7,
+			NOTES:689
+		},
+		DPA:{
+			MSS:true,
+			DIFFICULT:10,
+			NOTES:1045
 		}
 	},
 	{
@@ -14780,6 +15295,84 @@
 		}
 	},
 	{
+		TITLE:'IDC feat.REVERBEE (Mo\'Cuts Ver)',
+		GENRE:'TECH-BREAKS',
+		ARTIST:'DJ Mass MAD Izm*',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'140',
+		TIME:'2:01',
+		SPN:{
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:557
+		},
+		SPH:{
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:818
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1145
+		},
+		DPN:{
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:553
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:779
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1017
+		}
+	},
+	{
+		TITLE:'IDOL syndrome.',
+		GENRE:'PSYCHEDELIC ROCK',
+		ARTIST:'RINA',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'145',
+		TIME:'2:07',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:382
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:738
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1109
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:397
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:720
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1183
+		}
+	},
+	{
 		TITLE:'iFUTURELIST',
 		GENRE:'FUTURELIST TYPE',
 		ARTIST:'AKIRA YAMAOKA',
@@ -15766,6 +16359,7 @@
 	},
 	{
 		TITLE:'IX',
+		SORT:'120',
 		GENRE:'BLOOD METAL',
 		ARTIST:'dj TAKA VS DJ TOTTO feat.藍',
 		FOLDER:'SPADA',
@@ -16408,6 +17002,43 @@
 		}
 	},
 	{
+		TITLE:'L.F.O',
+		GENRE:'UK HARDCORE',
+		ARTIST:'aran',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'2:08',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:444
+		},
+		SPH:{
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:898
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1687
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:448
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:847
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1697
+		}
+	},
+	{
 		TITLE:'La dolce primavera',
 		GENRE:'PRIMAVERA JAZZ WALTZ',
 		ARTIST:'OSTER project',
@@ -16506,6 +17137,42 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1255 
+		}
+	},
+	{
+		TITLE:'LADYBIRD',
+		GENRE:'GLITCH POP',
+		ARTIST:'YUC\'e',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'230',
+		TIME:'1:48',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:572
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:865
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1258
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:601
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:894
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1253
 		}
 	},
 	{
@@ -17436,6 +18103,45 @@
 		}
 	},
 	{
+		TITLE:'LOST TECHNOLOGIE',
+		GENRE:'TECHNO',
+		ARTIST:'かめりあ',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'157',
+		TIME:'2:04',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:590
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:984
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1822
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:644
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:1009
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1849
+		}
+	},
+	{
 		TITLE:'Lost wing at.0',
 		GENRE:'DRUM\'N\'BASS',
 		ARTIST:'猫叉Master+',
@@ -18177,6 +18883,45 @@
 		}
 	},
 	{
+		TITLE:'Mächö Mönky',
+		GENRE:'JUNGLE TERROR',
+		ARTIST:'kors k',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:00',
+		SPN:{
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:754
+		},
+		SPH:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1123
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1588
+		},
+		DPN:{
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:643
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1100
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1522
+		}
+	},
+	{
 		TITLE:'Macuilxochitl',
 		GENRE:'PIANO CONTEMPORARY',
 		ARTIST:'TOMOSUKE',
@@ -18535,6 +19280,41 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1572 
+		}
+	},
+	{
+		TITLE:'MAXIVCORD',
+		GENRE:'ADMIRABLE',
+		ARTIST:'BEMANI Sound Team "dj TAKA"',
+		FOLDER:'CANNON BALLERS',
+		CATEGORY:'',
+		BPM:'154',
+		TIME:'1:38',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:413
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:752
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1256
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:418
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:771
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1175
 		}
 	},
 	{
@@ -22018,6 +22798,45 @@
 		}
 	},
 	{
+		TITLE:'Playing With Fire',
+		GENRE:'SPEED RAVE',
+		ARTIST:'kors k',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'160',
+		TIME:'1:45',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:512
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:866
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1200
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:516
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:814
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1113
+		}
+	},
+	{
 		TITLE:'PLEASE DON\'T GO',
 		GENRE:'DISCO',
 		ARTIST:'ASLETICS',
@@ -24498,6 +25317,45 @@
 		}
 	},
 	{
+		TITLE:'Rising in the Sun(original mix)',
+		GENRE:'UK HARDCORE',
+		ARTIST:'kors k feat.Rie',
+		FOLDER:'GOLD',
+		CATEGORY:'',
+		BPM:'172',
+		TIME:'2:01',
+		SPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:477
+		},
+		SPH:{
+			HCN:true,
+			DIFFICULT:9,
+			NOTES:864
+		},
+		SPA:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1202
+		},
+		DPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:477
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:9,
+			NOTES:839
+		},
+		DPA:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1187
+		}
+	},
+	{
 		TITLE:'RISLIM',
 		GENRE:'NEW ROMANTIC',
 		ARTIST:'ric',
@@ -26811,6 +27669,42 @@
 		}
 	},
 	{
+		TITLE:'Six String Proof',
+		GENRE:'HARDROCK',
+		ARTIST:'BEMANI Sound Team "Yvya × Mutsuhiko Izumi"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'130',
+		TIME:'1:46',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:455
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:855
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1308
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:464
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:845
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1220
+		}
+	},
+	{
 		TITLE:'Sky High',
 		GENRE:'ANTHEM',
 		ARTIST:'Cuvelia',
@@ -27152,6 +28046,39 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1037 
+		}
+	},
+	{
+		TITLE:'Snow Goose',
+		GENRE:'ELECTRIC POP',
+		ARTIST:'Mutsuhiko Izumi',
+		FOLDER:'Lincle',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'1:41',
+		SPN:{
+			DIFFICULT:3,
+			NOTES:188
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:691
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1238
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:239
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1017
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1394
 		}
 	},
 	{
@@ -28243,6 +29170,45 @@
 		}
 	},
 	{
+		TITLE:'Starry Night',
+		GENRE:'HARDSTYLE',
+		ARTIST:'Massive New Krew feat.松平なな',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'155',
+		TIME:'2:13',
+		SPN:{
+			BSS:true,
+			DIFFICULT:4,
+			NOTES:467
+		},
+		SPH:{
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:847
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1268
+		},
+		DPN:{
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:542
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:926
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1254
+		}
+	},
+	{
 		TITLE:'State Of The Art',
 		GENRE:'TECHNOTRONICA',
 		ARTIST:'Sota Fujimori feat. cyborg AKEMI',
@@ -29256,6 +30222,35 @@
 			DIFFICULT:10,
 			NOTES:1107 
 		}
+	},
+	{
+		TITLE:'The Biggest Roaster',
+		GENRE:'FILTER HOUSE',
+		ARTIST:'D.J.Spugna',
+		FOLDER:'9th style',
+		CATEGORY:'',
+		BPM:'135',
+		TIME:'1:32',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:314
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:529
+		},
+		SPA:{
+			DIFFICULT:7,
+			NOTES:583
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:314
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:629
+		},
 	},
 	{
 		TITLE:'THE BLACK KNIGHT',
@@ -32346,6 +33341,46 @@
 		}
 	},
 	{
+		TITLE:'voltississimo',
+		GENRE:'VVV',
+		ARTIST:'BEMANI Sound Team "PHQUASE"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'225',
+		TIME:'1:56',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:613
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1135
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1888
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:613
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1146
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1824
+		}
+	},
+	{
 		TITLE:'Votum stellarum',
 		GENRE:'ANTHEM TRANCE',
 		ARTIST:'iconoclasm',
@@ -32575,6 +33610,39 @@
 		}
 	},
 	{
+		TITLE:'Watch Out Pt.2',
+		GENRE:'TECH-BREAKBEATS',
+		ARTIST:'DJ Mass MAD Izm* VS.DJ Yoshitaka',
+		FOLDER:'Resort Anthem',
+		CATEGORY:'',
+		BPM:'148',
+		TIME:'1:50',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:599
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:1029
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1506
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:616
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:961
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1322
+		}
+	},
+	{
 		TITLE:'waxing and wanding',
 		GENRE:'DANCE SPEED',
 		ARTIST:'青龍',
@@ -32638,6 +33706,39 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1180 
+		}
+	},
+	{
+		TITLE:'Welcome',
+		GENRE:'HARDCORE',
+		ARTIST:'Uraken',
+		FOLDER:'copula',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:440
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:919
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1357
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:727
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:967
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1326
 		}
 	},
 	{
@@ -33248,6 +34349,7 @@
 	},
 	{
 		TITLE:'Ｘ↑Ｘ↓',
+		SORT:'205',
 		GENRE:'新世紀進歩的羽扇子音楽',
 		ARTIST:'DJ TECHNORCH',
 		FOLDER:'PENDUAL',
@@ -33310,6 +34412,46 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1329 
+		}
+	},
+	{
+		TITLE:'X-DEN',
+		SORT:'78',
+		GENRE:'ULTIΣATE COLLARBORATION',
+		ARTIST:'T.Σ.Generation',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'※',
+		SPN:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:861
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1418
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2220
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:896
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1495
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2220
 		}
 	},
 	{
@@ -34072,6 +35214,7 @@
 	},
 	{
 		TITLE:'ΕΛΠΙΣ',
+		SORT:'42',
 		GENRE:'ROMANTIC SCHOOL VARIATIONS',
 		ARTIST:'dj TAKA',
 		FOLDER:'tricoro',
@@ -34105,6 +35248,7 @@
 	},
 	{
 		TITLE:'アストライアの双皿',
+		SORT:'14',
 		GENRE:'ZODIAC ORACLE 7',
 		ARTIST:'ZODIACSYNDICATE',
 		FOLDER:'tricoro',
@@ -34144,6 +35288,7 @@
 	},
 	{
 		TITLE:'アタック NO.3',
+		SORT:'10',
 		GENRE:'DRAGON\'BASS',
 		ARTIST:'IDEA NOTE',
 		FOLDER:'EMPRESS',
@@ -34177,6 +35322,7 @@
 	},
 	{
 		TITLE:'アルストロメリア',
+		SORT:'6',
 		GENRE:'BLOOM FUSION',
 		ARTIST:'TAG',
 		FOLDER:'SPADA',
@@ -34210,6 +35356,7 @@
 	},
 	{
 		TITLE:'イザナミノナゲキ',
+		SORT:'68',
 		GENRE:'WORLD/ELECTRONICA',
 		ARTIST:'猫叉Master',
 		FOLDER:'SINOBUZ',
@@ -34249,6 +35396,7 @@
 	},
 	{
 		TITLE:'うさ☆かめ 大戦争！',
+		SORT:'200',
 		GENRE:'プログレッシブ徒競走',
 		ARTIST:'ARM×狐夢想 feat. I\'ve : 柚子乃 & RINA',
 		FOLDER:'CANNON BALLERS',
@@ -34282,6 +35430,7 @@
 	},
 	{
 		TITLE:'エディブルフラワーの独白',
+		SORT:'38',
 		GENRE:'HARD FRENCH',
 		ARTIST:'OSTER project feat. 常盤ゆう',
 		FOLDER:'CANNON BALLERS',
@@ -34315,6 +35464,7 @@
 	},
 	{
 		TITLE:'おおきなこえで',
+		SORT:'132',
 		GENRE:'WORLD/POPS',
 		ARTIST:'猫叉Master feat.Sana',
 		FOLDER:'Resort Anthem',
@@ -34348,6 +35498,7 @@
 	},
 	{
 		TITLE:'おーまい！らぶりー！すうぃーてぃ！だーりん！',
+		SORT:'125',
 		GENRE:'LOVELY YOUTH',
 		ARTIST:'BEMANI Sound Team "PON" feat.NU-KO',
 		FOLDER:'Rootage',
@@ -34381,6 +35532,7 @@
 	},
 	{
 		TITLE:'オルタネイトβ',
+		SORT:'7',
 		GENRE:'HYPER J-POP',
 		ARTIST:'Xceon feat. Mayumi Morinaga',
 		FOLDER:'copula',
@@ -34414,6 +35566,7 @@
 	},
 	{
 		TITLE:'お菓子の王国',
+		SORT:'22',
 		GENRE:'SPEED CANDY',
 		ARTIST:'Snail\'s House',
 		FOLDER:'Rootage',
@@ -34447,6 +35600,7 @@
 	},
 	{
 		TITLE:'お願いアインシュタイン',
+		SORT:'127',
 		GENRE:'CYBER SYMPHONIC POP',
 		ARTIST:'中山真斗 feat.桜川めぐ',
 		FOLDER:'SPADA',
@@ -34480,6 +35634,7 @@
 	},
 	{
 		TITLE:'お米の美味しい炊き方、そしてお米を食べることによるその効果。',
+		SORT:'62',
 		GENRE:'お米タル',
 		ARTIST:'大日本鉄倶楽部【あさき＆９６】',
 		FOLDER:'tricoro',
@@ -34513,6 +35668,7 @@
 	},
 	{
 		TITLE:'お命ちょうDAI！901娘',
+		SORT:'126',
 		GENRE:'演歌ブレイクス',
 		ARTIST:'DJ SHARPNEL feat. みらい',
 		FOLDER:'SINOBUZ',
@@ -34546,6 +35702,7 @@
 	},
 	{
 		TITLE:'か・し・ま・し☆PUMP UP！',
+		SORT:'81',
 		GENRE:'SUMMER WORKOUT',
 		ARTIST:'miko',
 		FOLDER:'copula',
@@ -34579,6 +35736,7 @@
 	},
 	{
 		TITLE:'かげぬい ～ Ver.BENIBOTAN ～',
+		SORT:'75',
 		GENRE:'NATSU MATSURI',
 		ARTIST:'CULTVOICE by S.S.D.PRODUCTS',
 		FOLDER:'Resort Anthem',
@@ -34618,6 +35776,7 @@
 	},
 	{
 		TITLE:'カジノファイヤーことみちゃん',
+		SORT:'20',
 		GENRE:'電波',
 		ARTIST:'ARM feat. 山本椛 + Brasscapsule',
 		FOLDER:'tricoro',
@@ -34655,6 +35814,7 @@
 	},
 	{
 		TITLE:'かずあそび',
+		SORT:'82',
 		GENRE:'INSANIO',
 		ARTIST:'CULTVOICE by S.S.D.PRODUCTS',
 		FOLDER:'SIRIUS',
@@ -34693,6 +35853,7 @@
 	},
 	{
 		TITLE:'カミロ・ウナ・メンデス',
+		SORT:'21',
 		GENRE:'SPANISH COOL',
 		ARTIST:'山根ミチル',
 		FOLDER:'GOLD',
@@ -34722,6 +35883,7 @@
 	},
 	{
 		TITLE:'キャッシュレスは愛情消すティッシュ',
+		SORT:'189',
 		GENRE:'K-GROOVE',
 		ARTIST:'GINGER',
 		FOLDER:'HAPPY SKY',
@@ -34755,6 +35917,7 @@
 	},
 	{
 		TITLE:'キャトられ♥恋はモ～モク',
+		SORT:'95',
 		GENRE:'Hi-ν BLEEP',
 		ARTIST:'ギュ～っとしたい♥Prim',
 		FOLDER:'tricoro',
@@ -34788,6 +35951,7 @@
 	},
 	{
 		TITLE:'ギョギョっと人魚♨爆婚ブライダル',
+		SORT:'52',
 		GENRE:'Hi-RESORT電波',
 		ARTIST:'海の底からマーメイド Prim by ARM×狐夢想',
 		FOLDER:'copula',
@@ -34824,7 +35988,42 @@
 		}
 	},
 	{
+		TITLE:'グラナダの風',
+		SORT:'51',
+		GENRE:'SPANISH GUITAR',
+		ARTIST:'BEMANI Sound Team "劇団レコード"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'130',
+		TIME:'1:52',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:414
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:637
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:954
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:426
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:642
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:985
+		}
+	},
+	{
 		TITLE:'クルクル☆ラブ～Opioid Peptide MIX～',
+		SORT:'28',
 		GENRE:'FUTURE POP',
 		ARTIST:'イオンチャンネル',
 		FOLDER:'GOLD',
@@ -34858,6 +36057,7 @@
 	},
 	{
 		TITLE:'コスモス',
+		SORT:'27',
 		GENRE:'J-POP',
 		ARTIST:'TSU-NA',
 		FOLDER:'SIRIUS',
@@ -34891,6 +36091,7 @@
 	},
 	{
 		TITLE:'こっちを向いてよ',
+		SORT:'91',
 		GENRE:'SOUL',
 		ARTIST:'vivi',
 		FOLDER:'6th style',
@@ -34924,6 +36125,7 @@
 	},
 	{
 		TITLE:'サヨナラ・ヘヴン',
+		SORT:'146',
 		GENRE:'WORLD/ELECTRONICA',
 		ARTIST:'猫叉Master',
 		FOLDER:'SIRIUS',
@@ -34957,6 +36159,7 @@
 	},
 	{
 		TITLE:'システムロマンス',
+		SORT:'172',
 		GENRE:'ムートラ（ムードトランス）',
 		ARTIST:'ヒロシ＆チー子',
 		FOLDER:'10th style',
@@ -34986,6 +36189,7 @@
 	},
 	{
 		TITLE:'シムルグの目醒め',
+		SORT:'31',
 		GENRE:'NATURE',
 		ARTIST:'BEMANI Sound Team "DJ TOTTO" feat.rionos',
 		FOLDER:'CANNON BALLERS',
@@ -35019,6 +36223,7 @@
 	},
 	{
 		TITLE:'シュッパツシンコウ・シサカンコ',
+		SORT:'173',
 		GENRE:'KANA-POP',
 		ARTIST:'星野奏子',
 		FOLDER:'copula',
@@ -35052,6 +36257,7 @@
 	},
 	{
 		TITLE:'シュレーディンガーの猫',
+		SORT:'147',
 		GENRE:'TOY CONTEMPORARY',
 		ARTIST:'Cait Sith',
 		FOLDER:'tricoro',
@@ -35085,6 +36291,7 @@
 	},
 	{
 		TITLE:'セカンドピアス',
+		SORT:'148',
 		GENRE:'GIRLS ROCK',
 		ARTIST:'OSTER project feat. echo',
 		FOLDER:'Rootage',
@@ -35118,6 +36325,7 @@
 	},
 	{
 		TITLE:'セピアの軌跡 ft. 天宮みや(少女フラクタル)',
+		SORT:'152',
 		GENRE:'MS J TRANCE POP',
 		ARTIST:'Xceon',
 		FOLDER:'HEROIC VERSE',
@@ -35162,6 +36370,7 @@
 	},
 	{
 		TITLE:'セロトニン',
+		SORT:'151',
 		GENRE:'ORBITALICTRO',
 		ARTIST:'U1 overground',
 		FOLDER:'copula',
@@ -35205,7 +36414,42 @@
 		}
 	},
 	{
+		TITLE:'それは花火のような恋',
+		SORT:'167',
+		GENRE:'Hi-歌謡コア',
+		ARTIST:'夏色バーニングラブ☆Prim',
+		FOLDER:'PENDUAL',
+		CATEGORY:'',
+		BPM:'182',
+		TIME:'2:05',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:649
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1321
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1976
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:664
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1261
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1930
+		}
+	},
+	{
 		TITLE:'タシカナモノ',
+		SORT:'176',
 		GENRE:'POPROCK',
 		ARTIST:'星野奏子 with the BAND',
 		FOLDER:'DistorteD',
@@ -35239,6 +36483,7 @@
 	},
 	{
 		TITLE:'たまゆら',
+		SORT:'174',
 		GENRE:'PROGRESSIVE',
 		ARTIST:'佐々木博史',
 		FOLDER:'tricoro',
@@ -35272,6 +36517,7 @@
 	},
 	{
 		TITLE:'ちらちら・はらはら',
+		SORT:'25',
 		GENRE:'ACEDIA',
 		ARTIST:'NU-KO',
 		FOLDER:'SINOBUZ',
@@ -35305,6 +36551,7 @@
 	},
 	{
 		TITLE:'ディッシュウォッシャー◎彡おいわちゃん',
+		SORT:'34',
 		GENRE:'ネオスカ電波',
 		ARTIST:'ARM×狐夢想 feat. 山本椛',
 		FOLDER:'SINOBUZ',
@@ -35338,6 +36585,7 @@
 	},
 	{
 		TITLE:'デッドボヲルdeホームラン',
+		SORT:'63',
 		GENRE:'ELECTRIC MANOUSH SWING',
 		ARTIST:'猫叉Masterβ2',
 		FOLDER:'SPADA',
@@ -35371,6 +36619,7 @@
 	},
 	{
 		TITLE:'デンドロビウム',
+		SORT:'35',
 		GENRE:'BLOOM FUSION',
 		ARTIST:'TAG',
 		FOLDER:'PENDUAL',
@@ -35408,6 +36657,7 @@
 	},
 	{
 		TITLE:'童話回廊',
+		SORT:'39',
 		GENRE:'空想ファンタジーシリーズ',
 		ARTIST:'DJ TOTTO',
 		FOLDER:'SINOBUZ',
@@ -35441,6 +36691,7 @@
 	},
 	{
 		TITLE:'ドッキン☆サマーあばんちゅーる',
+		SORT:'36',
 		GENRE:'ドタバタ☆夏休み',
 		ARTIST:'L.E.D.-G + Qrispy Joybox + ARM feat. ななひら',
 		FOLDER:'PENDUAL',
@@ -35474,6 +36725,7 @@
 	},
 	{
 		TITLE:'トリカゴノ鳳凰',
+		SORT:'192',
 		GENRE:'歌謡 DRUM & BASS',
 		ARTIST:'L.E.D. Vs. 幽閉サテライト',
 		FOLDER:'tricoro',
@@ -35512,6 +36764,7 @@
 	},
 	{
 		TITLE:'とろぴかる倶楽部',
+		SORT:'191',
 		GENRE:'TROPICAL',
 		ARTIST:'HALFBY',
 		FOLDER:'PENDUAL',
@@ -35545,6 +36798,7 @@
 	},
 	{
 		TITLE:'ナイトシティー・アヴァンチュール',
+		SORT:'115',
 		GENRE:'歌謡ニューウェーブ',
 		ARTIST:'森永真由美',
 		FOLDER:'CANNON BALLERS',
@@ -35578,6 +36832,7 @@
 	},
 	{
 		TITLE:'パ→ピ→プ→Yeah!',
+		SORT:'131',
 		GENRE:'電波ソング',
 		ARTIST:'ヒゲドライバー join. shully & Nimo',
 		FOLDER:'PENDUAL',
@@ -35619,6 +36874,7 @@
 	},
 	{
 		TITLE:'ハードベース・フェスタ',
+		SORT:'57',
 		GENRE:'A-STYLE RUSSIAN HARDBASS',
 		ARTIST:'かめりあ feat. ななひら',
 		FOLDER:'Rootage',
@@ -35652,6 +36908,7 @@
 	},
 	{
 		TITLE:'ハイ*ビスカス ft. Kanae Asaba',
+		SORT:'59',
 		GENRE:'YANKEE CAR J TRANCE',
 		ARTIST:'Xceon',
 		FOLDER:'CANNON BALLERS',
@@ -35685,6 +36942,7 @@
 	},
 	{
 		TITLE:'バスルーム ロマンス',
+		SORT:'16',
 		GENRE:'CLASSIC MOTIF',
 		ARTIST:'BEMANI Sound Team "Saori Watanabe"',
 		FOLDER:'CANNON BALLERS',
@@ -35718,6 +36976,7 @@
 	},
 	{
 		TITLE:'バビロニア',
+		SORT:'13',
 		GENRE:'DISTORTED NEW AGE',
 		ARTIST:'劇団レコード',
 		FOLDER:'SIRIUS',
@@ -35751,6 +37010,7 @@
 	},
 	{
 		TITLE:'ハリツヤランデヴー',
+		SORT:'58',
 		GENRE:'HOU-ROCK',
 		ARTIST:'Des-MASTERS',
 		FOLDER:'EMPRESS',
@@ -35784,6 +37044,7 @@
 	},
 	{
 		TITLE:'ピアノ協奏曲第１番”蠍火”',
+		SORT:'134',
 		GENRE:'DIRGE',
 		ARTIST:'virkato',
 		FOLDER:'RED',
@@ -35817,6 +37078,7 @@
 	},
 	{
 		TITLE:'ビューティフルレシート',
+		SORT:'17',
 		GENRE:'HAPPY HARDCORE',
 		ARTIST:'Lucky Vacuum',
 		FOLDER:'Lincle',
@@ -35850,6 +37112,7 @@
 	},
 	{
 		TITLE:'フェティッシュペイパー ～ 脇の汗回転ガール ～',
+		SORT:'46',
 		GENRE:'モッシュ',
 		ARTIST:'ガキ大将ティーム',
 		FOLDER:'SIRIUS',
@@ -35883,6 +37146,7 @@
 	},
 	{
 		TITLE:'ぷろぐれっしぶ時空少女！うらしまたろ子ちゃん！',
+		SORT:'136',
 		GENRE:'ぷろぐれっしぶ電波',
 		ARTIST:'ARM(IOSYS) feat. 山本椛',
 		FOLDER:'PENDUAL',
@@ -35916,6 +37180,7 @@
 	},
 	{
 		TITLE:'ベィスドロップ・フリークス',
+		SORT:'15',
 		GENRE:'A-STYLE DRUMSTEP',
 		ARTIST:'かめりあ feat. ななひら',
 		FOLDER:'PENDUAL',
@@ -35958,6 +37223,7 @@
 	},
 	{
 		TITLE:'マインド・ゲーム',
+		SORT:'112',
 		GENRE:'青春剛速球メタル',
 		ARTIST:'96 with メカショッチョー',
 		FOLDER:'SPADA',
@@ -35991,6 +37257,7 @@
 	},
 	{
 		TITLE:'マチ子の唄',
+		SORT:'166',
 		GENRE:'EDUCATION',
 		ARTIST:'AKIRA YAMAOKA',
 		FOLDER:'DJ TROOPERS',
@@ -36024,6 +37291,7 @@
 	},
 	{
 		TITLE:'まほろば',
+		SORT:'103',
 		GENRE:'J-DANCE POP',
 		ARTIST:'HHH+H',
 		FOLDER:'EMPRESS',
@@ -36057,6 +37325,7 @@
 	},
 	{
 		TITLE:'ミストレス・アンに花束を',
+		SORT:'18',
 		GENRE:'ELECTRONICA',
 		ARTIST:'soejima takuma feat. BEMANI Sound Team "猫叉Master"',
 		FOLDER:'Rootage',
@@ -36089,7 +37358,50 @@
 		}
 	},
 	{
+		TITLE:'ミッドナイト☆WAR',
+		SORT:'111',
+		GENRE:'BEMANIZED ROCKCORE',
+		ARTIST:'いちか',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'156',
+		TIME:'1:53',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:414
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:800
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1261
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:417
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:832
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1311
+		}
+	},
+	{
 		TITLE:'ミッドナイト堕天使',
+		SORT:'110',
 		GENRE:'TRENDY TECHNO',
 		ARTIST:'Dr. Honda',
 		FOLDER:'EMPRESS',
@@ -36123,6 +37435,7 @@
 	},
 	{
 		TITLE:'ミラージュ・レジデンス',
+		SORT:'113',
 		GENRE:'FUSION',
 		ARTIST:'Jimmy Weckl',
 		FOLDER:'DJ TROOPERS',
@@ -36156,6 +37469,7 @@
 	},
 	{
 		TITLE:'めいさいアイドル☆あいむちゃん♪',
+		SORT:'108',
 		GENRE:'電波デステクノ',
 		ARTIST:'DJ SHARPNEL feat. みらい',
 		FOLDER:'copula',
@@ -36189,6 +37503,7 @@
 	},
 	{
 		TITLE:'メイメツ、フラグメンツ',
+		SORT:'107',
 		GENRE:'CYBER SYMPHONIC POP',
 		ARTIST:'中山真斗(Elements Garden)feat.桜川めぐ',
 		FOLDER:'tricoro',
@@ -36222,6 +37537,7 @@
 	},
 	{
 		TITLE:'もっと！モット！ときめき feat. 松下',
+		SORT:'114',
 		GENRE:'きらめきコア',
 		ARTIST:'シャイニング度胸兄弟',
 		FOLDER:'PENDUAL',
@@ -36259,6 +37575,7 @@
 	},
 	{
 		TITLE:'ユミル',
+		SORT:'206',
 		GENRE:'SYMPHONIC-TEK',
 		ARTIST:'MYTHOLOGIA by MLREC.',
 		FOLDER:'Lincle',
@@ -36292,6 +37609,7 @@
 	},
 	{
 		TITLE:'ヨシダさん',
+		SORT:'207',
 		GENRE:'TECHNO',
 		ARTIST:'AKIRA YAMAOKA',
 		FOLDER:'GOLD',
@@ -36325,6 +37643,7 @@
 	},
 	{
 		TITLE:'ライオン好き',
+		SORT:'100',
 		GENRE:'ボデー',
 		ARTIST:'AKIRA YAMAOKA',
 		FOLDER:'9th style',
@@ -36354,6 +37673,7 @@
 	},
 	{
 		TITLE:'ラキラキ',
+		SORT:'138',
 		GENRE:'LUCKY TECHNO',
 		ARTIST:'Mutsuhiko Izumi & S-C-U',
 		FOLDER:'tricoro',
@@ -36387,6 +37707,7 @@
 	},
 	{
 		TITLE:'ラクエン',
+		SORT:'139',
 		GENRE:'REGGAE',
 		ARTIST:'Chonan Chiharu',
 		FOLDER:'HAPPY SKY',
@@ -36420,6 +37741,7 @@
 	},
 	{
 		TITLE:'ラクエン Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix',
+		SORT:'140',
 		GENRE:'TECHY FREEFORM',
 		ARTIST:'Remixed by JAKAZiD',
 		FOLDER:'Resort Anthem',
@@ -36453,6 +37775,7 @@
 	},
 	{
 		TITLE:'リグレット',
+		SORT:'141',
 		GENRE:'EURO TRANCE',
 		ARTIST:'星野奏子',
 		FOLDER:'GOLD',
@@ -36482,6 +37805,7 @@
 	},
 	{
 		TITLE:'リリーゼと炎龍レーヴァテイン',
+		SORT:'101',
 		GENRE:'OLDSTYLE GAMEMUSIC',
 		ARTIST:'黒猫ダンジョン',
 		FOLDER:'PENDUAL',
@@ -36521,6 +37845,7 @@
 	},
 	{
 		TITLE:'ロミとロボの宇宙飛行',
+		SORT:'143',
 		GENRE:'ARTCORE',
 		ARTIST:'onoken',
 		FOLDER:'INFINITAS',
@@ -36557,6 +37882,7 @@
 	},
 	{
 		TITLE:'ワルツ第17番 ト短調”大犬のワルツ”',
+		SORT:'201',
 		GENRE:'VALSE',
 		ARTIST:'virkato',
 		FOLDER:'SIRIUS',
@@ -36590,6 +37916,7 @@
 	},
 	{
 		TITLE:'駅猫のワルツ',
+		SORT:'40',
 		GENRE:'にゃんコア',
 		ARTIST:'ミニョンヌ鉄道兄弟',
 		FOLDER:'copula',
@@ -36623,6 +37950,7 @@
 	},
 	{
 		TITLE:'焔極OVERKILL',
+		SORT:'43',
 		GENRE:'HARDCORE',
 		ARTIST:'RoughSketch Vs. L.E.D.-G',
 		FOLDER:'SINOBUZ',
@@ -36656,6 +37984,7 @@
 	},
 	{
 		TITLE:'音楽',
+		SORT:'130',
 		GENRE:'SILENT',
 		ARTIST:'弁士カンタビレオ',
 		FOLDER:'tricoro',
@@ -36689,6 +38018,7 @@
 	},
 	{
 		TITLE:'下弦の月',
+		SORT:'74',
 		GENRE:'NEO CLASSICAL DANCE',
 		ARTIST:'iNO',
 		FOLDER:'tricoro',
@@ -36722,6 +38052,7 @@
 	},
 	{
 		TITLE:'仮想空間の旅人たち',
+		SORT:'182',
 		GENRE:'TECHNO',
 		ARTIST:'DJ MURASAME',
 		FOLDER:'tricoro',
@@ -36755,6 +38086,7 @@
 	},
 	{
 		TITLE:'夏の匂い。キミの残像。 ft. Kanae Asaba',
+		SORT:'119',
 		GENRE:'Re 90\'s J-DANCE POP',
 		ARTIST:'Xceon',
 		FOLDER:'Rootage',
@@ -36788,6 +38120,7 @@
 	},
 	{
 		TITLE:'夏色DIARY - L.E.D.-G STYLE MIX -',
+		SORT:'118',
 		GENRE:'HAPPY SUMMER CORE',
 		ARTIST:'猫叉王子 feat.L.E.D.-G',
 		FOLDER:'PENDUAL',
@@ -36827,6 +38160,7 @@
 	},
 	{
 		TITLE:'火影',
+		SORT:'60',
 		GENRE:'HIP HOP',
 		ARTIST:'RoughSkreamZ feat.楽天斎',
 		FOLDER:'SINOBUZ',
@@ -36860,6 +38194,7 @@
 	},
 	{
 		TITLE:'禍根',
+		SORT:'164',
 		GENRE:'ORBITALIC FUTURE BASS',
 		ARTIST:'U1 overground',
 		FOLDER:'SINOBUZ',
@@ -36893,6 +38228,7 @@
 	},
 	{
 		TITLE:'花冠 feat.Aikapin',
+		SORT:'55',
 		GENRE:'SOCA',
 		ARTIST:'RoughSkreamZ',
 		FOLDER:'Rootage',
@@ -36926,6 +38262,7 @@
 	},
 	{
 		TITLE:'花吹雪 ～ IIDX LIMITED ～',
+		SORT:'54',
 		GENRE:'JAPANESE ALTERATION',
 		ARTIST:'S.S.D.FANTASICA feat.ユッコ',
 		FOLDER:'GOLD',
@@ -36959,6 +38296,7 @@
 	},
 	{
 		TITLE:'華蝶風雪',
+		SORT:'72',
 		GENRE:'ASIAN MIXTURE',
 		ARTIST:'白虎',
 		FOLDER:'DistorteD',
@@ -36992,6 +38330,7 @@
 	},
 	{
 		TITLE:'海神',
+		SORT:'204',
 		GENRE:'HYDRO CORE',
 		ARTIST:'兎々',
 		FOLDER:'SPADA',
@@ -37034,6 +38373,7 @@
 	},
 	{
 		TITLE:'革命',
+		SORT:'79',
 		GENRE:'ORCHESTRAL',
 		ARTIST:'dj TAKA with NAOKI',
 		FOLDER:'7th style',
@@ -37067,6 +38407,7 @@
 	},
 	{
 		TITLE:'鬼言集',
+		SORT:'86',
 		GENRE:'INDUSTRIAL REVIEW',
 		ARTIST:'あさき',
 		FOLDER:'GOLD',
@@ -37100,6 +38441,7 @@
 	},
 	{
 		TITLE:'鬼天',
+		SORT:'128',
 		GENRE:'ASURA TEK CORE',
 		ARTIST:'兎々',
 		FOLDER:'PENDUAL',
@@ -37139,6 +38481,7 @@
 	},
 	{
 		TITLE:'共犯へヴンズコード',
+		SORT:'96',
 		GENRE:'ELEGANT SWING',
 		ARTIST:'D-Evoke（与那嶺雅人/小日向翔）',
 		FOLDER:'CANNON BALLERS',
@@ -37172,6 +38515,7 @@
 	},
 	{
 		TITLE:'共鳴遊戯の華',
+		SORT:'97',
 		GENRE:'ASTRAL DRUM & BASS',
 		ARTIST:'アイテール魔導士隊',
 		FOLDER:'PENDUAL',
@@ -37211,6 +38555,7 @@
 	},
 	{
 		TITLE:'狂イ咲ケ焔ノ華',
+		SORT:'94',
 		GENRE:'Hi-GOTH',
 		ARTIST:'覚醒ノPrim',
 		FOLDER:'tricoro',
@@ -37244,6 +38589,7 @@
 	},
 	{
 		TITLE:'金野火織の金色提言',
+		SORT:'90',
 		GENRE:'音ゲー賛美歌',
 		ARTIST:'DJ TECHNORCH feat. 宇宙★海月',
 		FOLDER:'Rootage',
@@ -37289,6 +38635,7 @@
 	},
 	{
 		TITLE:'九尾狐夜行',
+		SORT:'98',
 		GENRE:'ORIENTAL FUSION',
 		ARTIST:'天狐',
 		FOLDER:'SINOBUZ',
@@ -37322,6 +38669,7 @@
 	},
 	{
 		TITLE:'君のハートにロックオン',
+		SORT:'85',
 		GENRE:'トレンディーフュージョン',
 		ARTIST:'Dr.Honda',
 		FOLDER:'Lincle',
@@ -37355,6 +38703,7 @@
 	},
 	{
 		TITLE:'月光',
+		SORT:'50',
 		GENRE:'J-EUROBEAT',
 		ARTIST:'Tatsh feat. 星野奏子',
 		FOLDER:'HAPPY SKY',
@@ -37388,6 +38737,7 @@
 	},
 	{
 		TITLE:'月雪に舞う華のように',
+		SORT:'195',
 		GENRE:'FOREST SNOW',
 		ARTIST:'猫叉Master',
 		FOLDER:'SINOBUZ',
@@ -37427,6 +38777,7 @@
 	},
 	{
 		TITLE:'御千手メディテーション',
+		SORT:'129',
 		GENRE:'ニューエイジ合掌コア',
 		ARTIST:'昇天家族',
 		FOLDER:'SPADA',
@@ -37460,6 +38811,7 @@
 	},
 	{
 		TITLE:'高高度降下低高度開傘',
+		SORT:'92',
 		GENRE:'SYMPHONIC TECHNO',
 		ARTIST:'Dr. Honda',
 		FOLDER:'DJ TROOPERS',
@@ -37493,6 +38845,7 @@
 	},
 	{
 		TITLE:'合体せよ！ストロングイェーガー！！',
+		SORT:'185',
 		GENRE:'NU-NRG',
 		ARTIST:'L.E.D.',
 		FOLDER:'8th style',
@@ -37518,6 +38871,7 @@
 	},
 	{
 		TITLE:'合体せよ！ストロングイェーガー！！ (Ryu☆ remix)',
+		SORT:'180',
 		GENRE:'HARD DANCE',
 		ARTIST:'L.E.D./Remixed by Ryu☆',
 		FOLDER:'HAPPY SKY',
@@ -37551,6 +38905,7 @@
 	},
 	{
 		TITLE:'轟け！恋のビーンボール！！',
+		SORT:'188',
 		GENRE:'ベースボールヒロイン',
 		ARTIST:'ダイナミック野球兄弟 v.s. クロスファイヤーPrim',
 		FOLDER:'SPADA',
@@ -37584,6 +38939,7 @@
 	},
 	{
 		TITLE:'黒髪乱れし修羅となりて',
+		SORT:'93',
 		GENRE:'撫子メタル',
 		ARTIST:'村正クオリア',
 		FOLDER:'Resort Anthem',
@@ -37617,6 +38973,7 @@
 	},
 	{
 		TITLE:'罪と罰',
+		SORT:'196',
 		GENRE:'HYPER J-POP',
 		ARTIST:'Xceon feat. Mayumi Morinaga',
 		FOLDER:'SPADA',
@@ -37650,6 +39007,7 @@
 	},
 	{
 		TITLE:'桜',
+		SORT:'145',
 		GENRE:'SPIRITUAL',
 		ARTIST:'Reven-G',
 		FOLDER:'8th style',
@@ -37683,6 +39041,7 @@
 	},
 	{
 		TITLE:'山岡晃の「クイズ！家事都合！」',
+		SORT:'4',
 		GENRE:'ポップス',
 		ARTIST:'AKIRA YAMAOKA feat.喜屋武ちあき',
 		FOLDER:'EMPRESS',
@@ -37716,6 +39075,7 @@
 	},
 	{
 		TITLE:'子供の落書き帳',
+		SORT:'23',
 		GENRE:'PROGRESSIVE',
 		ARTIST:'佐々木博史',
 		FOLDER:'Lincle',
@@ -37749,6 +39109,7 @@
 	},
 	{
 		TITLE:'死神自爆中二妹アイドルももかりん(1歳)',
+		SORT:'32',
 		GENRE:'電波METAL',
 		ARTIST:'山本椛',
 		FOLDER:'SPADA',
@@ -37782,6 +39143,7 @@
 	},
 	{
 		TITLE:'獅子霞麗ノ舞',
+		SORT:'160',
 		GENRE:'DRAMATIC WALTZ',
 		ARTIST:'HuΣeR',
 		FOLDER:'SINOBUZ',
@@ -37821,6 +39183,7 @@
 	},
 	{
 		TITLE:'紫陽花 -AZISAI-',
+		SORT:'11',
 		GENRE:'ORIENTAL TECHDANCE',
 		ARTIST:'Camellia Vs. Expander',
 		FOLDER:'copula',
@@ -37860,6 +39223,7 @@
 	},
 	{
 		TITLE:'時空トラベローグ',
+		SORT:'71',
 		GENRE:'TIME TRIP JAZZ',
 		ARTIST:'SWING HOLIC feat. A～YA',
 		FOLDER:'PENDUAL',
@@ -37893,6 +39257,7 @@
 	},
 	{
 		TITLE:'次葉 -turn the page-',
+		SORT:'67',
 		GENRE:'POP ROCK',
 		ARTIST:'小寺可南子',
 		FOLDER:'SINOBUZ',
@@ -37930,6 +39295,7 @@
 	},
 	{
 		TITLE:'雫',
+		SORT:'162',
 		GENRE:'LAMENTO',
 		ARTIST:'あさき',
 		FOLDER:'INFINITAS',
@@ -37963,6 +39329,7 @@
 	},
 	{
 		TITLE:'疾風迅雷',
+		SORT:'99',
 		GENRE:'ORIENTAL CORE',
 		ARTIST:'KUMOKIRI',
 		FOLDER:'SPADA',
@@ -37996,6 +39363,7 @@
 	},
 	{
 		TITLE:'蛇神',
+		SORT:'73',
 		GENRE:'ORIENTAL MYTHOLOGY',
 		ARTIST:'Zektbach',
 		FOLDER:'Lincle',
@@ -38035,6 +39403,7 @@
 	},
 	{
 		TITLE:'灼熱 Pt.2 Long Train Running',
+		SORT:'156',
 		GENRE:'BROKEN SAMBA BREAK',
 		ARTIST:'DJ Mass MAD Izm*',
 		FOLDER:'copula',
@@ -38074,6 +39443,7 @@
 	},
 	{
 		TITLE:'灼熱Beach Side Bunny',
+		SORT:'155',
 		GENRE:'BROKEN SAMBA BREAK',
 		ARTIST:'DJ Mass MAD Izm*',
 		FOLDER:'Resort Anthem',
@@ -38107,6 +39477,7 @@
 	},
 	{
 		TITLE:'朱と碧のランページ',
+		SORT:'3',
 		GENRE:'ANIMA SONG',
 		ARTIST:'NU-KO',
 		FOLDER:'INFINITAS',
@@ -38140,6 +39511,7 @@
 	},
 	{
 		TITLE:'十六夜セツナ',
+		SORT:'66',
 		GENRE:'HYPER J-POP',
 		ARTIST:'Xceon feat.Mayumi Morinaga',
 		FOLDER:'PENDUAL',
@@ -38177,6 +39549,7 @@
 	},
 	{
 		TITLE:'純真可憐デザイア',
+		SORT:'69',
 		GENRE:'EMOTIONAL ROCK',
 		ARTIST:'BEMANI Sound Team "HuΣeR" feat.Fernweh',
 		FOLDER:'CANNON BALLERS',
@@ -38210,6 +39583,7 @@
 	},
 	{
 		TITLE:'少女アリスと箱庭幻想コンチェルト',
+		SORT:'5',
 		GENRE:'空想ファンタジーシリーズ',
 		ARTIST:'DJ TOTTO',
 		FOLDER:'copula',
@@ -38249,6 +39623,7 @@
 	},
 	{
 		TITLE:'少年A',
+		SORT:'84',
 		GENRE:'POST RENAISSANCE',
 		ARTIST:'Remixed by 少年ラジオ',
 		FOLDER:'DJ TROOPERS',
@@ -38282,6 +39657,7 @@
 	},
 	{
 		TITLE:'少年は空を辿る',
+		SORT:'163',
 		GENRE:'ムラクモ',
 		ARTIST:'Power Of Nature',
 		FOLDER:'PENDUAL',
@@ -38320,6 +39696,7 @@
 	},
 	{
 		TITLE:'少年リップルズ',
+		SORT:'83',
 		GENRE:'EMOCTRO',
 		ARTIST:'常盤ゆう',
 		FOLDER:'INFINITAS',
@@ -38353,6 +39730,7 @@
 	},
 	{
 		TITLE:'昭和企業戦士荒山課長',
+		SORT:'165',
 		GENRE:'テクノチョップ',
 		ARTIST:'AKIRA YAMAOKA',
 		FOLDER:'9th style',
@@ -38382,6 +39760,7 @@
 	},
 	{
 		TITLE:'真 地獄超特急 -HELL or HELL-',
+		SORT:'183',
 		GENRE:'新世紀進歩的羽扇子音楽',
 		ARTIST:'DJ TECHNORCH Vs. L.E.D.Light-G',
 		FOLDER:'copula',
@@ -38427,6 +39806,7 @@
 	},
 	{
 		TITLE:'神謳 -RESONANCE-',
+		SORT:'161',
 		GENRE:'Hi-MYTH',
 		ARTIST:'SOUND HOLIC feat. Nana Takahashi Vs.GOD PHOENIX Prim',
 		FOLDER:'CANNON BALLERS',
@@ -38460,6 +39840,7 @@
 	},
 	{
 		TITLE:'刃図羅',
+		SORT:'19',
 		GENRE:'LAST ARTS',
 		ARTIST:'猫叉Master vs HuΣeR',
 		FOLDER:'SINOBUZ',
@@ -38493,6 +39874,7 @@
 	},
 	{
 		TITLE:'水上の提督(Short mix from "幻想水滸伝V")',
+		SORT:'169',
 		GENRE:'WORLD/ELECTRONICA',
 		ARTIST:'猫叉Master',
 		FOLDER:'SIRIUS',
@@ -38526,6 +39908,7 @@
 	},
 	{
 		TITLE:'衰色小町メランコリア',
+		SORT:'170',
 		GENRE:'NEO CLASSICAL DANCE',
 		ARTIST:'iNO',
 		FOLDER:'Lincle',
@@ -38559,6 +39942,7 @@
 	},
 	{
 		TITLE:'星をこの手に',
+		SORT:'123',
 		GENRE:'J-POP',
 		ARTIST:'DJ YOSHITAKA feat.星野奏子',
 		FOLDER:'GOLD',
@@ -38592,6 +39976,7 @@
 	},
 	{
 		TITLE:'星屑ディスタンシア',
+		SORT:'168',
 		GENRE:'GLITCH JAZZ',
 		ARTIST:'ARM feat. 普透明度 + Brasscapsule',
 		FOLDER:'copula',
@@ -38625,6 +40010,7 @@
 	},
 	{
 		TITLE:'晴天Bon Voyage',
+		SORT:'149',
 		GENRE:'スウィートロニカ',
 		ARTIST:'TOMOSUKE × seiya-murai feat. ALT',
 		FOLDER:'tricoro',
@@ -38658,6 +40044,7 @@
 	},
 	{
 		TITLE:'雪月花',
+		SORT:'153',
 		GENRE:'HARD HOUSE',
 		ARTIST:'Ryu☆',
 		FOLDER:'10th style',
@@ -38691,6 +40078,7 @@
 	},
 	{
 		TITLE:'雪上断火',
+		SORT:'154',
 		GENRE:'HIP ROCK3',
 		ARTIST:'Des-ROW・組',
 		FOLDER:'INFINITAS',
@@ -38724,6 +40112,7 @@
 	},
 	{
 		TITLE:'旋律のドグマ～Miserables～',
+		SORT:'150',
 		GENRE:'JUVENILE DRUM & BASS',
 		ARTIST:'楓璃夢＝ジークフリード＝ファイエルローゼン',
 		FOLDER:'SPADA',
@@ -38763,6 +40152,7 @@
 	},
 	{
 		TITLE:'全力 SPECIAL VACATION!! ～限りある休日～',
+		SORT:'48',
 		GENRE:'HAPPY VACAY CORE',
 		ARTIST:'DJ GW',
 		FOLDER:'PENDUAL',
@@ -38796,6 +40186,7 @@
 	},
 	{
 		TITLE:'創世ノート',
+		SORT:'49',
 		GENRE:'CREATOR',
 		ARTIST:'PON+wac',
 		FOLDER:'tricoro',
@@ -38829,6 +40220,7 @@
 	},
 	{
 		TITLE:'草原の王女-軌跡を辿って-',
+		SORT:'133',
 		GENRE:'JOURNEY SCENE',
 		ARTIST:'劇団レコード',
 		FOLDER:'CANNON BALLERS',
@@ -38862,6 +40254,7 @@
 	},
 	{
 		TITLE:'蒼い衝動',
+		SORT:'8',
 		GENRE:'J-TRANCE',
 		ARTIST:'NAOKI feat.YUKI',
 		FOLDER:'8th style',
@@ -38895,6 +40288,7 @@
 	},
 	{
 		TITLE:'走馬灯 -The Last Song-',
+		SORT:'184',
 		GENRE:'SOLDIER\'S BALLAD',
 		ARTIST:'TAKA',
 		FOLDER:'DJ TROOPERS',
@@ -38924,6 +40318,7 @@
 	},
 	{
 		TITLE:'太陽～T・A・I・Y・O～',
+		SORT:'175',
 		GENRE:'CYBER J-EURO',
 		ARTIST:'NAOKI feat.星野奏子',
 		FOLDER:'RED',
@@ -38953,6 +40348,7 @@
 	},
 	{
 		TITLE:'太陽SUNSUNボンジュールアバンチュール',
+		SORT:'178',
 		GENRE:'PIECED SUNDAY',
 		ARTIST:'Project B-',
 		FOLDER:'copula',
@@ -38986,6 +40382,7 @@
 	},
 	{
 		TITLE:'打打打打打打打打打打',
+		SORT:'29',
 		GENRE:'JAPANESE TRADITIONAL',
 		ARTIST:'ヒゲドライバー join. SELEN',
 		FOLDER:'PENDUAL',
@@ -39025,6 +40422,7 @@
 	},
 	{
 		TITLE:'嘆きの樹',
+		SORT:'116',
 		GENRE:'CONTEMPORARY',
 		ARTIST:'金獅子',
 		FOLDER:'DistorteD',
@@ -39058,6 +40456,7 @@
 	},
 	{
 		TITLE:'中華急行',
+		SORT:'24',
 		GENRE:'HAPPY HARDCORE',
 		ARTIST:'Ryu☆',
 		FOLDER:'Resort Anthem',
@@ -39091,6 +40490,7 @@
 	},
 	{
 		TITLE:'朝焼けから始まるボクらの小さな旅',
+		SORT:'9',
 		GENRE:'ARTCORE ROCK',
 		ARTIST:'cosMo＠暴走P',
 		FOLDER:'copula',
@@ -39130,6 +40530,7 @@
 	},
 	{
 		TITLE:'超!!遠距離らぶメ～ル',
+		SORT:'26',
 		GENRE:'乙女EDM',
 		ARTIST:'ななひら',
 		FOLDER:'SPADA',
@@ -39163,6 +40564,7 @@
 	},
 	{
 		TITLE:'超青少年ノ為ノ超多幸ナ超古典的超舞曲',
+		SORT:'202',
 		GENRE:'PIECED EUPHORIA',
 		ARTIST:'Project B-',
 		FOLDER:'PENDUAL',
@@ -39196,6 +40598,7 @@
 	},
 	{
 		TITLE:'津軽雪',
+		SORT:'194',
 		GENRE:'MICHINOKU',
 		ARTIST:'罠師 VS 安室',
 		FOLDER:'SINOBUZ',
@@ -39235,6 +40638,7 @@
 	},
 	{
 		TITLE:'追想快晴テーマパーク',
+		SORT:'171',
 		GENRE:'FUTURE E-POP',
 		ARTIST:'PHQUASE',
 		FOLDER:'copula',
@@ -39268,6 +40672,7 @@
 	},
 	{
 		TITLE:'鉄甲乙女-under the steel-',
+		SORT:'177',
 		GENRE:'IRON CONCERTO',
 		ARTIST:'Seiya Murai',
 		FOLDER:'EMPRESS',
@@ -39301,6 +40706,7 @@
 	},
 	{
 		TITLE:'天空の夜明け',
+		SORT:'181',
 		GENRE:'ANTHEM',
 		ARTIST:'Cuvelia',
 		FOLDER:'Lincle',
@@ -39334,6 +40740,7 @@
 	},
 	{
 		TITLE:'天空脳番長危機十六連打',
+		SORT:'137',
 		GENRE:'RAGE AGAINST EMPRESS',
 		ARTIST:'D.J.SETUP',
 		FOLDER:'EMPRESS',
@@ -39367,6 +40774,7 @@
 	},
 	{
 		TITLE:'電人、暁に斃れる。',
+		SORT:'44',
 		GENRE:'NU-NRG',
 		ARTIST:'L.E.D.-G',
 		FOLDER:'GOLD',
@@ -39400,6 +40808,7 @@
 	},
 	{
 		TITLE:'電人イェーガーのテーマ(Theme of DENJIN J)',
+		SORT:'186',
 		GENRE:'NU-NRG',
 		ARTIST:'L.E.D.',
 		FOLDER:'6th style',
@@ -39425,6 +40834,7 @@
 	},
 	{
 		TITLE:'冬椿 ft. Kanae Asaba',
+		SORT:'45',
 		GENRE:'HYPER ENKA POP',
 		ARTIST:'Xceon',
 		FOLDER:'SINOBUZ',
@@ -39458,6 +40868,7 @@
 	},
 	{
 		TITLE:'東京神話',
+		SORT:'190',
 		GENRE:'ORBITALIC GABBER STEP',
 		ARTIST:'DJ TECHNORCH feat.宇宙★海月 vs BEMANI Sound Team "U1-ASAMi"',
 		FOLDER:'CANNON BALLERS',
@@ -39491,6 +40902,7 @@
 	},
 	{
 		TITLE:'突撃!ガラスのニーソ姫!',
+		SORT:'144',
 		GENRE:'電波',
 		ARTIST:'山本椛 (monotone)',
 		FOLDER:'Lincle',
@@ -39528,6 +40940,7 @@
 	},
 	{
 		TITLE:'虹色',
+		SORT:'121',
 		GENRE:'LOVELY TRANS POP',
 		ARTIST:'DJ YOSHITAKA feat. G.S.C license',
 		FOLDER:'DistorteD',
@@ -39561,6 +40974,7 @@
 	},
 	{
 		TITLE:'虹色の花',
+		SORT:'122',
 		GENRE:'LIGHT-VISUAL POP',
 		ARTIST:'Akhuta y OJ',
 		FOLDER:'tricoro',
@@ -39594,6 +41008,7 @@
 	},
 	{
 		TITLE:'廿',
+		SORT:'197',
 		GENRE:'新世紀進歩的羽扇子音楽',
 		ARTIST:'DJ TECHNORCH',
 		FOLDER:'SPADA',
@@ -39627,6 +41042,7 @@
 	},
 	{
 		TITLE:'忍恋花',
+		SORT:'158',
 		GENRE:'忍歌',
 		ARTIST:'黒脛',
 		FOLDER:'SINOBUZ',
@@ -39660,6 +41076,7 @@
 	},
 	{
 		TITLE:'梅雪夜',
+		SORT:'198',
 		GENRE:'想歌 梅',
 		ARTIST:'Qrispy Joybox feat.mao',
 		FOLDER:'tricoro',
@@ -39693,6 +41110,7 @@
 	},
 	{
 		TITLE:'白露の風',
+		SORT:'159',
 		GENRE:'想歌 風',
 		ARTIST:'Qrispy Joybox feat. 常盤ゆう',
 		FOLDER:'PENDUAL',
@@ -39725,7 +41143,42 @@
 		}
 	},
 	{
+		TITLE:'爆ゼニ☆がってんワーカー',
+		SORT:'12',
+		GENRE:'勤労☆電波',
+		ARTIST:'ARM×狐夢想 feat. ななひら',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'195',
+		TIME:'2:02',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:639
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:993
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1391
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:634
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1009
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1332
+		}
+	},
+	{
 		TITLE:'卑弥呼',
+		SORT:'61',
 		GENRE:'ESOTERIC SPEEDCORE',
 		ARTIST:'朱雀 VS 玄武',
 		FOLDER:'EMPRESS',
@@ -39759,6 +41212,7 @@
 	},
 	{
 		TITLE:'表裏一体！？怪盗いいんちょの悩み❤',
+		SORT:'65',
 		GENRE:'Hi-FUNK BREAKS',
 		ARTIST:'◇◆噂の怪盗少女 ぷらずま★彡Prim◇◆',
 		FOLDER:'PENDUAL',
@@ -39795,6 +41249,7 @@
 	},
 	{
 		TITLE:'不沈艦CANDY',
+		SORT:'47',
 		GENRE:'HARDCORE',
 		ARTIST:'Risk Junk',
 		FOLDER:'EMPRESS',
@@ -39828,6 +41283,7 @@
 	},
 	{
 		TITLE:'抱きしめてモナムール',
+		SORT:'30',
 		GENRE:'Hi-歌謡コア',
 		ARTIST:'冬色AMOUR☆Prim',
 		FOLDER:'Rootage',
@@ -39867,6 +41323,7 @@
 	},
 	{
 		TITLE:'牧神笛吹きて',
+		SORT:'2',
 		GENRE:'ZODIAC ORACLE X',
 		ARTIST:'楽士ゾディアック',
 		FOLDER:'SPADA',
@@ -39900,6 +41357,7 @@
 	},
 	{
 		TITLE:'未来のプリズム',
+		SORT:'135',
 		GENRE:'STAR POP',
 		ARTIST:'星野奏子',
 		FOLDER:'SIRIUS',
@@ -39939,6 +41397,7 @@
 	},
 	{
 		TITLE:'冥',
+		SORT:'106',
 		GENRE:'HUMAN SEQUENCER',
 		ARTIST:'Amuro vs Killer',
 		FOLDER:'HAPPY SKY',
@@ -39972,6 +41431,7 @@
 	},
 	{
 		TITLE:'命の標本',
+		SORT:'37',
 		GENRE:'STRANGE WORLD MUSIC',
 		ARTIST:'志方あきこ',
 		FOLDER:'CANNON BALLERS',
@@ -40005,6 +41465,7 @@
 	},
 	{
 		TITLE:'明鏡止水',
+		SORT:'109',
 		GENRE:'禅ジャズ',
 		ARTIST:'TOMOSUKE feat. あさき',
 		FOLDER:'copula',
@@ -40041,6 +41502,7 @@
 	},
 	{
 		TITLE:'野球の遊び方 そしてその歴史 ～決定版～',
+		SORT:'64',
 		GENRE:'野球のことがよくわかる',
 		ARTIST:'あさき大監督',
 		FOLDER:'SPADA',
@@ -40074,6 +41536,7 @@
 	},
 	{
 		TITLE:'夕焼け ～Fading Day～',
+		SORT:'208',
 		GENRE:'AURAL ADRENALINE',
 		ARTIST:'JAKAZiD',
 		FOLDER:'Resort Anthem',
@@ -40107,6 +41570,7 @@
 	},
 	{
 		TITLE:'陽炎',
+		SORT:'76',
 		GENRE:'POP',
 		ARTIST:'星野奏子',
 		FOLDER:'Lincle',
@@ -40140,6 +41604,7 @@
 	},
 	{
 		TITLE:'翼',
+		SORT:'193',
 		GENRE:'J-TRANCE',
 		ARTIST:'小林ゆう',
 		FOLDER:'EMPRESS',
@@ -40173,6 +41638,7 @@
 	},
 	{
 		TITLE:'龍と少女とデコヒーレンス',
+		SORT:'33',
 		GENRE:'EPIC TECHNO',
 		ARTIST:'黒猫ダンジョン',
 		FOLDER:'tricoro',
@@ -40206,6 +41672,7 @@
 	},
 	{
 		TITLE:'龍王の霊廟(Mausoleum Of The Primal Dragon)',
+		SORT:'105',
 		GENRE:'RETROSPECTIVE EPIC MUSIC',
 		ARTIST:'BEMANI Sound Team "黒猫ダンジョン"',
 		FOLDER:'Rootage',
@@ -40245,6 +41712,7 @@
 	},
 	{
 		TITLE:'旅人リラン',
+		SORT:'179',
 		GENRE:'ELECLORE',
 		ARTIST:'XOGO BRYKK',
 		FOLDER:'Resort Anthem',
@@ -40278,6 +41746,7 @@
 	},
 	{
 		TITLE:'量子の海のリントヴルム',
+		SORT:'104',
 		GENRE:'エピックプログレ',
 		ARTIST:'黒猫ダンジョン',
 		FOLDER:'copula',
@@ -40315,6 +41784,7 @@
 	},
 	{
 		TITLE:'零 - ZERO -',
+		SORT:'209',
 		GENRE:'HYPER J-POP ZERO',
 		ARTIST:'TËЯRA',
 		FOLDER:'GOLD',
@@ -40348,6 +41818,7 @@
 	},
 	{
 		TITLE:'麗 ～うらら～',
+		SORT:'199',
 		GENRE:'WINTER GLOW',
 		ARTIST:'SOUND HOLIC feat. Nana Takahashi',
 		FOLDER:'copula',
@@ -40381,6 +41852,7 @@
 	},
 	{
 		TITLE:'恋する☆宇宙戦争っ！！',
+		SORT:'89',
 		GENRE:'Hi-BLEEP',
 		ARTIST:'Prim',
 		FOLDER:'Lincle',
@@ -40414,6 +41886,7 @@
 	},
 	{
 		TITLE:'恋はどう？モロ◎波動OK☆方程式!!',
+		SORT:'88',
 		GENRE:'理系ポップ',
 		ARTIST:'あべにゅうぷろじぇくと feat. 佐倉紗織 produced by ave;new',
 		FOLDER:'SINOBUZ',
@@ -40447,6 +41920,7 @@
 	},
 	{
 		TITLE:'恋は白帯、サンシロー',
+		SORT:'87',
 		GENRE:'KANA-POP',
 		ARTIST:'星野奏子',
 		FOLDER:'PENDUAL',
@@ -40480,6 +41954,7 @@
 	},
 	{
 		TITLE:'煉獄のエルフェリア',
+		SORT:'41',
 		GENRE:'HARD SYMPHONIC',
 		ARTIST:'猫叉Master+',
 		FOLDER:'SPADA',
@@ -40513,6 +41988,7 @@
 	},
 	{
 		TITLE:'凛として咲く花の如く',
+		SORT:'142',
 		GENRE:'撫子ロック',
 		ARTIST:'紅色リトマス',
 		FOLDER:'EMPRESS',
@@ -40546,6 +42022,7 @@
 	},
 	{
 		TITLE:'朧',
+		SORT:'124',
 		GENRE:'FASCINATION',
 		ARTIST:'HHH×MM×ST',
 		FOLDER:'tricoro',
@@ -40579,6 +42056,7 @@
 	},
 	{
 		TITLE:'炸裂！イェーガー電光チョップ！！(JAEGER FINAL ATTACK)',
+		SORT:'70',
 		GENRE:'HARDSTYLE',
 		ARTIST:'L.E.D.',
 		FOLDER:'copula',
@@ -40612,6 +42090,7 @@
 	},
 	{
 		TITLE:'鴉',
+		SORT:'80',
 		GENRE:'CROSSBREED',
 		ARTIST:'L.E.D.-G',
 		FOLDER:'SINOBUZ',
@@ -40644,411 +42123,63 @@
 		}
 	},
 	{
-		TITLE:'Broken My Heart',
-		GENRE:'HYPER EUROBEAT',
-		ARTIST:'NAOKI feat.PAULA TERRY',
-		FOLDER:'4th style',
+		TITLE:'華爛漫 -Flowers-',
+		SORT:'56',
+		GENRE:'HYPER JAPANESQUE',
+		ARTIST:'TЁЯRA',
+		FOLDER:'DJ TROOPERS',
 		CATEGORY:'',
 		BPM:'160',
-		TIME:'1:43',
+		TIME:'1:47',
 		SPN:{
-			DIFFICULT:5,
-			NOTES:474
+			DIFFICULT:6,
+			NOTES:510
 		},
 		SPH:{
-			DIFFICULT:7,
-			NOTES:751
+			DIFFICULT:8,
+			NOTES:804
 		},
 		SPA:{
-			DIFFICULT:9,
-			NOTES:914
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:405
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:742
-		},
-		DPA:{
 			DIFFICULT:10,
-			NOTES:914
-		}
-	},
-	{
-		TITLE:'The Biggest Roaster',
-		GENRE:'FILTER HOUSE',
-		ARTIST:'D.J.Spugna',
-		FOLDER:'9th style',
-		CATEGORY:'',
-		BPM:'135',
-		TIME:'1:32',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:314
-		},
-		SPH:{
-			DIFFICULT:6,
-			NOTES:529
-		},
-		SPA:{
-			DIFFICULT:7,
-			NOTES:583
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:314
-		},
-		DPH:{
-			DIFFICULT:6,
-			NOTES:629
-		},
-	},
-	{
-		TITLE:'Rising in the Sun(original mix)',
-		GENRE:'UK HARDCORE',
-		ARTIST:'kors k feat.Rie',
-		FOLDER:'GOLD',
-		CATEGORY:'',
-		BPM:'172',
-		TIME:'2:01',
-		SPN:{
-			HCN:true,
-			DIFFICULT:5,
-			NOTES:477
-		},
-		SPH:{
-			HCN:true,
-			DIFFICULT:9,
-			NOTES:864
-		},
-		SPA:{
-			HCN:true,
-			DIFFICULT:11,
-			NOTES:1202
-		},
-		DPN:{
-			HCN:true,
-			DIFFICULT:5,
-			NOTES:477
-		},
-		DPH:{
-			HCN:true,
-			DIFFICULT:9,
-			NOTES:839
-		},
-		DPA:{
-			HCN:true,
-			DIFFICULT:11,
-			NOTES:1187
-		}
-	},
-	{
-		TITLE:'Believe In Me',
-		GENRE:'HARDCORE',
-		ARTIST:'Uraken feat. Calyn Tsukishima',
-		FOLDER:'Resort Anthem',
-		CATEGORY:'',
-		BPM:'170',
-		TIME:'2:00',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:533
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:962
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1213
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:502
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:916
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1200
-		}
-	},
-	{
-		TITLE:'Watch Out Pt.2',
-		GENRE:'TECH-BREAKBEATS',
-		ARTIST:'DJ Mass MAD Izm* VS.DJ Yoshitaka',
-		FOLDER:'Resort Anthem',
-		CATEGORY:'',
-		BPM:'148',
-		TIME:'1:50',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:599
-		},
-		SPH:{
-			DIFFICULT:9,
 			NOTES:1029
 		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1506
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:616
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:961
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1322
-		}
-	},
-	{
-		TITLE:'DAY DREAM',
-		GENRE:'DARK PROGRESSIVE',
-		ARTIST:'Mutsuhiko Izumi',
-		FOLDER:'Lincle',
-		CATEGORY:'',
-		BPM:'80-300',
-		TIME:'1:30',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:295
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:685
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1075
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:318
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:644
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1018
-		}
-	},
-	{
-		TITLE:'それは花火のような恋',
-		GENRE:'Hi-歌謡コア',
-		ARTIST:'夏色バーニングラブ☆Prim',
-		FOLDER:'PENDUAL',
-		CATEGORY:'',
-		BPM:'182',
-		TIME:'2:05',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:649
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1321
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1976
-		},
 		DPN:{
 			DIFFICULT:7,
-			NOTES:664
+			NOTES:592
 		},
 		DPH:{
+			DIFFICULT:9,
+			NOTES:801
+		},
+		DPA:{
 			DIFFICULT:10,
-			NOTES:1261
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1930
+			NOTES:1011
 		}
 	},
 	{
-		TITLE:'Arca',
-		GENRE:'GENESIS',
-		ARTIST:'BEMANI Sound Team "Akhuta Works"',
-		FOLDER:'SINOBUZ',
+		TITLE:'カゴノトリ～弐式～',
+		SORT:'77',
+		GENRE:'和式電子音楽',
+		ARTIST:'橙色特別室',
+		FOLDER:'DistorteD',
 		CATEGORY:'',
-		BPM:'185',
-		TIME:'2:07',
+		BPM:'140',
+		TIME:'1:57',
 		SPN:{
-			DIFFICULT:5,
-			NOTES:468
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:961
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1602
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:485
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:975
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1606
-		}
-	},
-	{
-		TITLE:'Afterimage d\'automne',
-		GENRE:'ASYMMETRY ART',
-		ARTIST:'BEMANI Sound Team "猫叉劇団"',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'232',
-		TIME:'2:01',
-		SPN:{
-			CN:true,
 			DIFFICULT:6,
-			NOTES:519
+			NOTES:581
 		},
 		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:879
+			DIFFICULT:9,
+			NOTES:944
 		},
 		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1480
+			DIFFICULT:12,
+			NOTES:1325
 		},
 		DPN:{
-			CN:true,
 			DIFFICULT:6,
-			NOTES:525
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:913
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1554
-		}
-	},
-	{
-		TITLE:'BLACK JACKAL',
-		GENRE:'DANCE MUSIC',
-		ARTIST:'Akira Complex',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'1:58',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:428
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:812
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1183
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:428
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:813
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1138
-		}
-	},
-	{
-		TITLE:'Carry Me Away',
-		GENRE:'FUTURE CORE',
-		ARTIST:'lapix',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'175',
-		TIME:'2:00',
-		SPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:575
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:933
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1613
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:595
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:957
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1568
-		}
-	},
-	{
-		TITLE:'Dr. Chemical & Killing Machine',
-		GENRE:'INDUSTRIAL TECHNO',
-		ARTIST:'Hommarju',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'165',
-		TIME:'2:00',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:567
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:964
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1700
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:586
+			NOTES:581
 		},
 		DPH:{
 			DIFFICULT:9,
@@ -41056,863 +42187,7 @@
 		},
 		DPA:{
 			DIFFICULT:12,
-			NOTES:1919
-		}
-	},
-	{
-		TITLE:'GENE',
-		GENRE:'TECHNO GRAFFITI',
-		ARTIST:'VINCENT GANATCH',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'163',
-		TIME:'※',
-		SPN:{
-			DIFFICULT:7,
-			NOTES:664
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1009
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:2183
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:659
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:990
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1986
-		}
-	},
-	{
-		TITLE:'GO OVER WITH GLARE -ROOTAGE 26-',
-		GENRE:'HARD STYLE',
-		ARTIST:'BEMANI Sound Team "L.E.D.-G"',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'170',
-		TIME:'2:02',
-		SPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:548
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1160
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:2000
-		},
-		DPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:558
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1129
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1769
-		}
-	},
-	{
-		TITLE:'IDC feat.REVERBEE (Mo\'Cuts Ver)',
-		GENRE:'TECH-BREAKS',
-		ARTIST:'DJ Mass MAD Izm*',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'140',
-		TIME:'2:01',
-		SPN:{
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:557
-		},
-		SPH:{
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:818
-		},
-		SPA:{
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1145
-		},
-		DPN:{
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:553
-		},
-		DPH:{
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:779
-		},
-		DPA:{
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1017
-		}
-	},
-	{
-		TITLE:'IDOL syndrome.',
-		GENRE:'PSYCHEDELIC ROCK',
-		ARTIST:'RINA',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'145',
-		TIME:'2:07',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:382
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:738
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1109
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:397
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:720
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1183
-		}
-	},
-	{
-		TITLE:'L.F.O',
-		GENRE:'UK HARDCORE',
-		ARTIST:'aran',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'180',
-		TIME:'2:08',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:444
-		},
-		SPH:{
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:898
-		},
-		SPA:{
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1687
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:448
-		},
-		DPH:{
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:847
-		},
-		DPA:{
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1697
-		}
-	},
-	{
-		TITLE:'LADYBIRD',
-		GENRE:'GLITCH POP',
-		ARTIST:'YUC\'e',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'230',
-		TIME:'1:48',
-		SPN:{
-			DIFFICULT:7,
-			NOTES:572
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:865
-		},
-		SPA:{
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1258
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:601
-		},
-		DPH:{
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:894
-		},
-		DPA:{
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1253
-		}
-	},
-	{
-		TITLE:'LOST TECHNOLOGIE',
-		GENRE:'TECHNO',
-		ARTIST:'かめりあ',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'157',
-		TIME:'2:04',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:590
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:984
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1822
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:644
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:1009
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1849
-		}
-	},
-	{
-		TITLE:'Mächö Mönky',
-		GENRE:'JUNGLE TERROR',
-		ARTIST:'kors k',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'2:00',
-		SPN:{
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:754
-		},
-		SPH:{
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1123
-		},
-		SPA:{
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1588
-		},
-		DPN:{
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:643
-		},
-		DPH:{
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1100
-		},
-		DPA:{
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1522
-		}
-	},
-	{
-		TITLE:'Playing With Fire',
-		GENRE:'SPEED RAVE',
-		ARTIST:'kors k',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'160',
-		TIME:'1:45',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:512
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:866
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1200
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:516
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:814
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1113
-		}
-	},
-	{
-		TITLE:'Six String Proof',
-		GENRE:'HARDROCK',
-		ARTIST:'BEMANI Sound Team "Yvya × Mutsuhiko Izumi"',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'130',
-		TIME:'1:46',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:455
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:855
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1308
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:464
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:845
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1220
-		}
-	},
-	{
-		TITLE:'Starry Night',
-		GENRE:'HARDSTYLE',
-		ARTIST:'Massive New Krew feat.松平なな',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'155',
-		TIME:'2:13',
-		SPN:{
-			BSS:true,
-			DIFFICULT:4,
-			NOTES:467
-		},
-		SPH:{
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:847
-		},
-		SPA:{
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1268
-		},
-		DPN:{
-			BSS:true,
-			DIFFICULT:5,
-			NOTES:542
-		},
-		DPH:{
-			BSS:true,
-			DIFFICULT:8,
-			NOTES:926
-		},
-		DPA:{
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1254
-		}
-	},
-	{
-		TITLE:'voltississimo',
-		GENRE:'VVV',
-		ARTIST:'BEMANI Sound Team "PHQUASE"',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'225',
-		TIME:'1:56',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:613
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1135
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1888
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:613
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1146
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1824
-		}
-	},
-	{
-		TITLE:'爆ゼニ☆がってんワーカー',
-		GENRE:'勤労☆電波',
-		ARTIST:'ARM×狐夢想 feat. ななひら',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'195',
-		TIME:'2:02',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:639
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:993
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1391
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:634
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:1009
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1332
-		}
-	},
-	{
-		TITLE:'グラナダの風',
-		GENRE:'SPANISH GUITAR',
-		ARTIST:'BEMANI Sound Team "劇団レコード"',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'130',
-		TIME:'1:52',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:414
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:637
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:954
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:426
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:642
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:985
-		}
-	},
-	{
-		TITLE:'X-DEN',
-		GENRE:'ULTIΣATE COLLARBORATION',
-		ARTIST:'T.Σ.Generation',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'200',
-		TIME:'※',
-		SPN:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:861
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1418
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:2220
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:896
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1495
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:2220
-		}
-	},
-	{
-		TITLE:'ミッドナイト☆WAR',
-		GENRE:'BEMANIZED ROCKCORE',
-		ARTIST:'いちか',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'156',
-		TIME:'1:53',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:414
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:800
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1261
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:417
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:832
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1311
-		}
-	},
-	{
-		TITLE:'Bow shock!!',
-		GENRE:'JAZZ PIANO TRANCE',
-		ARTIST:'Xceon',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'165',
-		TIME:'2:07',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:408
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:986
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1566
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:417
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:974
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1583
-		}
-	},
-	{
-		TITLE:'Chewingood!!!',
-		GENRE:'CHIP RAVE',
-		ARTIST:'TORIENA',
-		FOLDER:'BISTROVER',
-		CATEGORY:'',
-		BPM:'190',
-		TIME:'1:58',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:435
-		},
-		SPH:{
-			DIFFICULT:7,
-			NOTES:761
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1317
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:446
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:780
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1304
-		}
-	},
-	{
-		TITLE:'24h Endurance Race',
-		GENRE:'HARDCORE',
-		ARTIST:'BEMANI Sound Team "Risk Junk"',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'184',
-		TIME:'',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:504
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1096
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1743
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:634
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1160
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1915
-		}
-	},
-	{
-		TITLE:'HEARTACHE',
-		GENRE:'HEALING FUTURE',
-		ARTIST:'BEMANI Sound Team "HuΣeR" feat.ゆきまめ',
-		FOLDER:'Cast Hour',
-		CATEGORY:'',
-		BPM:'90',
-		TIME:'1:59',
-		SPN:{
-			MSS:true,
-			DIFFICULT:3,
-			NOTES:251
-		},
-		SPH:{
-			MSS:true,
-			DIFFICULT:7,
-			NOTES:603
-		},
-		SPA:{
-			MSS:true,
-			DIFFICULT:10,
-			NOTES:930
-		},
-		DPN:{
-			MSS:true,
-			DIFFICULT:3,
-			NOTES:371
-		},
-		DPH:{
-			MSS:true,
-			DIFFICULT:7,
-			NOTES:689
-		},
-		DPA:{
-			MSS:true,
-			DIFFICULT:10,
-			NOTES:1045
-		}
-	},
-	{
-		TITLE:'Snow Goose',
-		GENRE:'ELECTRIC POP',
-		ARTIST:'Mutsuhiko Izumi',
-		FOLDER:'Lincle',
-		CATEGORY:'',
-		BPM:'200',
-		TIME:'1:41',
-		SPN:{
-			DIFFICULT:3,
-			NOTES:188
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:691
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1238
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:239
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:1017
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1394
-		}
-	},
-	{
-		TITLE:'Welcome',
-		GENRE:'HARDCORE',
-		ARTIST:'Uraken',
-		FOLDER:'copula',
-		CATEGORY:'',
-		BPM:'170',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:440
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:919
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1357
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:727
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:967
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1326
-		}
-	},
-	{
-		TITLE:'MAXIVCORD',
-		GENRE:'ADMIRABLE',
-		ARTIST:'BEMANI Sound Team "dj TAKA"',
-		FOLDER:'CANNON BALLERS',
-		CATEGORY:'',
-		BPM:'154',
-		TIME:'1:38',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:413
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:752
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1256
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:418
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:771
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1175
+			NOTES:1586
 		}
 	}
 ];
