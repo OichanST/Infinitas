@@ -206,16 +206,6 @@ function init(){
 			return -1;
 		}
 		
-		if(a.TITLE.match(/^[0-9\.\!\&]/) && !b.TITLE.match(/^[0-9\.\!\&]/)){
-			if(b.TITLE.match(/^[a-zA-Z]/)){
-				return 1;
-			}
-		}else if(!a.TITLE.match(/^[0-9\.\!\&]/) && b.TITLE.match(/^[0-9\.\!\&]/)){
-			if(a.TITLE.match(/^[a-zA-Z]/)){
-				return -1;
-			}
-		}
-		
 		if(a.SORT && !b.SORT){
 			return 1;
 		}
@@ -224,10 +214,24 @@ function init(){
 			return -1;
 		}
 		
+		if(a.SORT && b.SORT){
+			return a.SORT - b.SORT;
+		}
+		
 		if(!a.SORT && !b.SORT){
 		
 			let aTITLE = a.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0").replace("Ü", "U");
 			let bTITLE = b.TITLE.replace("(", "").replace(")", "").replace("ä", "a").replace("∞", "oo").replace(":", "").replace("Ø", "0").replace("Ü", "U");
+			
+			if(aTITLE.match(/^[0-9\.\!\&]/) && !bTITLE.match(/^[0-9\.\!\&]/)){
+				if(bTITLE.match(/^[a-zA-Z]/)){
+					return 1;
+				}
+			}else if(!aTITLE.match(/^[0-9\.\!\&]/) && bTITLE.match(/^[0-9\.\!\&]/)){
+				if(aTITLE.match(/^[a-zA-Z]/)){
+					return -1;
+				}
+			}
 			
 			if(aTITLE == "ＵＬＴｉＭΛＴＥ"){
 				aTITLE = "ULTiMATE";
@@ -242,10 +246,6 @@ function init(){
 			}else if(aTITLE.toUpperCase() < bTITLE.toUpperCase()){
 				return -1;
 			}
-		}
-		
-		if(a.SORT && b.SORT){
-			return a.SORT - b.SORT;
 		}
 		
 		return 0;
