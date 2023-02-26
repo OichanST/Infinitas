@@ -680,22 +680,46 @@ function calc(notes, exscore){
 		}
 	}else if(rate >= (7 / 9)){
 		ret.result = "AA";
-		ret.detail = "AAA-" + (Math.ceil(max * (8 / 9)) - exscore);
+		if(rate >= (75 / 90)){
+			ret.detail = "AAA-" + (Math.ceil(max * (8 / 9)) - exscore);
+		}else{
+			ret.detail = "AA+" + (exscore - Math.ceil(max * (7 / 9)));
+		}
 	}else if(rate >= (6 / 9)){
 		ret.result = "A";
-		ret.detail = "AA-" + (Math.ceil(max * (7 / 9)) - exscore);
+		if(rate >= (65 / 90)){
+			ret.detail = "AA-" + (Math.ceil(max * (7 / 9)) - exscore);
+		}else{
+			ret.detail = "A+" + (exscore - Math.ceil(max * (6 / 9)));
+		}
 	}else if(rate >= (5 / 9)){
 		ret.result = "B";
-		ret.detail = "A-" + (Math.ceil(max * (6 / 9)) - exscore);
+		if(rate >= (55 / 90)){
+			ret.detail = "A-" + (Math.ceil(max * (6 / 9)) - exscore);
+		}else{
+			ret.detail = "B+" + (exscore - Math.ceil(max * (5 / 9)));
+		}
 	}else if(rate >= (4 / 9)){
 		ret.result = "C";
-		ret.detail = "B-" + (Math.ceil(max * (5 / 9)) - exscore);
+		if(rate >= (45 / 90)){
+			ret.detail = "B-" + (Math.ceil(max * (5 / 9)) - exscore);
+		}else{
+			ret.detail = "C+" + (exscore - Math.ceil(max * (4 / 9)));
+		}
 	}else if(rate >= (3 / 9)){
 		ret.result = "D";
-		ret.detail = "C-" + (Math.ceil(max * (4 / 9)) - exscore);
+		if(rate >= (35 / 90)){
+			ret.detail = "C-" + (Math.ceil(max * (4 / 9)) - exscore);
+		}else{
+			ret.detail = "D+" + (exscore - Math.ceil(max * (3 / 9)));
+		}
 	}else if(rate >= (2 / 9)){
 		ret.result = "E";
-		ret.detail= "D-" + (Math.ceil(max * (3 / 9)) - exscore);
+		if(rate >= (25 / 90)){
+			ret.detail= "D-" + (Math.ceil(max * (3 / 9)) - exscore);
+		}else{
+			ret.detail= "E+" + (exscore - Math.ceil(max * (2 / 9)));
+		}
 	}else{
 		ret.result = "F";
 
