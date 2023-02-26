@@ -673,11 +673,11 @@ function calc(notes, exscore){
 		ret.detail = "MAX+0";
 	}else if(rate >= (8 / 9)){
 		ret.result = "AAA";
-//		if(rate >= (85 / 90)){
-//			ret.detail = "MAX-" + (max - exscore);
-//		}else{
+		if(rate >= (85 / 90)){
+			ret.detail = "MAX-" + (max - exscore);
+		}else{
 			ret.detail= "AAA+" + (exscore - Math.ceil(max * (8 / 9)));
-//		}
+		}
 	}else if(rate >= (7 / 9)){
 		ret.result = "AA";
 		ret.detail = "AAA-" + (Math.ceil(max * (8 / 9)) - exscore);
