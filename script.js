@@ -7,7 +7,7 @@ let mergedMusicData;
  */
 function dataInit(){
 	
-	// localStorage.removeItem("playData");
+	localStorage.removeItem("playData");
 	
 	// ストレージからデータを取得
 	playData = localStorage.getItem("playData");
@@ -75,7 +75,7 @@ function dataInit(){
 				}
 				
 				if(rec.SPL){
-					for(let key in playData[i].SPA){
+					for(let key in playData[i].SPL){
 						rec.SPL[key] = playData[i].SPL[key];
 					}
 				}
@@ -99,7 +99,7 @@ function dataInit(){
 				}
 				
 				if(rec.DPL){
-					for(let key in playData[i].DPA){
+					for(let key in playData[i].DPL){
 						rec.DPL[key] = playData[i].DPL[key];
 					}
 				}
@@ -285,7 +285,6 @@ function init(){
 	});
 	
 	mergedMusicData.forEach(function(rec){
-	
 		if(document.getElementById("hideOpenData").checked && !rec.OPEN){
 			return;
 		}

@@ -139,7 +139,10 @@ input[type="checkbox"]:checked+label::after{
 	background-color:yellow;
 }
 .TOP_A{
-	background-color:rgba(355, 0, 0, 0.5);
+	background-color:rgba(255, 0, 0, 0.5);
+}
+.TOP_L{
+	background-color:rgba(255, 0, 153, 0.5);
 }
 .DIF_N{
 	color:#00A0FF;
@@ -149,6 +152,9 @@ input[type="checkbox"]:checked+label::after{
 }
 .DIF_A{
 	color:#FF0000;
+}
+.DIF_L{
+	color:#FF0099;
 }
 .TOP_ASSIST_CLEAR{
 	background-color:#FF00FF;
