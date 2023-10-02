@@ -1,5 +1,38 @@
 ﻿const musicData = [
 	{
+		TITLE:'.59',
+		GENRE:'CHILL OUT',
+		ARTIST:'dj TAKA',
+		FOLDER:'2nd style',
+		CATEGORY:'-',
+		BPM:'123-135',
+		TIME:'1:46',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:360 
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:514 
+		},
+		SPA:{
+			DIFFICULT:7,
+			NOTES:584 
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:444 
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:514 
+		},
+		DPA:{
+			DIFFICULT:7,
+			NOTES:585 
+		}
+	},
+	{
 		TITLE:'255',
 		GENRE:'HYPER SPEED RAVE',
 		ARTIST:'255',
@@ -256,39 +289,6 @@
 		}
 	},
 	{
-		TITLE:'.59',
-		GENRE:'CHILL OUT',
-		ARTIST:'dj TAKA',
-		FOLDER:'2nd style',
-		CATEGORY:'-',
-		BPM:'123-135',
-		TIME:'1:46',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:360 
-		},
-		SPH:{
-			DIFFICULT:6,
-			NOTES:514 
-		},
-		SPA:{
-			DIFFICULT:7,
-			NOTES:584 
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:444 
-		},
-		DPH:{
-			DIFFICULT:6,
-			NOTES:514 
-		},
-		DPA:{
-			DIFFICULT:7,
-			NOTES:585 
-		}
-	},
-	{
 		TITLE:'《GRANDMASTER》',
 		SORT:'57',
 		GENRE:'TRIUMPH',
@@ -326,6 +326,51 @@
 			CN:true,
 			DIFFICULT:11,
 			NOTES:1508 
+		}
+	},
+	{
+		TITLE:'《ORDERBREAKER》',
+		SORT:'135',
+		GENRE:'GODSPEED',
+		ARTIST:'Blacklolita',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'166',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:511
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:815
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1257
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:521
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:750
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1298
 		}
 	},
 	{
@@ -568,6 +613,46 @@
 		}
 	},
 	{
+		TITLE:'2 Beasts Unchained',
+		GENRE:'HARDCORE',
+		ARTIST:'kors k vs Yooh',
+		FOLDER:'Cast Hour',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'1:57',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:759
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1145
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1780
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:766
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1170
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1736
+		}
+	},
+	{
 		TITLE:'22DUNK',
 		GENRE:'TECHNO',
 		ARTIST:'SLAKE',
@@ -703,6 +788,39 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:672 
+		}
+	},
+	{
+		TITLE:'27th style',
+		GENRE:'HIP HOP',
+		ARTIST:'三代目 "dj TAKA & DAYBREAKERS"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:593
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:908
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1299
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:623
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:907
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1257
 		}
 	},
 	{
@@ -1025,6 +1143,47 @@
 		}
 	},
 	{
+		TITLE:'-65℃',
+		GENRE:'WHITE OUT',
+		ARTIST:'BEMANI Sound Team "D.J.Amuro"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'186',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:714
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1157
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1912
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:716
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1102
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1827
+		}
+	},
+	{
 		TITLE:'8bit Princess',
 		GENRE:'CHIPTUNE',
 		ARTIST:'seiya-murai feat. ALT',
@@ -1293,6 +1452,11 @@
 			DIFFICULT:10,
 			NOTES:1218 
 		},
+		SPL:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1412
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:728 
@@ -1304,6 +1468,11 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1338 
+		},
+		DPL:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1488
 		}
 	},
 	{
@@ -1926,6 +2095,10 @@
 			DIFFICULT:11,
 			NOTES:1189 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1523
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:587 
@@ -1937,6 +2110,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1225 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1503
 		}
 	},
 	{
@@ -2003,6 +2180,39 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1066 
+		}
+	},
+	{
+		TITLE:'AKASHIC BREAK',
+		GENRE:'LAPLACE CORE',
+		ARTIST:'BEMANI Sound Team "TAG"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'205',
+		TIME:'1:59',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:633
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1243
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1823
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:652
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1177
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1767
 		}
 	},
 	{
@@ -2210,6 +2420,45 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1224 
+		}
+	},
+	{
+		TITLE:'ALL OK!!',
+		GENRE:'HYPER POP / BREAKCORE',
+		ARTIST:'Eagle feat.Kradness',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:613
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1074
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1564
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:597
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1022
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1590
 		}
 	},
 	{
@@ -2467,6 +2716,12 @@
 			DIFFICULT:11,
 			NOTES:1343 
 		},
+		SPL:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1684
+		},
 		DPN:{
 			CN:true,
 			DIFFICULT:5,
@@ -2481,6 +2736,45 @@
 			CN:true,
 			DIFFICULT:11,
 			NOTES:1413 
+		},
+		DPL:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1671
+		}
+	},
+	{
+		TITLE:'Amnolys',
+		GENRE:'ART CORE',
+		ARTIST:'onoken',
+		FOLDER:'PENDUAL',
+		CATEGORY:'',
+		BPM:'140-180',
+		TIME:'2:01',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:442
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:876
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1354
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:556
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:909
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1254
 		}
 	},
 	{
@@ -2514,6 +2808,45 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1206 
+		}
+	},
+	{
+		TITLE:'AMRITA -不滅ノ花-',
+		GENRE:'ORIENTAL TRANCE',
+		ARTIST:'SOUND HOLIC feat. Nana Takahashi',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'152',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:455
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:815
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1398
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:455
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:806
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1327
 		}
 	},
 	{
@@ -2647,6 +2980,10 @@
 			DIFFICULT:12,
 			NOTES:1780 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2198
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:637 
@@ -2658,6 +2995,49 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1931 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2285
+		}
+	},
+	{
+		TITLE:'And-RoiD',
+		GENRE:'J-POP',
+		ARTIST:'Fujishiro feat.KNA',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'173',
+		TIME:'1:48',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:373
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:672
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:1008
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:384
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:682
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:985
 		}
 	},
 	{
@@ -2811,6 +3191,10 @@
 			DIFFICULT:11,
 			NOTES:1443 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1971
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:637 
@@ -2822,6 +3206,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1603 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1956
 		}
 	},
 	{
@@ -2973,6 +3361,39 @@
 		}
 	},
 	{
+		TITLE:'apo:llioth',
+		GENRE:'HARDCORE',
+		ARTIST:'Juggernaut.',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'2:10',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:615
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:1053
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1498
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:616
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1065
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1511
+		}
+	},
+	{
 		TITLE:'Apocalypse',
 		GENRE:'EPIC D\'N\'B',
 		ARTIST:'Morrigan feat. リリィ',
@@ -3059,6 +3480,10 @@
 			DIFFICULT:11,
 			NOTES:1504 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1888
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:655 
@@ -3070,6 +3495,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1605 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1991
 		}
 	},
 	{
@@ -3171,6 +3600,51 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1385 
+		}
+	},
+	{
+		TITLE:'Artist',
+		GENRE:'MYSTICAL HARD DANCE',
+		ARTIST:'CANVAS feat. Quimär',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'165',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:660
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1243
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1870
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:665
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1252
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1923
 		}
 	},
 	{
@@ -3543,6 +4017,39 @@
 		}
 	},
 	{
+		TITLE:'Backyard Stars',
+		GENRE:'FUTURE BASS',
+		ARTIST:'TAKU INOUE',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'1:56',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:540
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:844
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1155
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:543
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:838
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1222
+		}
+	},
+	{
 		TITLE:'Bad Maniacs',
 		GENRE:'INDUSTRIAL',
 		ARTIST:'kors k as teranoid',
@@ -3661,6 +4168,10 @@
 			DIFFICULT:10,
 			NOTES:1314 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1640
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:618 
@@ -3672,6 +4183,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1443 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1709
 		}
 	},
 	{
@@ -4065,6 +4580,48 @@
 		}
 	},
 	{
+		TITLE:'BEAT PRISONER',
+		GENRE:'PRIME BIG BEAT',
+		ARTIST:'AJURIKA',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'155',
+		TIME:'1:54',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:629
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1083
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1844
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:628
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:1075
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1752
+		}
+	},
+	{
 		TITLE:'Beat Radiance',
 		GENRE:'NEO CLASSICAL DANCE',
 		ARTIST:'iNO',
@@ -4084,6 +4641,10 @@
 			DIFFICULT:10,
 			NOTES:1335 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1809
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:420 
@@ -4095,6 +4656,49 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1354 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1887
+		}
+	},
+	{
+		TITLE:'beatAffection',
+		GENRE:'BEAT MUSIC',
+		ARTIST:'ビートまりお',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'190',
+		TIME:'2:15',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:524
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:792
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1341
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:522
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:730
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1232
 		}
 	},
 	{
@@ -4269,6 +4873,39 @@
 		}
 	},
 	{
+		TITLE:'BEMANI PRO LEAGUE Theme',
+		GENRE:'BPL EDM',
+		ARTIST:'BEMANI Sound Team "Sota F."',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'134',
+		TIME:'2:01',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:393
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:712
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:996
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:495
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:717
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:1024
+		}
+	},
+	{
 		TITLE:'Best of Me',
 		GENRE:'CYBER LIQUID FUNK',
 		ARTIST:'Maozon',
@@ -4367,6 +5004,47 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1387 
+		}
+	},
+	{
+		TITLE:'BIGソムタム',
+		GENRE:'DRUMSTEP',
+		ARTIST:'AJURIKA',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'187',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:639
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:964
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1688
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:720
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1036
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1714
 		}
 	},
 	{
@@ -4471,6 +5149,45 @@
 		}
 	},
 	{
+		TITLE:'BLACK or WHITE?',
+		GENRE:'SYNPHONIC SPEED SCHRANZ',
+		ARTIST:'BlackYooh vs. siromaru',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:655
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1287
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2013
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:715
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1252
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1960
+		}
+	},
+	{
 		TITLE:'BLACK.by X-Cross Fade',
 		GENRE:'TECH-BREAKBEATS',
 		ARTIST:'DJ Mass MAD Izm*',
@@ -4536,6 +5253,74 @@
 			CN:true,
 			DIFFICULT:11,
 			NOTES:1613 
+		}
+	},
+	{
+		TITLE:'BLAZING_LAZER',
+		GENRE:'BURNING RAVE',
+		ARTIST:'brz1128',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'191',
+		TIME:'',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:630
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1084
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1752
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:644
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1100
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1724
+		}
+	},
+	{
+		TITLE:'Blind Justice ～Torn souls, Hurt Faiths～',
+		GENRE:'EPIC POETRY',
+		ARTIST:'Zektbach',
+		FOLDER:'GOLD',
+		CATEGORY:'',
+		BPM:'137-165',
+		TIME:'2:09',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:679
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:1001
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1245
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:618
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:950
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1134
 		}
 	},
 	{
@@ -4731,6 +5516,10 @@
 			DIFFICULT:11,
 			NOTES:1149 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1702
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:587 
@@ -4742,6 +5531,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1037 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1662
 		}
 	},
 	{
@@ -5056,6 +5849,39 @@
 		}
 	},
 	{
+		TITLE:'Brahma',
+		GENRE:'TOKYO STYLE SPEEDCORE',
+		ARTIST:'m1dy',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'400',
+		TIME:'1:59',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:621
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:907
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1454
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:616
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:903
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1469
+		}
+	},
+	{
 		TITLE:'BRAINSTORM',
 		GENRE:'TRANCECORE MEETS GABBA',
 		ARTIST:'Hardcore United Tokyo(teranoid & DJ TECHNORCH)',
@@ -5301,6 +6127,39 @@
 			CN:true,
 			DIFFICULT:10,
 			NOTES:1282 
+		}
+	},
+	{
+		TITLE:'Breakin\' Rules',
+		GENRE:'CYBER PUNK',
+		ARTIST:'BEMANI Sound Team "Sota Fujimori"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:06',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:652
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:917
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1396
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:741
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1050
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1630
 		}
 	},
 	{
@@ -5821,6 +6680,45 @@
 		DPA:{
 			DIFFICULT:8,
 			NOTES:864 
+		}
+	},
+	{
+		TITLE:'Calvados Queen',
+		GENRE:'JAZZ ROCK',
+		ARTIST:'OSTER project feat. かなたん',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'220',
+		TIME:'2:06',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:502
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:777
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1242
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:500
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:760
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1244
 		}
 	},
 	{
@@ -6393,6 +7291,51 @@
 		}
 	},
 	{
+		TITLE:'Change Yourself',
+		GENRE:'TRANCE',
+		ARTIST:'ARM × kradness',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'155',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:493
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:890
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1288
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:462
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:833
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1260
+		}
+	},
+	{
 		TITLE:'chaos eater -IIDX edition-',
 		GENRE:'HARD STEP',
 		ARTIST:'猫叉Master+',
@@ -6591,6 +7534,39 @@
 		}
 	},
 	{
+		TITLE:'Chocolate Planet',
+		GENRE:'HAPPY CHOCO CORE',
+		ARTIST:'Freezer feat.妃苺',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:459
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:763
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1137
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:469
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:757
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1170
+		}
+	},
+	{
 		TITLE:'chrono diver -fragment-',
 		GENRE:'HEALING DRUM\'N\'BASS',
 		ARTIST:'猫叉Master feat.三澤 秋',
@@ -6610,6 +7586,10 @@
 			DIFFICULT:9,
 			NOTES:900 
 		},
+		SPL:{
+			DIFFICULT:10,
+			NOTES:1134
+		},
 		DPN:{
 			DIFFICULT:3,
 			NOTES:322 
@@ -6621,6 +7601,10 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:896 
+		},
+		DPL:{
+			DIFFICULT:10,
+			NOTES:1114
 		}
 	},
 	{
@@ -6643,6 +7627,11 @@
 			DIFFICULT:11,
 			NOTES:1568 
 		},
+		SPL:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:2233
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:625 
@@ -6654,6 +7643,11 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1582 
+		},
+		DPL:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:2477
 		}
 	},
 	{
@@ -6904,6 +7898,11 @@
 			DIFFICULT:9,
 			NOTES:811 
 		},
+		SPL:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1102
+		},
 		DPN:{
 			DIFFICULT:3,
 			NOTES:264 
@@ -6915,6 +7914,11 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:1010 
+		},
+		DPL:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1203
 		}
 	},
 	{
@@ -7009,6 +8013,10 @@
 			DIFFICULT:12,
 			NOTES:1739 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1983
+		},
 		DPN:{
 			CN:true,
 			DIFFICULT:5,
@@ -7023,6 +8031,11 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:1610 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1851
 		}
 	},
 	{
@@ -7466,6 +8479,10 @@
 			DIFFICULT:11,
 			NOTES:1056 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1418
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:607 
@@ -7477,6 +8494,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1050 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1545
 		}
 	},
 	{
@@ -7532,6 +8553,11 @@
 			DIFFICULT:11,
 			NOTES:1166 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1651
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:544 
@@ -7543,6 +8569,11 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1147 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1747
 		}
 	},
 	{
@@ -7677,6 +8708,39 @@
 			CN:true,
 			DIFFICULT:10,
 			NOTES:1272 
+		}
+	},
+	{
+		TITLE:'Crank It',
+		GENRE:'BASS HOUSE',
+		ARTIST:'Crayvxn',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'160',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:393
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:731
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1228
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:401
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:737
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:1164
 		}
 	},
 	{
@@ -8079,6 +9143,11 @@
 			DIFFICULT:9,
 			NOTES:1026 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1153
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:415 
@@ -8091,6 +9160,11 @@
 			CN:true,
 			DIFFICULT:10,
 			NOTES:1056 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1238
 		}
 	},
 	{
@@ -9134,6 +10208,45 @@
 		},
 	},
 	{
+		TITLE:'Divine Heaven',
+		GENRE:'BIG ANTHEM',
+		ARTIST:'Absolute The 4th',
+		FOLDER:'CastHour',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:06',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:476
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:1006
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1503
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:472
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:983
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1567
+		}
+	},
+	{
 		TITLE:'DM STAR～関西 energy style～',
 		GENRE:'SPEED RAVE',
 		ARTIST:'NAOKI',
@@ -9230,6 +10343,84 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1251 
+		}
+	},
+	{
+		TITLE:'Do What You Want',
+		GENRE:'FUTURE BASS',
+		ARTIST:'BEMANI Sound Team "SYUNN"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'160',
+		TIME:'1:43',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:352
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:644
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1027
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:351
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:688
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1085
+		}
+	},
+	{
+		TITLE:'DO-IT-AMA-SITE!!!',
+		GENRE:'YOU\'RE WELCOME DANCE',
+		ARTIST:'MYUKKE.',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'135',
+		TIME:'',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:537
+		},
+		SPH:{
+			MSS:true,
+			DIFFICULT:9,
+			NOTES:750
+		},
+		SPA:{
+			MSS:true,
+			DIFFICULT:11,
+			NOTES:1260
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:534
+		},
+		DPH:{
+			MSS:true,
+			DIFFICULT:9,
+			NOTES:838
+		},
+		DPA:{
+			MSS:true,
+			DIFFICULT:11,
+			NOTES:1246
 		}
 	},
 	{
@@ -9430,6 +10621,41 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1871 
+		}
+	},
+	{
+		TITLE:'Double Dribble',
+		GENRE:'FUNKY GABBER',
+		ARTIST:'lapix',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'210',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:654
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1009
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1683
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:600
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1057
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1874
 		}
 	},
 	{
@@ -9699,6 +10925,84 @@
 		}
 	},
 	{
+		TITLE:'Drop It',
+		GENRE:'DRUMSTEP/MMETAL/DJENT',
+		ARTIST:'Dazsta',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'155',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:713
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1032
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1419
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:731
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1035
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1435
+		}
+	},
+	{
+		TITLE:'DropZ-Line-',
+		GENRE:'PUMPCORE',
+		ARTIST:'Getty vs. DJ DiA',
+		FOLDER:'CANNON BALLERS',
+		CATEGORY:'',
+		BPM:'50-400',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:696
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1101
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1648
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:677
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1040
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1771
+		}
+	},
+	{
 		TITLE:'dual control',
 		GENRE:'GARAGE HOUSE',
 		ARTIST:'Mr.T',
@@ -9729,6 +11033,78 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:854 
+		}
+	},
+	{
+		TITLE:'DUAL STRIKER',
+		GENRE:'IIDX SOUNDS',
+		ARTIST:'Mayumi Morinaga,Fernweh',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'2:04',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:602
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1277
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1960
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:631
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1270
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1951
+		}
+	},
+	{
+		TITLE:'Duration',
+		GENRE:'DRUM & BASS',
+		ARTIST:'佐野電磁',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:3,
+			NOTES:272
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:514
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:978
+		},
+		DPN:{
+			DIFFICULT:3,
+			NOTES:265
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:496
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:943
 		}
 	},
 	{
@@ -9837,6 +11213,39 @@
 		},
 	},
 	{
+		TITLE:'earth-like planet',
+		GENRE:'ACID JAZZ',
+		ARTIST:'ELEKTEL',
+		FOLDER:'GOLD',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'1:57',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:394
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:675
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1048
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:393
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:660
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:1018
+		}
+	},
+	{
 		TITLE:'EBONY & IVORY',
 		GENRE:'RAGTIME CHIPTUNE',
 		ARTIST:'OSTER project',
@@ -9856,6 +11265,11 @@
 			DIFFICULT:12,
 			NOTES:1520 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1887
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:594 
@@ -9867,6 +11281,11 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1575 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1878
 		}
 	},
 	{
@@ -10709,6 +12128,45 @@
 		}
 	},
 	{
+		TITLE:'EROICA',
+		GENRE:'VERSE',
+		ARTIST:'BEMANI Sound Team "HERO"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'2:02',
+		SPN:{
+			HCN:true,
+			DIFFICULT:7,
+			NOTES:703
+		},
+		SPH:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1193
+		},
+		SPA:{
+			HCN:true,
+			DIFFICULT:12,
+			NOTES:2040
+		},
+		DPN:{
+			HCN:true,
+			DIFFICULT:7,
+			NOTES:702
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1213
+		},
+		DPA:{
+			HCN:true,
+			DIFFICULT:12,
+			NOTES:2363
+		}
+	},
+	{
 		TITLE:'Erosion Mark',
 		GENRE:'FALLIN APART CORE',
 		ARTIST:'kors k REASM Des-ROW',
@@ -10808,6 +12266,45 @@
 		}
 	},
 	{
+		TITLE:'EVANESCENT',
+		GENRE:'PROGRESSIVE ROCK',
+		ARTIST:'SOUND HOLIC feat. Nana Takahashi',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'127-165',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:661
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1241
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1845
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:660
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1174
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1820
+		}
+	},
+	{
 		TITLE:'Evans',
 		GENRE:'HARD RENAISSANCE',
 		ARTIST:'DJ YOSHITAKA',
@@ -10904,6 +12401,46 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1237 
+		}
+	},
+	{
+		TITLE:'Everlasting Message',
+		GENRE:'EPIC ORCHESTRA',
+		ARTIST:'ぺのれり',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'230',
+		TIME:'1:57',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:638
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1197
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1970
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:619
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1149
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1781
 		}
 	},
 	{
@@ -11113,6 +12650,39 @@
 		}
 	},
 	{
+		TITLE:'Explorer feat. ぷにぷに電機',
+		GENRE:'DANCE POP',
+		ARTIST:'パソコン音楽クラブ',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'131',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:382
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:661
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1082
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:471
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:713
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1001
+		}
+	},
+	{
 		TITLE:'Express Emotion',
 		GENRE:'J-CORE',
 		ARTIST:'REDALiCE feat. Shihori',
@@ -11249,6 +12819,45 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1760 
+		}
+	},
+	{
+		TITLE:'fairy cocktail',
+		GENRE:'エレクトロニック/エレクトロニカ/ポップ',
+		ARTIST:'Tomggg',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'134',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			DIFFICULT:3,
+			NOTES:230
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:559
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:828
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:3,
+			NOTES:230
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:567
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:861
 		}
 	},
 	{
@@ -11476,6 +13085,10 @@
 			DIFFICULT:12,
 			NOTES:1830 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2225
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:578 
@@ -11487,6 +13100,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1628 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1879
 		}
 	},
 	{
@@ -11641,6 +13258,10 @@
 			DIFFICULT:10,
 			NOTES:1179 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1470
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:526 
@@ -11652,6 +13273,10 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:1001 
+		},
+		DPL:{
+			DIFFICULT:10,
+			NOTES:1318
 		}
 	},
 	{
@@ -11961,6 +13586,51 @@
 		}
 	},
 	{
+		TITLE:'Forgetting Machine',
+		GENRE:'DRUM\'N\'BASS',
+		ARTIST:'TAKU INOUE',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'174',
+		TIME:'1:42',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:366
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:634
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:868
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:358
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:620
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:826
+		}
+	},
+	{
 		TITLE:'four pieces of heaven',
 		GENRE:'JUNGLE',
 		ARTIST:'Lion',
@@ -12148,6 +13818,82 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:916 
+		}
+	},
+	{
+		TITLE:'Friction[!]Function',
+		GENRE:'PROGRES BEAT',
+		ARTIST:'Feryquitous',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:560
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:911
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1634
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:553
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1008
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1546
+		}
+	},
+	{
+		TITLE:'Frisk And Squeak',
+		GENRE:'MAKINA',
+		ARTIST:'nora2r',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:407
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:801
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1228
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:428
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:811
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1230
 		}
 	},
 	{
@@ -12787,6 +14533,51 @@
 		}
 	},
 	{
+		TITLE:'Get On Your Feet',
+		GENRE:'HYBRID TRANCE',
+		ARTIST:'Nhato',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'155',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:573
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:914
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1384
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:587
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:944
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1347
+		}
+	},
+	{
 		TITLE:'GET READY!!',
 		GENRE:'HARDCORE RAVE',
 		ARTIST:'DJ Shimamura',
@@ -12890,6 +14681,39 @@
 		},
 	},
 	{
+		TITLE:'GHOST',
+		GENRE:'FREEFORM HARDCORE',
+		ARTIST:'Hommarju',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150-180',
+		TIME:'1:58',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:425
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:767
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1403
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:418
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:749
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1354
+		}
+	},
+	{
 		TITLE:'GHOST REVIVAL',
 		GENRE:'GOA TRANCE',
 		ARTIST:'L.E.D.',
@@ -12959,6 +14783,45 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:1503 
+		}
+	},
+	{
+		TITLE:'GIGA VIOLATE',
+		GENRE:'EDM-DUBSTYLE',
+		ARTIST:'Blacklolita',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'1:56',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:565
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:833
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1392
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:547
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:827
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1445
 		}
 	},
 	{
@@ -13437,6 +15300,12 @@
 			DIFFICULT:10,
 			NOTES:1036 
 		},
+		SPL:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:11,
+			NOTES:1240
+		},
 		DPN:{
 			CN:true,
 			DIFFICULT:5,
@@ -13451,6 +15320,12 @@
 			CN:true,
 			DIFFICULT:10,
 			NOTES:1185 
+		},
+		DPL:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:11,
+			NOTES:1264
 		}
 	},
 	{
@@ -13717,6 +15592,10 @@
 			DIFFICULT:10,
 			NOTES:1328 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1744
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:813 
@@ -13728,6 +15607,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1396 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1855
 		}
 	},
 	{
@@ -13787,6 +15670,12 @@
 			DIFFICULT:12,
 			NOTES:2081 
 		},
+		SPL:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:2443
+		},
 		DPN:{
 			CN:true,
 			DIFFICULT:7,
@@ -13801,6 +15690,44 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:2175 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2428
+		}
+	},
+	{
+		TITLE:'Ha･lle･lu･jah',
+		GENRE:'TRANCE POP',
+		ARTIST:'SOUND HOLIC feat. Nana Takahashi',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:388
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:690
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:911
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:394
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:672
+		},
+		DPA:{
+			DIFFICULT:8,
+			NOTES:873
 		}
 	},
 	{
@@ -14135,6 +16062,39 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1246 
+		}
+	},
+	{
+		TITLE:'Hat Surprise (Season 2)',
+		GENRE:'UK HARDCORE',
+		ARTIST:'Hommarju',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'1:57',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:514
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:928
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1729
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:524
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:947
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1703
 		}
 	},
 	{
@@ -14568,6 +16528,72 @@
 		},
 	},
 	{
+		TITLE:'Hold My Hand',
+		GENRE:'MELODIC DANCE MUSIC',
+		ARTIST:'BEMANI Sound Team "Sota Fujimori"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'154',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:472
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:855
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1247
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:424
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:809
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1264
+		}
+	},
+	{
+		TITLE:'Holic',
+		GENRE:'HARD TECHNO',
+		ARTIST:'TaQ',
+		FOLDER:'3rd style',
+		CATEGORY:'',
+		BPM:'155',
+		TIME:'1:27',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:395
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:624
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:880
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:680
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:875
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1136
+		}
+	},
+	{
 		TITLE:'Hollywood Galaxy',
 		GENRE:'DRUM\'N\'BASS',
 		ARTIST:'dj TAKA',
@@ -14704,6 +16730,43 @@
 		}
 	},
 	{
+		TITLE:'Horizons of Promise',
+		GENRE:'ALTANATIVE ROCK',
+		ARTIST:'BEMANI Sound Team "SPIRITUAL RIDE"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:476
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:765
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1322
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:472
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:762
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1366
+		}
+	},
+	{
 		TITLE:'Hormiga obrera',
 		GENRE:'ALTERNATIVE HOUSE',
 		ARTIST:'Shawn The Horny Master',
@@ -14756,6 +16819,10 @@
 			DIFFICULT:9,
 			NOTES:1066 
 		},
+		SPL:{
+			DIFFICULT:10,
+			NOTES:1350
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:321 
@@ -14767,6 +16834,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1060 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1427
 		}
 	},
 	{
@@ -14932,6 +17003,39 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1115 
+		}
+	},
+	{
+		TITLE:'Hyper Drive feat. ぷにぷに電機',
+		GENRE:'DANCE POP',
+		ARTIST:'パソコン音楽クラブ',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'130',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:3,
+			NOTES:335
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:775
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1000
+		},
+		DPN:{
+			DIFFICULT:3,
+			NOTES:339
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:761
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:1000
 		}
 	},
 	{
@@ -15281,6 +17385,10 @@
 			DIFFICULT:12,
 			NOTES:1301 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2000
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:687 
@@ -15292,6 +17400,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1336 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2000
 		}
 	},
 	{
@@ -15370,6 +17482,45 @@
 			CN:true,
 			DIFFICULT:10,
 			NOTES:1183
+		}
+	},
+	{
+		TITLE:'If',
+		GENRE:'FUTURE BASS',
+		ARTIST:'Pa\'s Lam System',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'1:50',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:398
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:689
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:959
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:394
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:690
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:969
 		}
 	},
 	{
@@ -15947,6 +18098,51 @@
 		}
 	},
 	{
+		TITLE:'Inferno of Fomalhaut',
+		GENRE:'DJENT STEP',
+		ARTIST:'fallen shepherd ft. ricono',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:03',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:523
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:980
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1701
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:531
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:967
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1723
+		}
+	},
+	{
 		TITLE:'Infinite cave',
 		GENRE:'DRUM\'N\'BASS',
 		ARTIST:'猫叉Master+',
@@ -15977,6 +18173,45 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1525 
+		}
+	},
+	{
+		TITLE:'Infinity Mirror',
+		GENRE:'NEO 90\'s CINEMATIC TECHNO',
+		ARTIST:'Dirty Androids',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'148',
+		TIME:'2:08',
+		SPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:436
+		},
+		SPH:{
+			HCN:true,
+			DIFFICULT:8,
+			NOTES:709
+		},
+		SPA:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1164
+		},
+		DPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:422
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:8,
+			NOTES:729
+		},
+		DPA:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1303
 		}
 	},
 	{
@@ -16344,6 +18579,10 @@
 			DIFFICULT:12,
 			NOTES:1624 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1851
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:579 
@@ -16355,6 +18594,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1659 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1773
 		}
 	},
 	{
@@ -16466,6 +18709,72 @@
 		},
 	},
 	{
+		TITLE:'jelly kiss',
+		GENRE:'A.O.R.',
+		ARTIST:'Togo project feat.Sana',
+		FOLDER:'8th style',
+		CATEGORY:'',
+		BPM:'135',
+		TIME:'1:58',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:373
+		},
+		SPH:{
+			DIFFICULT:5,
+			NOTES:552
+		},
+		SPA:{
+			DIFFICULT:8,
+			NOTES:656
+		},
+		DPN:{
+			DIFFICULT:2,
+			NOTES:267
+		},
+		DPH:{
+			DIFFICULT:5,
+			NOTES:503
+		},
+		DPA:{
+			DIFFICULT:8,
+			NOTES:682
+		}
+	},
+	{
+		TITLE:'Jetcoaster Windy',
+		GENRE:'GIRLY POP',
+		ARTIST:'BEMANI Sound Team "dj TAKA" feat.のの',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'268',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:413
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:722
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1156
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:415
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:711
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1106
+		}
+	},
+	{
 		TITLE:'JOMANDA',
 		GENRE:'HARD RENAISSANCE',
 		ARTIST:'DJ YOSHITAKA',
@@ -16569,6 +18878,39 @@
 		}
 	},
 	{
+		TITLE:'Jungle Eater',
+		GENRE:'DRUMSTEP / RAGGATEK',
+		ARTIST:'Hommarju',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'184',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:513
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:935
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1517
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:529
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:930
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1547
+		}
+	},
+	{
 		TITLE:'Just a Little Smile',
 		GENRE:'NU SKOOL BREAKS',
 		ARTIST:'Sota Fujimori',
@@ -16660,6 +19002,10 @@
 			DIFFICULT:12,
 			NOTES:1693 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2026
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:687 
@@ -16671,6 +19017,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1473 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2058
 		}
 	},
 	{
@@ -16693,6 +19043,10 @@
 			DIFFICULT:11,
 			NOTES:1368 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2000
+		},
 		DPN:{
 			DIFFICULT:8,
 			NOTES:1005 
@@ -16704,6 +19058,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1662 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2000
 		}
 	},
 	{
@@ -16955,6 +19313,10 @@
 			DIFFICULT:11,
 			NOTES:1657 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1999
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:607 
@@ -16966,6 +19328,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1659 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1999
 		}
 	},
 	{
@@ -17107,6 +19473,39 @@
 		}
 	},
 	{
+		TITLE:'La Mar',
+		GENRE:'CATALÀ LOUNGE',
+		ARTIST:'seiya-murai feat.David Solanes Venzala',
+		FOLDER:'Resort Anthem',
+		CATEGORY:'',
+		BPM:'130',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:337
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:612
+		},
+		SPA:{
+			DIFFICULT:8,
+			NOTES:917
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:376
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:534
+		},
+		DPA:{
+			DIFFICULT:8,
+			NOTES:914
+		}
+	},
+	{
 		TITLE:'LAB',
 		GENRE:'RAVE',
 		ARTIST:'RAM',
@@ -17231,6 +19630,47 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1721 
+		}
+	},
+	{
+		TITLE:'LASER CRUSTER (IGNITE REMIX)',
+		GENRE:'DRUM & BASS / HYBRID TRAP',
+		ARTIST:'Remixed by BEMANI Sound Team "HuΣeR"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'174',
+		TIME:'2:06',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:399
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:908
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1824
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:380
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:848
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1700
 		}
 	},
 	{
@@ -17668,6 +20108,39 @@
 		}
 	},
 	{
+		TITLE:'Life Is A Game ft.DD"ナカタ"Metal',
+		GENRE:'UPTEMPO HARDCORE',
+		ARTIST:'RoughSketch',
+		FOLDER:'CANNON BALLERS',
+		CATEGORY:'',
+		BPM:'195',
+		TIME:'',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:642
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:999
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1775
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:698
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1169
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1667
+		}
+	},
+	{
 		TITLE:'Lift Us High',
 		GENRE:'MELODIC TRANCE',
 		ARTIST:'BEMANI Sound Team "Sota Fujimori"',
@@ -17839,6 +20312,47 @@
 		}
 	},
 	{
+		TITLE:'LIGHTNING STRIKES',
+		GENRE:'Hi-GAIN ENERGY',
+		ARTIST:'BEMANI Sound Team "HuΣeR"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'174',
+		TIME:'1:54',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:471
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:854
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1639
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:473
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:950
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1763
+		}
+	},
+	{
 		TITLE:'lights',
 		GENRE:'SOUL',
 		ARTIST:'flare',
@@ -17869,6 +20383,73 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:995 
+		}
+	},
+	{
+		TITLE:'LIKE A VAMPIRE',
+		GENRE:'HEAVY METAL',
+		ARTIST:'koyomi,星野奏子 by BEMANI Sound Team "TAKA"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'276',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:536
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:908
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1415
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:527
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:985
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1471
+		}
+	},
+	{
+		TITLE:'Like+it!',
+		GENRE:'EUROBEAT',
+		ARTIST:'Ryu☆',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'165',
+		TIME:'1:38',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:541
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:885
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1197
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:505
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:871
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1071
 		}
 	},
 	{
@@ -18023,6 +20604,10 @@
 			DIFFICULT:11,
 			NOTES:1420 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1946
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:560 
@@ -18034,6 +20619,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1610 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2035
 		}
 	},
 	{
@@ -18100,6 +20689,79 @@
 		DPA:{
 			DIFFICULT:8,
 			NOTES:873 
+		}
+	},
+	{
+		TITLE:'Lords Of The Roundtable',
+		GENRE:'PIANO BEAT MUSIC',
+		ARTIST:'DJ Mass MAD Izm* feat.REO',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'174',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:541
+		},
+		SPH:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:10,
+			NOTES:950
+		},
+		SPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1586
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:567
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:838
+		},
+		DPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1477
+		}
+	},
+	{
+		TITLE:'Lost Souls',
+		GENRE:'DARKSTEP',
+		ARTIST:'BEMANI Sound Team "SYUNN"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'1:47',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:358
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:857
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1236
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:349
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:820
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1280
 		}
 	},
 	{
@@ -18286,6 +20948,10 @@
 			DIFFICULT:8,
 			NOTES:903 
 		},
+		SPL:{
+			DIFFICULT:10,
+			NOTES:1059
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:456 
@@ -18297,6 +20963,10 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:1034 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1243
 		}
 	},
 	{
@@ -18392,6 +21062,39 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1150 
+		}
+	},
+	{
+		TITLE:'LOVE♡SHINE',
+		GENRE:'J-HAPPY HARDCORE',
+		ARTIST:'小坂りゆ',
+		FOLDER:'9th style',
+		CATEGORY:'',
+		BPM:'177',
+		TIME:'1:39',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:433
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:921
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1046
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:427
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:673
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:960
 		}
 	},
 	{
@@ -18641,6 +21344,11 @@
 			DIFFICULT:9,
 			NOTES:1069 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1409
+		},
 		DPN:{
 			DIFFICULT:3,
 			NOTES:300 
@@ -18652,6 +21360,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1416 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1644
 		}
 	},
 	{
@@ -18691,6 +21403,39 @@
 			CN:true,
 			DIFFICULT:10,
 			NOTES:1103 
+		}
+	},
+	{
+		TITLE:'Lycoris',
+		GENRE:'HYPER JAPANESQUE',
+		ARTIST:'BEMANI Sound Team "HuΣeR" feat.Fernweh',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'174',
+		TIME:'',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:392
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:698
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1026
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:433
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:738
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1058
 		}
 	},
 	{
@@ -19178,6 +21923,10 @@
 			DIFFICULT:11,
 			NOTES:1312 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1618
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:478 
@@ -19189,6 +21938,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1385 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1500
 		}
 	},
 	{
@@ -19387,6 +22140,45 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:1503 
+		}
+	},
+	{
+		TITLE:'Mel',
+		GENRE:'DRUM\'N\'BASS',
+		ARTIST:'Applekid',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'178',
+		TIME:'2:03',
+		SPN:{
+			BSS:true,
+			DIFFICULT:4,
+			NOTES:396
+		},
+		SPH:{
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:767
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1088
+		},
+		DPN:{
+			BSS:true,
+			DIFFICULT:4,
+			NOTES:405
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:713
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1026
 		}
 	},
 	{
@@ -19652,6 +22444,43 @@
 		}
 	},
 	{
+		TITLE:'Midnight Drive',
+		GENRE:'HIP HOP',
+		ARTIST:'らっぷびと Prod. by uno',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'90-110',
+		TIME:'1:59',
+		SPN:{
+			CN:true,
+			DIFFICULT:3,
+			NOTES:308
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:675
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1016
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:3,
+			NOTES:319
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:653
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:968
+		}
+	},
+	{
 		TITLE:'Midnight Lady',
 		GENRE:'NU 80\'s DISCO FUNK',
 		ARTIST:'Dirty Androids',
@@ -19710,6 +22539,10 @@
 			DIFFICULT:9,
 			NOTES:923 
 		},
+		SPL:{
+			DIFFICULT:10,
+			NOTES:1135
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:353 
@@ -19721,6 +22554,10 @@
 		DPA:{
 			DIFFICULT:8,
 			NOTES:937 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1295
 		}
 	},
 	{
@@ -20146,6 +22983,45 @@
 		}
 	},
 	{
+		TITLE:'MOVE! (We Keep It Movin\')',
+		GENRE:'ORBITALIC ELECTRIC MUSIC',
+		ARTIST:'Jonny Dynamite!,Lisa - paint with stars -,Rio Hiiragi',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'142',
+		TIME:'2:06',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:387
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:694
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1111
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:371
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:666
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1111
+		}
+	},
+	{
 		TITLE:'murmur twins',
 		GENRE:'CUDDLECORE',
 		ARTIST:'yu_tokiwa.djw',
@@ -20377,6 +23253,47 @@
 		}
 	},
 	{
+		TITLE:'Nasty Techniques',
+		GENRE:'Hi-TECH FULL ON',
+		ARTIST:'kors k',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:08',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:496
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:854
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1338
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:499
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:841
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1290
+		}
+	},
+	{
 		TITLE:'naughty girl@Queen\'s Palace',
 		GENRE:'TECH-BREAKBEATS',
 		ARTIST:'DJ Mass MAD Izm*',
@@ -20396,6 +23313,10 @@
 			DIFFICULT:11,
 			NOTES:1088 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1380
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:433 
@@ -20407,6 +23328,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:853 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1276
 		}
 	},
 	{
@@ -20716,6 +23641,39 @@
 		}
 	},
 	{
+		TITLE:'never let you down',
+		GENRE:'GARAGE HOUSE',
+		ARTIST:'good-cool feat. JP Miles',
+		FOLDER:'3rd style',
+		CATEGORY:'',
+		BPM:'125',
+		TIME:'1:37',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:408
+		},
+		SPH:{
+			DIFFICULT:5,
+			NOTES:575
+		},
+		SPA:{
+			DIFFICULT:5,
+			NOTES:581
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:465
+		},
+		DPH:{
+			DIFFICULT:6,
+			NOTES:577
+		},
+		DPA:{
+			DIFFICULT:-,
+			NOTES:-
+		}
+	},
+	{
 		TITLE:'never…',
 		GENRE:'DANCE POP',
 		ARTIST:'Kanako Hoshino with dj TAKA',
@@ -20830,6 +23788,10 @@
 			DIFFICULT:10,
 			NOTES:1342 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1895
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:556 
@@ -20841,6 +23803,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1278 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1834
 		}
 	},
 	{
@@ -20913,6 +23879,90 @@
 			CN:true,
 			DIFFICULT:11,
 			NOTES:1574 
+		}
+	},
+	{
+		TITLE:'NEWALONE',
+		GENRE:'INDUSTRIAL BASS',
+		ARTIST:'Masayoshi Iimori',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'110',
+		TIME:'1:58',
+		SPN:{
+			BSS:true,
+			DIFFICULT:4,
+			NOTES:303
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:662
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1012
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:352
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:643
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:980
+		}
+	},
+	{
+		TITLE:'Next Level',
+		GENRE:'DRUM & BASS',
+		ARTIST:'Maozon',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'174',
+		TIME:'1:57',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:477
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:817
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1100
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:473
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:816
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1135
 		}
 	},
 	{
@@ -21057,6 +24107,82 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1580 
+		}
+	},
+	{
+		TITLE:'NITROUS CANNON',
+		GENRE:'MACHINEGUN PSYSTYLE',
+		ARTIST:'かめりあ',
+		FOLDER:'CANNON BALLERS',
+		CATEGORY:'',
+		BPM:'169',
+		TIME:'2:08',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:713
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1055
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1875
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:696
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1054
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1852
+		}
+	},
+	{
+		TITLE:'NITROUS CANNON',
+		GENRE:'MACHINEGUN PSYSTYLE',
+		ARTIST:'かめりあ',
+		FOLDER:'CANNON BALLERS',
+		CATEGORY:'',
+		BPM:'169',
+		TIME:'2:08',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:713
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1055
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1875
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:696
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1054
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1852
 		}
 	},
 	{
@@ -21544,6 +24670,39 @@
 		}
 	},
 	{
+		TITLE:'Ocean Blue feat. Luschel',
+		GENRE:'HiTECH FUSION',
+		ARTIST:'lapix',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'145',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:432
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:736
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1244
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:434
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:754
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1241
+		}
+	},
+	{
 		TITLE:'Odin',
 		GENRE:'GABBER',
 		ARTIST:'Noizenecio',
@@ -21574,6 +24733,45 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1140 
+		}
+	},
+	{
+		TITLE:'of the first magnitude',
+		GENRE:'TRANCE',
+		ARTIST:'BEMANI Sound Team "Trance Liquid"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'157',
+		TIME:'2:08',
+		SPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:523
+		},
+		SPH:{
+			HCN:true,
+			DIFFICULT:9,
+			NOTES:976
+		},
+		SPA:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1503
+		},
+		DPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:522
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:9,
+			NOTES:998
+		},
+		DPA:{
+			HCN:true,
+			DIFFICULT:11,
+			NOTES:1541
 		}
 	},
 	{
@@ -21935,6 +25133,50 @@
 		}
 	},
 	{
+		TITLE:'Ōu Legends',
+		SORT:'202',
+		GENRE:'TOHOKU NEURO DENSETSU',
+		ARTIST:'かめりあ',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'191',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:581
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1068
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1687
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:600
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1063
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1701
+		}
+	},
+	{
 		TITLE:'Outbreak',
 		GENRE:'FRENCHCORE',
 		ARTIST:'USAO',
@@ -22026,6 +25268,45 @@
 		}
 	},
 	{
+		TITLE:'OUTER PLANETS',
+		GENRE:'EPIC STORY',
+		ARTIST:'BEMANI Sound Team "劇団レコード"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'140',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:340
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:716
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1100
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:343
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:732
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1104
+		}
+	},
+	{
 		TITLE:'outer wall',
 		GENRE:'TECHNO',
 		ARTIST:'sampling masters MEGA',
@@ -22092,6 +25373,47 @@
 		}
 	},
 	{
+		TITLE:'OVER VOLTAGE',
+		GENRE:'HARDSTYLE',
+		ARTIST:'Yuta Imai',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'160',
+		TIME:'2:08',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:560
+		},
+		SPH:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:9,
+			NOTES:935
+		},
+		SPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:11,
+			NOTES:1332
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:583
+		},
+		DPH:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:9,
+			NOTES:954
+		},
+		DPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:11,
+			NOTES:1371
+		}
+	},
+	{
 		TITLE:'Overload Frontier',
 		GENRE:'HARDCORE RAVE',
 		ARTIST:'DJ Shimamura',
@@ -22122,6 +25444,39 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1249 
+		}
+	},
+	{
+		TITLE:'Override',
+		GENRE:'EUPHORIC HARDCORE',
+		ARTIST:'Nhato',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:480
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:821
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1471
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:492
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:815
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1445
 		}
 	},
 	{
@@ -22400,6 +25755,72 @@
 		},
 	},
 	{
+		TITLE:'Parasite World',
+		GENRE:'HYPER J-CORE',
+		ARTIST:'TЁЯRA underground',
+		FOLDER:'DistorteD',
+		CATEGORY:'',
+		BPM:'135',
+		TIME:'1:50',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:686
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:966
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1194
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:703
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:985
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1195
+		}
+	},
+	{
+		TITLE:'Party Starter',
+		GENRE:'K-POP',
+		ARTIST:'ARM (IOSYS) × cotowari ft. anporin',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'154',
+		TIME:'2:05',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:502
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:780
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1170
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:501
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:819
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1139
+		}
+	},
+	{
 		TITLE:'passionate fate',
 		GENRE:'HANDZ UP',
 		ARTIST:'Ryu☆',
@@ -22634,6 +26055,47 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:794 
+		}
+	},
+	{
+		TITLE:'PHASE SHIFT MANEUVER',
+		GENRE:'PSYSTYLE',
+		ARTIST:'BEMANI Sound Team "L.E.D."',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'163',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:638
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:886
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1447
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:646
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:913
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1429
 		}
 	},
 	{
@@ -23115,6 +26577,51 @@
 		},
 	},
 	{
+		TITLE:'Primitive Vibes',
+		GENRE:'TRIBAL FRONTIER',
+		ARTIST:'lapix',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:587
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1004
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1564
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:6,
+			NOTES:589
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1019
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1534
+		}
+	},
+	{
 		TITLE:'Programmed Sun',
 		GENRE:'PSY TRANCE(MORNING)',
 		ARTIST:'kors k',
@@ -23507,6 +27014,10 @@
 			DIFFICULT:11,
 			NOTES:1490 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1845
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:729 
@@ -23518,6 +27029,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1999 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1825
 		}
 	},
 	{
@@ -23551,6 +27066,49 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1874 
+		}
+	},
+	{
+		TITLE:'Queen Kaguya',
+		GENRE:'ORBITALIC MOON MIXTURE',
+		ARTIST:'BEMANI Sound Team "U1 overground"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'2:02',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:493
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:952
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1330
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:506
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:892
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1327
 		}
 	},
 	{
@@ -24088,6 +27646,39 @@
 		}
 	},
 	{
+		TITLE:'Rainstorm',
+		GENRE:'UPLIFTING TRANCE',
+		ARTIST:'Maozon feat. Chica',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'140',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:501
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:784
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1146
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:485
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:775
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1140
+		}
+	},
+	{
 		TITLE:'Raison d\'etre～交差する宿命～',
 		GENRE:'ASTRAL CHOIR',
 		ARTIST:'Zektbach',
@@ -24267,6 +27858,72 @@
 			BSS:true,
 			DIFFICULT:12,
 			NOTES:1597 
+		}
+	},
+	{
+		TITLE:'Rave lithosphere',
+		GENRE:'RAVE',
+		ARTIST:'Sampling Masters MEGA',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'1:57',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:554
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:898
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1344
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:568
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:881
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1360
+		}
+	},
+	{
+		TITLE:'Rave Patroller',
+		GENRE:'FUTURE SKOOL BREAKBEATS HARDCORE',
+		ARTIST:'Eagle',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:696
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1189
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1705
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:747
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1289
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1667
 		}
 	},
 	{
@@ -24473,6 +28130,39 @@
 		}
 	},
 	{
+		TITLE:'Red Soul',
+		GENRE:'HARDCORE',
+		ARTIST:'RoughSketch',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'2:02',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:543
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:915
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1494
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:532
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:931
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1463
+		}
+	},
+	{
 		TITLE:'RED ZONE',
 		GENRE:'SPEED RAVE',
 		ARTIST:'Tatsh&NAOKI',
@@ -24492,6 +28182,11 @@
 			DIFFICULT:11,
 			NOTES:1184 
 		},
+		SPL:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1566
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:611 
@@ -24503,6 +28198,11 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1232 
+		},
+		DPL:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1502
 		}
 	},
 	{
@@ -25123,6 +28823,11 @@
 			DIFFICULT:8,
 			NOTES:862 
 		},
+		SPL:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:931
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:469 
@@ -25134,6 +28839,11 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:904 
+		},
+		DPL:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1010
 		}
 	},
 	{
@@ -25444,6 +29154,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1174 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1265
 		}
 	},
 	{
@@ -26415,6 +30129,78 @@
 		}
 	},
 	{
+		TITLE:'S-Bahn',
+		GENRE:'DARK TECHNO',
+		ARTIST:'BEMANI Sound Team "DARK TRAIN"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'142',
+		TIME:'1:52',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:491
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:800
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1092
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:525
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:799
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:1093
+		}
+	},
+	{
+		TITLE:'Scandal',
+		GENRE:'PROGRESSIVE SWING',
+		ARTIST:'Osamu Kubota',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'160-228',
+		TIME:'2:11',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:492
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:1009
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1476
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:510
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:970
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1498
+		}
+	},
+	{
 		TITLE:'scar in the earth',
 		GENRE:'WORLD/ELECTRONICA',
 		ARTIST:'猫叉Master',
@@ -26529,6 +30315,39 @@
 			BSS:true,
 			DIFFICULT:11,
 			NOTES:1552 
+		}
+	},
+	{
+		TITLE:'Schlagwerk',
+		GENRE:'BIG BEAT',
+		ARTIST:'TaQ',
+		FOLDER:'3rd style',
+		CATEGORY:'',
+		BPM:'125',
+		TIME:'1:40',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:414
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:663
+		},
+		SPA:{
+			DIFFICULT:8,
+			NOTES:848
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:412
+		},
+		DPH:{
+			DIFFICULT:11,
+			NOTES:1043
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1090
 		}
 	},
 	{
@@ -27515,6 +31334,11 @@
 			DIFFICULT:12,
 			NOTES:2029 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2267
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:778 
@@ -27528,6 +31352,11 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:2073 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2255
 		}
 	},
 	{
@@ -27705,6 +31534,43 @@
 		}
 	},
 	{
+		TITLE:'Ska-sh All Neurons!!',
+		GENRE:'A-STYLE NEURO+"スカ"+FUNK DRUMSTEP',
+		ARTIST:'かめりあ feat. ななひら',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'183',
+		TIME:'2:04',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:497
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:739
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1176
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:502
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:692
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1139
+		}
+	},
+	{
 		TITLE:'Sky High',
 		GENRE:'ANTHEM',
 		ARTIST:'Cuvelia',
@@ -27839,6 +31705,42 @@
 		}
 	},
 	{
+		TITLE:'Smashing Wedge',
+		GENRE:'HARDCORE',
+		ARTIST:'nora2r',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'215',
+		TIME:'2:01',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:492
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1141
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1957
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:555
+		},
+		DPH:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1270
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1969
+		}
+	},
+	{
 		TITLE:'smile',
 		GENRE:'ELE POP',
 		ARTIST:'miru_maki.gjw',
@@ -27902,6 +31804,43 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1166 
+		}
+	},
+	{
+		TITLE:'smooooch・∀・ (Snail\'s House Remix)',
+		GENRE:'CANDY RAVE BASS',
+		ARTIST:'Remixed by Snail\'s House',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'177',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:442
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:807
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1193
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:436
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:793
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1180
 		}
 	},
 	{
@@ -28235,6 +32174,11 @@
 			DIFFICULT:12,
 			NOTES:1819 
 		},
+		SPL:{
+			HCN:true,
+			DIFFICULT:12,
+			NOTES:1868
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:539 
@@ -28246,6 +32190,11 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1913 
+		},
+		DPL:{
+			HCN:true,
+			DIFFICULT:12,
+			NOTES:2033
 		}
 	},
 	{
@@ -28317,6 +32266,39 @@
 		}
 	},
 	{
+		TITLE:'sometime',
+		GENRE:'SOUND TRACK',
+		ARTIST:'Aya',
+		FOLDER:'5th style',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:393
+		},
+		SPH:{
+			DIFFICULT:6,
+			NOTES:539
+		},
+		SPA:{
+			DIFFICULT:8,
+			NOTES:672
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:393
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:676
+		},
+		DPA:{
+			DIFFICULT:8,
+			NOTES:693
+		}
+	},
+	{
 		TITLE:'Sorrows',
 		GENRE:'EMO',
 		ARTIST:'Asako Yoshihiro',
@@ -28347,6 +32329,45 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1274 
+		}
+	},
+	{
+		TITLE:'Souhait bleu',
+		GENRE:'ALCHEMY POP',
+		ARTIST:'しーけー',
+		FOLDER:'Cast Hour',
+		CATEGORY:'',
+		BPM:'225',
+		TIME:'1:57',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:457
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:977
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1407
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:467
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:1007
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1457
 		}
 	},
 	{
@@ -28524,6 +32545,45 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1528 
+		}
+	},
+	{
+		TITLE:'Sparkle Smilin\'',
+		GENRE:'TWINKLE POP',
+		ARTIST:'BEMANI Sound Team "Qrispy Joybox" feat.いちか',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'1:50',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:462
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:756
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1243
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:456
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:8,
+			NOTES:746
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1191
 		}
 	},
 	{
@@ -28867,6 +32927,10 @@
 			DIFFICULT:11,
 			NOTES:1310 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1910
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:564 
@@ -28878,6 +32942,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1139 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2070
 		}
 	},
 	{
@@ -29009,6 +33077,47 @@
 		}
 	},
 	{
+		TITLE:'STAR BEAT',
+		GENRE:'COLOUR BASS',
+		ARTIST:'MK',
+		FOLDER:'RESIDENT',
+		CATEGORY:'',
+		BPM:'158',
+		TIME:'1:56',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:427
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:880
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1230
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:446
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:882
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1271
+		}
+	},
+	{
 		TITLE:'STAR DREAM',
 		GENRE:'TRANCE',
 		ARTIST:'PINK PONG',
@@ -29090,6 +33199,10 @@
 			DIFFICULT:11,
 			NOTES:1342 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1712
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:705 
@@ -29101,6 +33214,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1435 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1814
 		}
 	},
 	{
@@ -29379,6 +33496,10 @@
 			DIFFICULT:11,
 			NOTES:1269 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1701
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:575 
@@ -29390,6 +33511,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1367 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1676
 		}
 	},
 	{
@@ -29492,6 +33617,78 @@
 		}
 	},
 	{
+		TITLE:'Stleq',
+		GENRE:'ARTCORE',
+		ARTIST:'ぬゆり',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:527
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:890
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1372
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:489
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:926
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1492
+		}
+	},
+	{
+		TITLE:'STOIC HYPOTHESIS',
+		GENRE:'RIDDIM CORE',
+		ARTIST:'BEMANI Sound Team "Expander"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:565
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:917
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1442
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:560
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:919
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1405
+		}
+	},
+	{
 		TITLE:'StrayedCatz',
 		GENRE:'FANTASY',
 		ARTIST:'削除',
@@ -29588,6 +33785,74 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1052 
+		}
+	},
+	{
+		TITLE:'Sugar Drippin\'',
+		GENRE:'GARAGE',
+		ARTIST:'kors k',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'135',
+		TIME:'1:58',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:391
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:701
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1069
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:396
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:687
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1129
+		}
+	},
+	{
+		TITLE:'Sugarplum',
+		GENRE:'MOE CORE',
+		ARTIST:'KOTONOHOUSE',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'1:59',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:445
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:938
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1265
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:452
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:946
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1297
 		}
 	},
 	{
@@ -29692,6 +33957,41 @@
 		}
 	},
 	{
+		TITLE:'Super Rush',
+		GENRE:'HARDTEK',
+		ARTIST:'kors k',
+		FOLDER:'SINOBUZ',
+		CATEGORY:'',
+		BPM:'190',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:523
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:953
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1791
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:574
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1007
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1719
+		}
+	},
+	{
 		TITLE:'Surf on the Light',
 		GENRE:'ELECTRO FUSION',
 		ARTIST:'Tomoyuki Uchida',
@@ -29761,6 +34061,115 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1195 
+		}
+	},
+	{
+		TITLE:'SURVIVOR',
+		GENRE:'GRAVITY POP',
+		ARTIST:'SOUND HOLIC Vs. ZYTOKINE feat. Nana Takahashi',
+		FOLDER:'copula',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:363
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:658
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1014
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:494
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:703
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1135
+		}
+	},
+	{
+		TITLE:'SURVIVOR',
+		GENRE:'GRAVITY POP',
+		ARTIST:'SOUND HOLIC Vs. ZYTOKINE feat. Nana Takahashi',
+		FOLDER:'copula',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:363
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:658
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1014
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:494
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:703
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1135
+		}
+	},
+	{
+		TITLE:'Swarm Of Scarabs',
+		GENRE:'HOLIC',
+		ARTIST:'C-Show',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'110',
+		TIME:'1:48',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:532
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:784
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1212
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:532
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:785
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1212
 		}
 	},
 	{
@@ -29896,6 +34305,72 @@
 		}
 	},
 	{
+		TITLE:'sync',
+		GENRE:'TRANCE',
+		ARTIST:'OutPhase (TaQ/dj TAKA)',
+		FOLDER:'5th Style',
+		CATEGORY:'',
+		BPM:'167',
+		TIME:'2:02',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:549
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:982
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1204
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:796
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1030
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1208
+		}
+	},
+	{
+		TITLE:'sync',
+		GENRE:'TRANCE',
+		ARTIST:'OutPhase (TaQ/dj TAKA)',
+		FOLDER:'5th style',
+		CATEGORY:'',
+		BPM:'167',
+		TIME:'2:02',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:549
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:982
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1204
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:796
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1030
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1208
+		}
+	},
+	{
 		TITLE:'SYNC-ANTHEM',
 		GENRE:'LATIN EURO',
 		ARTIST:'Tatsh feat. 星野奏子',
@@ -30027,6 +34502,47 @@
 		}
 	},
 	{
+		TITLE:'take me higher',
+		GENRE:'FUTURE JERSEY',
+		ARTIST:'KOTONOHOUSE',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'140',
+		TIME:'1:53',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:414
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:7,
+			NOTES:647
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1015
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:419
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:8,
+			NOTES:648
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:959
+		}
+	},
+	{
 		TITLE:'Tangerine Stream',
 		GENRE:'AMBIENT',
 		ARTIST:'dj TAKA',
@@ -30114,6 +34630,78 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1209
+		}
+	},
+	{
+		TITLE:'TECHNO Style Essentials',
+		GENRE:'TECHNO',
+		ARTIST:'BEMANI Sound Team "SETUP from Berlin"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'154',
+		TIME:'1:54',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:516
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:833
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1453
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:517
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:821
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1506
+		}
+	},
+	{
+		TITLE:'Tell me what you wish feat.らっぷびと',
+		GENRE:'ROCK',
+		ARTIST:'Pizuya\'s Cell',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'203',
+		TIME:'2:14',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:571
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:818
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1436
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:576
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:860
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1514
 		}
 	},
 	{
@@ -30210,6 +34798,10 @@
 			DIFFICULT:10,
 			NOTES:1090 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1534
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:437 
@@ -30221,6 +34813,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1107 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1182
 		}
 	},
 	{
@@ -30289,6 +34885,45 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:1490 
+		}
+	},
+	{
+		TITLE:'THE BRAVE MUST DIE',
+		GENRE:'HARDCORE',
+		ARTIST:'BEMANI Sound Team "L.E.D.-G"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'215',
+		TIME:'2:09',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:721
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1283
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2075
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:778
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1238
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2086
 		}
 	},
 	{
@@ -30458,6 +35093,10 @@
 			DIFFICULT:11,
 			NOTES:1528 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1778
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:622 
@@ -30469,6 +35108,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1451 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1728
 		}
 	},
 	{
@@ -30649,6 +35292,45 @@
 		}
 	},
 	{
+		TITLE:'THE F∀UST',
+		GENRE:'PIERROT CORE',
+		ARTIST:'Masqed Pierrot',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:07',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:691
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1183
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1851
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:701
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1143
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1838
+		}
+	},
+	{
 		TITLE:'THE FALLEN',
 		GENRE:'GOTH NU-STYLE GABBA',
 		ARTIST:'L.E.D.-G',
@@ -30811,6 +35493,41 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1618 
+		}
+	},
+	{
+		TITLE:'THE PEERLESS UNDER HEAVEN',
+		GENRE:'HARD MIXTURE',
+		ARTIST:'Yuta Imai Vs. BEMANI Sound Team "L.E.D.-G"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'170',
+		TIME:'2:00',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:595
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1066
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1818
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:592
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1032
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1801
 		}
 	},
 	{
@@ -31152,6 +35869,39 @@
 		}
 	},
 	{
+		TITLE:'Theory',
+		GENRE:'TRAP',
+		ARTIST:'YUTO',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'102-146',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:412
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:745
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1342
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:418
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:731
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1309
+		}
+	},
+	{
 		TITLE:'This is Love',
 		GENRE:'CORE POP',
 		ARTIST:'D-crew feat.MAKOTO',
@@ -31280,6 +36030,84 @@
 		}
 	},
 	{
+		TITLE:'TIEFSEE',
+		GENRE:'DEEP SPECTRUM',
+		ARTIST:'SOUND HOLIC Vs. dj TAKA feat. YURiCa',
+		FOLDER:'PENDUAL',
+		CATEGORY:'',
+		BPM:'165',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:653
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:1096
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1752
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:630
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:1099
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1767
+		}
+	},
+	{
+		TITLE:'Tiempo Loco',
+		GENRE:'Hi-TECH / PSY CORE',
+		ARTIST:'kors k feat.Hboy',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'180',
+		TIME:'2:04',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:545
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1035
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1884
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:550
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:1062
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1740
+		}
+	},
+	{
 		TITLE:'Time is money',
 		GENRE:'JAZZ',
 		ARTIST:'good-cool',
@@ -31324,6 +36152,10 @@
 			DIFFICULT:11,
 			NOTES:1458 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1888
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:634 
@@ -31335,6 +36167,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1325 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1864
 		}
 	},
 	{
@@ -31465,6 +36301,12 @@
 			DIFFICULT:11,
 			NOTES:1275 
 		},
+		SPL:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1377
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:319 
@@ -31476,6 +36318,12 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1265 
+		},
+		DPL:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1384
 		}
 	},
 	{
@@ -31974,6 +36822,11 @@
 			DIFFICULT:11,
 			NOTES:1141 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1546
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:449 
@@ -31985,6 +36838,11 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1141 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1563
 		}
 	},
 	{
@@ -32024,6 +36882,150 @@
 			BSS:true,
 			DIFFICULT:10,
 			NOTES:1049 
+		}
+	},
+	{
+		TITLE:'T-REX vs Velociraptor (In the Far east euphoria)',
+		GENRE:'RAVECORE',
+		ARTIST:'RoughSketch & TARACHINE',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'1:57',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:712
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:943
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1636
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:712
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:923
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1607
+		}
+	},
+	{
+		TITLE:'tricky trick',
+		GENRE:'DUBSTEP',
+		ARTIST:'kamome sano',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'165',
+		TIME:'',
+		SPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:434
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:668
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1173
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:4,
+			NOTES:429
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:671
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1274
+		}
+	},
+	{
+		TITLE:'Trill auf G',
+		GENRE:'MUSIC GAMES HARDCORE',
+		ARTIST:'BEMANI Sound Team "dj TAKA"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'188',
+		TIME:'2:01',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:586
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1098
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1670
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:577
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1059
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1610
+		}
+	},
+	{
+		TITLE:'Trill auf G',
+		GENRE:'MUSIC GAMES HARDCORE',
+		ARTIST:'BEMANI Sound Team "dj TAKA"',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'188',
+		TIME:'2:01',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:586
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1098
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1670
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:577
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1059
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1610
 		}
 	},
 	{
@@ -32158,6 +37160,49 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1367 
+		}
+	},
+	{
+		TITLE:'TRIUMPH',
+		GENRE:'UK HARDCORE',
+		ARTIST:'AJURIKA',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'183',
+		TIME:'1:58',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:475
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:1019
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1724
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:477
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:959
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1691
 		}
 	},
 	{
@@ -32351,6 +37396,10 @@
 			DIFFICULT:10,
 			NOTES:1033 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1684
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:707 
@@ -32362,6 +37411,10 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:1070 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1748
 		}
 	},
 	{
@@ -32446,6 +37499,10 @@
 			DIFFICULT:11,
 			NOTES:1280 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1655
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:536 
@@ -32457,6 +37514,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1171 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1583
 		}
 	},
 	{
@@ -32799,6 +37860,39 @@
 		}
 	},
 	{
+		TITLE:'UNITE THE HEART',
+		GENRE:'DANCE POP DUET',
+		ARTIST:'BEMANI Sound Team "T.Kakuta" feat. 709sec./花たん',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'2:12',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:753
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1319
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1676
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:696
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1259
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1633
+		}
+	},
+	{
 		TITLE:'Urban Constellations',
 		GENRE:'JAZZY FOOTWORK JUNGLE',
 		ARTIST:'Dirty Androids',
@@ -33078,6 +38172,10 @@
 			DIFFICULT:12,
 			NOTES:1228 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1771
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:588 
@@ -33089,6 +38187,43 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1297 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1633
+		}
+	},
+	{
+		TITLE:'Vector',
+		GENRE:'TECH CORE',
+		ARTIST:'VOLTA',
+		FOLDER:'INFINITAS',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:517
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:926
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1265
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:512
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:912
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1283
 		}
 	},
 	{
@@ -33181,6 +38316,12 @@
 			DIFFICULT:12,
 			NOTES:1805 
 		},
+		SPL:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:2401
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:643 
@@ -33192,6 +38333,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1949 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2093
 		}
 	},
 	{
@@ -33267,6 +38412,46 @@
 		}
 	},
 	{
+		TITLE:'Virus Funk',
+		GENRE:'PROGRESSIVE DISCO',
+		ARTIST:'Nhato',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'132',
+		TIME:'2:01',
+		SPN:{
+			HCN:true,
+			DIFFICULT:4,
+			NOTES:397
+		},
+		SPH:{
+			HCN:true,
+			DIFFICULT:7,
+			NOTES:785
+		},
+		SPA:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1119
+		},
+		DPN:{
+			HCN:true,
+			DIFFICULT:5,
+			NOTES:443
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:7,
+			NOTES:703
+		},
+		DPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:10,
+			NOTES:1009
+		}
+	},
+	{
 		TITLE:'Visterhv',
 		GENRE:'REBIRTH OUT',
 		ARTIST:'Feryquitous',
@@ -33308,6 +38493,45 @@
 		}
 	},
 	{
+		TITLE:'Vitrum',
+		GENRE:'PROGRESSIVE METAL',
+		ARTIST:'BEMANI Sound Team "Yvya"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'146',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:554
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:905
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1848
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:580
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:910
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1703
+		}
+	},
+	{
 		TITLE:'VJ ARMY',
 		GENRE:'ALL MIX',
 		ARTIST:'good-cool',
@@ -33338,6 +38562,43 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1138 
+		}
+	},
+	{
+		TITLE:'Volcanic Dragon',
+		GENRE:'HARDCORE RAVE',
+		ARTIST:'DJ Shimamura',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'2:06',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:548
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:914
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1495
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:620
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:861
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1412
 		}
 	},
 	{
@@ -33378,6 +38639,39 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:1824
+		}
+	},
+	{
+		TITLE:'Voo Doo Bamboleo',
+		GENRE:'TRIBAL DANCE',
+		ARTIST:'SOUND HOLIC Vs. ZYTOKINE feat. CALEN',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'137',
+		TIME:'2:08',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:459
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:786
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1262
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:472
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:809
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1361
 		}
 	},
 	{
@@ -33509,6 +38803,43 @@
 		}
 	},
 	{
+		TITLE:'WAKE UP NOW',
+		GENRE:'TROPICAL ELECTRO HOUSE',
+		ARTIST:'Maozon feat. Chica',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:485
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:739
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1008
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:542
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:713
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1127
+		}
+	},
+	{
 		TITLE:'Wanna Party?',
 		GENRE:'PIANO HOUSE',
 		ARTIST:'RAM',
@@ -33528,6 +38859,10 @@
 			DIFFICULT:8,
 			NOTES:762 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1300
+		},
 		DPN:{
 			DIFFICULT:3,
 			NOTES:329 
@@ -33539,6 +38874,10 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:910 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1326
 		}
 	},
 	{
@@ -33662,6 +39001,10 @@
 			DIFFICULT:11,
 			NOTES:1457 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2000
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:647 
@@ -33673,6 +39016,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1399 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2000
 		}
 	},
 	{
@@ -33728,6 +39075,12 @@
 			DIFFICULT:11,
 			NOTES:1357
 		},
+		SPL:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1701
+		},
 		DPN:{
 			DIFFICULT:7,
 			NOTES:727
@@ -33739,6 +39092,12 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1326
+		},
+		DPL:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1762
 		}
 	},
 	{
@@ -34888,6 +40247,10 @@
 			DIFFICULT:11,
 			NOTES:1466 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1801
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:579 
@@ -34899,6 +40262,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1402 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1796
 		}
 	},
 	{
@@ -35013,6 +40380,45 @@
 		}
 	},
 	{
+		TITLE:'Zenith',
+		GENRE:'PLUS ONE',
+		ARTIST:'Snail\'s House',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'164',
+		TIME:'2:11',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:428
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:752
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1128
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:424
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:767
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1227
+		}
+	},
+	{
 		TITLE:'Zenius -I- vanisher',
 		GENRE:'CYBER OPUS',
 		ARTIST:'Tatsh',
@@ -35065,6 +40471,11 @@
 			DIFFICULT:11,
 			NOTES:1499 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1982
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:510 
@@ -35076,6 +40487,11 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1599 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1985
 		}
 	},
 	{
@@ -35483,6 +40899,11 @@
 			DIFFICULT:7,
 			NOTES:754 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1095
+		},
 		DPN:{
 			DIFFICULT:3,
 			NOTES:235 
@@ -35494,6 +40915,11 @@
 		DPA:{
 			DIFFICULT:7,
 			NOTES:611 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1067
 		}
 	},
 	{
@@ -35775,6 +41201,40 @@
 		}
 	},
 	{
+		TITLE:'カゴノトリ～弐式～',
+		SORT:'81',
+		GENRE:'和式電子音楽',
+		ARTIST:'橙色特別室',
+		FOLDER:'DistorteD',
+		CATEGORY:'',
+		BPM:'140',
+		TIME:'1:57',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:581
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:944
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1325
+		},
+		DPN:{
+			DIFFICULT:6,
+			NOTES:581
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:978
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1586
+		}
+	},
+	{
 		TITLE:'カジノファイヤーことみちゃん',
 		SORT:'21',
 		GENRE:'電波',
@@ -35849,6 +41309,40 @@
 			CN:true,
 			DIFFICULT:9,
 			NOTES:910 
+		}
+	},
+	{
+		TITLE:'がっつり陰キャ!? 怪盗いいんちょの億劫^^;',
+		SORT:'51',
+		GENRE:'Hi-メランコリックコア',
+		ARTIST:'噂の怪盗少女ぷらずま★彡Prim@休業中～( _ _ ).。',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'1:59',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:789
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1399
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:2192
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:774
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1390
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:2161
 		}
 	},
 	{
@@ -36448,6 +41942,39 @@
 		}
 	},
 	{
+		TITLE:'たからもの',
+		GENRE:'POPS',
+		ARTIST:'セリカ&エリカ',
+		FOLDER:'SIRIUS',
+		CATEGORY:'',
+		BPM:'182',
+		TIME:'2:12',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:646
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:943
+		},
+		SPA:{
+			DIFFICULT:9,
+			NOTES:1123
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:636
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:908
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1521
+		}
+	},
+	{
 		TITLE:'タシカナモノ',
 		SORT:'188',
 		GENRE:'POPROCK',
@@ -36547,6 +42074,46 @@
 		DPA:{
 			DIFFICULT:7,
 			NOTES:742 
+		}
+	},
+	{
+		TITLE:'ディスコルディア',
+		SORT:'36',
+		GENRE:'CROSSOVER',
+		ARTIST:'ぺのれり vs. BEMANI Sound Team "HuΣeR"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'180-280',
+		TIME:'2:04',
+		SPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:701
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1229
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2073
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:724
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1258
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:2089
 		}
 	},
 	{
@@ -36975,6 +42542,83 @@
 		}
 	},
 	{
+		TITLE:'バッド・スイーツ、バッド・ドリーム',
+		GENRE:'.+:☆ BAD FUTURE ☆:+.',
+		ARTIST:'かめりあ feat. ななひら',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'220',
+		TIME:'2:04',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:563
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:943
+		},
+		SPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1862
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:559
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:936
+		},
+		DPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1543
+		}
+	},
+	{
+		TITLE:'バッドエンド・シンドローム',
+		SORT:'13',
+		GENRE:'PIANO CHRONICLE',
+		ARTIST:'アリスシャッハと魔法の楽団',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'126',
+		TIME:'2:11',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:535
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:892
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1497
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:491
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:940
+		},
+		DPA:{
+			DIFFICULT:11,
+			NOTES:1552
+		}
+	},
+	{
 		TITLE:'バビロニア',
 		SORT:'12',
 		GENRE:'DISTORTED NEW AGE',
@@ -37074,6 +42718,39 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1730 
+		}
+	},
+	{
+		TITLE:'ヒマワリ',
+		GENRE:'J-HAPPY HARDCORE',
+		ARTIST:'小坂りゆ',
+		FOLDER:'HAPPY SKY',
+		CATEGORY:'',
+		BPM:'185',
+		TIME:'1:56',
+		SPN:{
+			DIFFICULT:3,
+			NOTES:285
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:947
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1042
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:396
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:856
+		},
+		DPA:{
+			DIFFICULT:9,
+			NOTES:943
 		}
 	},
 	{
@@ -37774,6 +43451,80 @@
 		}
 	},
 	{
+		TITLE:'ラブキラ☆スプラッシュ',
+		SORT:'105',
+		GENRE:'HYPER POP',
+		ARTIST:'BEMANI Sound Team "Sota F." feat.いちか',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'152',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:564
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:838
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1267
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:517
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:758
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1100
+		}
+	},
+	{
+		TITLE:'ランカーキラーガール',
+		SORT:'148',
+		GENRE:'KILLER PUNK',
+		ARTIST:'中島由貴×いちか',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'2:03',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:583
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:955
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1479
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:604
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:903
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1419
+		}
+	},
+	{
 		TITLE:'リグレット',
 		SORT:'149',
 		GENRE:'EURO TRANCE',
@@ -38071,6 +43822,10 @@
 			DIFFICULT:11,
 			NOTES:1450 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1943
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:570 
@@ -38082,6 +43837,10 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1549 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1817
 		}
 	},
 	{
@@ -38329,6 +44088,81 @@
 		}
 	},
 	{
+		TITLE:'華麗なる大犬円舞曲',
+		GENRE:'CINEMATIC VALSE',
+		ARTIST:'Wiktoria',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'60-147',
+		TIME:'2:07',
+		SPN:{
+			DIFFICULT:7,
+			NOTES:710
+		},
+		SPH:{
+			DIFFICULT:10,
+			NOTES:1105
+		},
+		SPA:{
+			DIFFICULT:12,
+			NOTES:1849
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:712
+		},
+		DPH:{
+			DIFFICULT:10,
+			NOTES:1114
+		},
+		DPA:{
+			DIFFICULT:12,
+			NOTES:1835
+		}
+	},
+	{
+		TITLE:'華爛漫 -Flowers-',
+		SORT:'60',
+		GENRE:'HYPER JAPANESQUE',
+		ARTIST:'TЁЯRA',
+		FOLDER:'DJ TROOPERS',
+		CATEGORY:'',
+		BPM:'160',
+		TIME:'1:47',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:510
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:804
+		},
+		SPA:{
+			DIFFICULT:10,
+			NOTES:1029
+		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1597
+		},
+		DPN:{
+			DIFFICULT:7,
+			NOTES:592
+		},
+		DPH:{
+			DIFFICULT:9,
+			NOTES:801
+		},
+		DPA:{
+			DIFFICULT:10,
+			NOTES:1011
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1719
+		}
+	},
+	{
 		TITLE:'海神',
 		SORT:'217',
 		GENRE:'HYDRO CORE',
@@ -38477,6 +44311,47 @@
 			CN:true,
 			DIFFICULT:12,
 			NOTES:1467 
+		}
+	},
+	{
+		TITLE:'逆月',
+		SORT:'155',
+		GENRE:'JAPANESQUE',
+		ARTIST:'BEMANI Sound Team "HuΣeR" feat.Fernweh',
+		FOLDER:'Cast Hour',
+		CATEGORY:'',
+		BPM:'280',
+		TIME:'2:02',
+		SPN:{
+			HCN:true,
+			DIFFICULT:7,
+			NOTES:760
+		},
+		SPH:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1194
+		},
+		SPA:{
+			HCN:true,
+			HBSS:true,
+			DIFFICULT:12,
+			NOTES:1920
+		},
+		DPN:{
+			HCN:true,
+			DIFFICULT:7,
+			NOTES:768
+		},
+		DPH:{
+			HCN:true,
+			DIFFICULT:10,
+			NOTES:1177
+		},
+		DPA:{
+			HCN:true,
+			DIFFICULT:12,
+			NOTES:1848
 		}
 	},
 	{
@@ -38972,6 +44847,45 @@
 		}
 	},
 	{
+		TITLE:'最小三倍完全数',
+		GENRE:'ピタゴラス的不完全性破壊衝動音律(ハンマーによる)',
+		ARTIST:'DJ TECHNORCH',
+		FOLDER:'Rootage',
+		CATEGORY:'',
+		BPM:'220',
+		TIME:'1:48',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:469
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:921
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1314
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:464
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:908
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1414
+		}
+	},
+	{
 		TITLE:'罪と罰',
 		SORT:'209',
 		GENRE:'HYPER J-POP',
@@ -39348,6 +45262,11 @@
 			DIFFICULT:12,
 			NOTES:1493 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1824
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:556 
@@ -39359,6 +45278,11 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1670 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1764
 		}
 	},
 	{
@@ -39473,6 +45397,41 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1692 
+		}
+	},
+	{
+		TITLE:'灼熱Beach Side Bunny (Masayoshi Iimori Remix)',
+		GENRE:'NRG',
+		ARTIST:'Remixed by Masayoshi Iimori',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'1:55',
+		SPN:{
+			DIFFICULT:4,
+			NOTES:336
+		},
+		SPH:{
+			DIFFICULT:7,
+			NOTES:583
+		},
+		SPA:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:933
+		},
+		DPN:{
+			DIFFICULT:4,
+			NOTES:335
+		},
+		DPH:{
+			DIFFICULT:7,
+			NOTES:594
+		},
+		DPA:{
+			BSS:true,
+			DIFFICULT:10,
+			NOTES:941
 		}
 	},
 	{
@@ -39759,6 +45718,46 @@
 		},
 	},
 	{
+		TITLE:'深淵に捧ぐレクイエム',
+		SORT:'151',
+		GENRE:'CYBER REQUIEM',
+		ARTIST:'OSTER project',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'175',
+		TIME:'1:58',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:431
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:843
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1537
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:442
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:846
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1456
+		}
+	},
+	{
 		TITLE:'真 地獄超特急 -HELL or HELL-',
 		SORT:'195',
 		GENRE:'新世紀進歩的羽扇子音楽',
@@ -39873,6 +45872,51 @@
 		}
 	},
 	{
+		TITLE:'水鏡の異界',
+		GENRE:'JAPANESE TECH BREAKS',
+		ARTIST:'BEMANI Sound Team "Coyaan"',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'168',
+		TIME:'2:00',
+		SPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:452
+		},
+		SPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:889
+		},
+		SPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1661
+		},
+		DPN:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:5,
+			NOTES:452
+		},
+		DPH:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:9,
+			NOTES:913
+		},
+		DPA:{
+			CN:true,
+			BSS:true,
+			DIFFICULT:12,
+			NOTES:1668
+		}
+	},
+	{
 		TITLE:'水上の提督(Short mix from "幻想水滸伝V")',
 		SORT:'180',
 		GENRE:'WORLD/ELECTRONICA',
@@ -39938,6 +45982,45 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1163 
+		}
+	},
+	{
+		TITLE:'世界の果てに約束の凱歌を -ReUnion-',
+		GENRE:'BRAVE ANTHEM',
+		ARTIST:'OSTER project feat. かなたん',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'200',
+		TIME:'2:04',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:602
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:973
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1983
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:610
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:995
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1918
 		}
 	},
 	{
@@ -40583,6 +46666,10 @@
 			DIFFICULT:11,
 			NOTES:1350 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:2110
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:529 
@@ -40594,6 +46681,10 @@
 		DPA:{
 			DIFFICULT:12,
 			NOTES:1651 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:2257
 		}
 	},
 	{
@@ -40853,6 +46944,10 @@
 			DIFFICULT:10,
 			NOTES:1146 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1535
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:474 
@@ -40864,6 +46959,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1114 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1509
 		}
 	},
 	{
@@ -41027,6 +47126,10 @@
 			DIFFICULT:10,
 			NOTES:1215 
 		},
+		SPL:{
+			DIFFICULT:12,
+			NOTES:1731
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:485 
@@ -41038,6 +47141,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1190 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1782
 		}
 	},
 	{
@@ -41396,6 +47503,125 @@
 		}
 	},
 	{
+		TITLE:'魅惑のYUMMYスイーツ',
+		SORT:'45',
+		GENRE:'TWINKLE POP',
+		ARTIST:'BEMANI Sound Team "TATSUYA"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'208',
+		TIME:'2:01',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:469
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:906
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1586
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:472
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:861
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1728
+		}
+	},
+	{
+		TITLE:'眠りの国のステラ',
+		SORT:'182',
+		GENRE:'空想ファンタジーシリーズ',
+		ARTIST:'BEMANI Sound Team "DJ TOTTO"',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'193',
+		TIME:'2:03',
+		SPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:594
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:946
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1393
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:575
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:937
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1405
+		}
+	},
+	{
+		TITLE:'霧幻メモリア',
+		GENRE:'LAST FRONTIER',
+		ARTIST:'BEMANI Sound Team "劇団レコード" feat.Risa Yuzuki',
+		FOLDER:'BISTROVER',
+		CATEGORY:'',
+		BPM:'150',
+		TIME:'1:55',
+		SPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:482
+		},
+		SPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:726
+		},
+		SPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1026
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:5,
+			NOTES:487
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:7,
+			NOTES:779
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:10,
+			NOTES:1154
+		}
+	},
+	{
 		TITLE:'冥',
 		SORT:'112',
 		GENRE:'HUMAN SEQUENCER',
@@ -41623,6 +47849,10 @@
 			DIFFICULT:9,
 			NOTES:988 
 		},
+		SPL:{
+			DIFFICULT:10,
+			NOTES:1258
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:503 
@@ -41634,6 +47864,10 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:1086 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1447
 		}
 	},
 	{
@@ -41657,6 +47891,11 @@
 			DIFFICULT:11,
 			NOTES:1515 
 		},
+		SPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1713
+		},
 		DPN:{
 			DIFFICULT:5,
 			NOTES:440 
@@ -41668,6 +47907,11 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1387 
+		},
+		DPL:{
+			CN:true,
+			DIFFICULT:12,
+			NOTES:1722
 		}
 	},
 	{
@@ -41939,6 +48183,11 @@
 			DIFFICULT:9,
 			NOTES:1021 
 		},
+		SPL:{
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1395
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:409 
@@ -41950,6 +48199,11 @@
 		DPA:{
 			DIFFICULT:9,
 			NOTES:955 
+		},
+		DPL:{
+			BSS:true,
+			DIFFICULT:11,
+			NOTES:1494
 		}
 	},
 	{
@@ -41987,6 +48241,41 @@
 		}
 	},
 	{
+		TITLE:'錬成人間トリコロイダー',
+		SORT:'150',
+		GENRE:'特撮ハードコア',
+		ARTIST:'DJ SHARPNEL feat. ￥Cuスタ平',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'190',
+		TIME:'2:01',
+		SPN:{
+			DIFFICULT:5,
+			NOTES:531
+		},
+		SPH:{
+			DIFFICULT:8,
+			NOTES:913
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1613
+		},
+		DPN:{
+			DIFFICULT:5,
+			NOTES:531
+		},
+		DPH:{
+			DIFFICULT:8,
+			NOTES:902
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1516
+		}
+	},
+	{
 		TITLE:'凛として咲く花の如く',
 		SORT:'152',
 		GENRE:'撫子ロック',
@@ -42007,6 +48296,10 @@
 			DIFFICULT:10,
 			NOTES:1398 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1595
+		},
 		DPN:{
 			DIFFICULT:6,
 			NOTES:659 
@@ -42018,6 +48311,47 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1443 
+		},
+		DPL:{
+			DIFFICULT:12,
+			NOTES:1766
+		}
+	},
+	{
+		TITLE:'曼荼羅恋々',
+		SORT:'109',
+		GENRE:'GOTHIC CORE',
+		ARTIST:'BEMANI Sound Team "Akhuta Works" feat. Nana Takahashi',
+		FOLDER:'HEROIC VERSE',
+		CATEGORY:'',
+		BPM:'198',
+		TIME:'2:03',
+		SPN:{
+			DIFFICULT:6,
+			NOTES:561
+		},
+		SPH:{
+			DIFFICULT:9,
+			NOTES:894
+		},
+		SPA:{
+			DIFFICULT:11,
+			NOTES:1392
+		},
+		DPN:{
+			CN:true,
+			DIFFICULT:6,
+			NOTES:558
+		},
+		DPH:{
+			CN:true,
+			DIFFICULT:9,
+			NOTES:861
+		},
+		DPA:{
+			CN:true,
+			DIFFICULT:11,
+			NOTES:1344
 		}
 	},
 	{
@@ -42041,6 +48375,10 @@
 			DIFFICULT:10,
 			NOTES:1060 
 		},
+		SPL:{
+			DIFFICULT:11,
+			NOTES:1280
+		},
 		DPN:{
 			DIFFICULT:4,
 			NOTES:413 
@@ -42052,6 +48390,10 @@
 		DPA:{
 			DIFFICULT:10,
 			NOTES:1082 
+		},
+		DPL:{
+			DIFFICULT:11,
+			NOTES:1257
 		}
 	},
 	{
@@ -42120,2774 +48462,6 @@
 		DPA:{
 			DIFFICULT:11,
 			NOTES:1346 
-		}
-	},
-	{
-		TITLE:'華爛漫 -Flowers-',
-		SORT:'60',
-		GENRE:'HYPER JAPANESQUE',
-		ARTIST:'TЁЯRA',
-		FOLDER:'DJ TROOPERS',
-		CATEGORY:'',
-		BPM:'160',
-		TIME:'1:47',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:510
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:804
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1029
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:592
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:801
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1011
-		}
-	},
-	{
-		TITLE:'カゴノトリ～弐式～',
-		SORT:'81',
-		GENRE:'和式電子音楽',
-		ARTIST:'橙色特別室',
-		FOLDER:'DistorteD',
-		CATEGORY:'',
-		BPM:'140',
-		TIME:'1:57',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:581
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:944
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1325
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:581
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:978
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1586
-		}
-	},
-	{
-		TITLE:'Blind Justice ～Torn souls, Hurt Faiths～',
-		GENRE:'EPIC POETRY',
-		ARTIST:'Zektbach',
-		FOLDER:'GOLD',
-		CATEGORY:'',
-		BPM:'137-165',
-		TIME:'2:09',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:679
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:1001
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1245
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:618
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:950
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1134
-		}
-	},
-	{
-		TITLE:'Parasite World',
-		GENRE:'HYPER J-CORE',
-		ARTIST:'TЁЯRA underground',
-		FOLDER:'DistorteD',
-		CATEGORY:'',
-		BPM:'135',
-		TIME:'1:50',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:686
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:966
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1194
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:703
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:985
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1195
-		}
-	},
-	{
-		TITLE:'DropZ-Line-',
-		GENRE:'PUMPCORE',
-		ARTIST:'Getty vs. DJ DiA',
-		FOLDER:'CANNON BALLERS',
-		CATEGORY:'',
-		BPM:'50-400',
-		TIME:'2:00',
-		SPN:{
-			DIFFICULT:7,
-			NOTES:696
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1101
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1648
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:677
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:1040
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1771
-		}
-	},
-	{
-		TITLE:'LOVE♡SHINE',
-		GENRE:'J-HAPPY HARDCORE',
-		ARTIST:'小坂りゆ',
-		FOLDER:'9th style',
-		CATEGORY:'',
-		BPM:'177',
-		TIME:'1:39',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:433
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:921
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1046
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:427
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:673
-		},
-		DPA:{
-			DIFFICULT:9,
-			NOTES:960
-		}
-	},
-	{
-		TITLE:'sometime',
-		GENRE:'SOUND TRACK',
-		ARTIST:'Aya',
-		FOLDER:'5th style',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:393
-		},
-		SPH:{
-			DIFFICULT:6,
-			NOTES:539
-		},
-		SPA:{
-			DIFFICULT:8,
-			NOTES:672
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:393
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:676
-		},
-		DPA:{
-			DIFFICULT:8,
-			NOTES:693
-		}
-	},
-	{
-		TITLE:'Life Is A Game ft.DD"ナカタ"Metal',
-		GENRE:'UPTEMPO HARDCORE',
-		ARTIST:'RoughSketch',
-		FOLDER:'CANNON BALLERS',
-		CATEGORY:'',
-		BPM:'195',
-		TIME:'',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:642
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:999
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1775
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:698
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:1169
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1667
-		}
-	},
-	{
-		TITLE:'2 Beasts Unchained',
-		GENRE:'HARDCORE',
-		ARTIST:'kors k vs Yooh',
-		FOLDER:'Cast Hour',
-		CATEGORY:'',
-		BPM:'175',
-		TIME:'1:57',
-		SPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:759
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1145
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1780
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:766
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1170
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1736
-		}
-	},
-	{
-		TITLE:'apo:llioth',
-		GENRE:'HARDCORE',
-		ARTIST:'Juggernaut.',
-		FOLDER:'BISTROVER',
-		CATEGORY:'',
-		BPM:'200',
-		TIME:'2:10',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:615
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:1053
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1498
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:616
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:1065
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1511
-		}
-	},
-	{
-		TITLE:'BLACK or WHITE?',
-		GENRE:'SYNPHONIC SPEED SCHRANZ',
-		ARTIST:'BlackYooh vs. siromaru',
-		FOLDER:'BISTROVER',
-		CATEGORY:'',
-		BPM:'185',
-		TIME:'2:01',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:655
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1287
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:2013
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:715
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1252
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1960
-		}
-	},
-	{
-		TITLE:'Souhait bleu',
-		GENRE:'ALCHEMY POP',
-		ARTIST:'しーけー',
-		FOLDER:'Cast Hour',
-		CATEGORY:'',
-		BPM:'225',
-		TIME:'1:57',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:457
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:977
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1407
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:467
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:1007
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1457
-		}
-	},
-	{
-		TITLE:'ディスコルディア',
-		SORT:'36',
-		GENRE:'CROSSOVER',
-		ARTIST:'ぺのれり vs. BEMANI Sound Team "HuΣeR"',
-		FOLDER:'BISTROVER',
-		CATEGORY:'',
-		BPM:'180-280',
-		TIME:'2:04',
-		SPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:701
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1229
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:2073
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:724
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1258
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:2089
-		}
-	},
-	{
-		TITLE:'逆月',
-		SORT:'155',
-		GENRE:'JAPANESQUE',
-		ARTIST:'BEMANI Sound Team "HuΣeR" feat.Fernweh',
-		FOLDER:'Cast Hour',
-		CATEGORY:'',
-		BPM:'280',
-		TIME:'2:02',
-		SPN:{
-			HCN:true,
-			DIFFICULT:7,
-			NOTES:760
-		},
-		SPH:{
-			HCN:true,
-			DIFFICULT:10,
-			NOTES:1194
-		},
-		SPA:{
-			HCN:true,
-			HBSS:true,
-			DIFFICULT:12,
-			NOTES:1920
-		},
-		DPN:{
-			HCN:true,
-			DIFFICULT:7,
-			NOTES:768
-		},
-		DPH:{
-			HCN:true,
-			DIFFICULT:10,
-			NOTES:1177
-		},
-		DPA:{
-			HCN:true,
-			DIFFICULT:12,
-			NOTES:1848
-		}
-	},
-	{
-		TITLE:'BLAZING_LAZER',
-		GENRE:'BURNING RAVE',
-		ARTIST:'brz1128',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'191',
-		TIME:'',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:630
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1084
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1752
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:644
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:1100
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1724
-		}
-	},
-	{
-		TITLE:'Chocolate Planet',
-		GENRE:'HAPPY CHOCO CORE',
-		ARTIST:'Freezer feat.妃苺',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'185',
-		TIME:'',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:459
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:763
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1137
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:469
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:757
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1170
-		}
-	},
-	{
-		TITLE:'DO-IT-AMA-SITE!!!',
-		GENRE:'YOU\'RE WELCOME DANCE',
-		ARTIST:'MYUKKE.',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'135',
-		TIME:'',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:537
-		},
-		SPH:{
-			MSS:true,
-			DIFFICULT:9,
-			NOTES:750
-		},
-		SPA:{
-			MSS:true,
-			DIFFICULT:11,
-			NOTES:1260
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:534
-		},
-		DPH:{
-			MSS:true,
-			DIFFICULT:9,
-			NOTES:838
-		},
-		DPA:{
-			MSS:true,
-			DIFFICULT:11,
-			NOTES:1246
-		}
-	},
-	{
-		TITLE:'Ha･lle･lu･jah',
-		GENRE:'TRANCE POP',
-		ARTIST:'SOUND HOLIC feat. Nana Takahashi',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:388
-		},
-		SPH:{
-			DIFFICULT:7,
-			NOTES:690
-		},
-		SPA:{
-			DIFFICULT:9,
-			NOTES:911
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:394
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:672
-		},
-		DPA:{
-			DIFFICULT:8,
-			NOTES:873
-		}
-	},
-	{
-		TITLE:'Stleq',
-		GENRE:'ARTCORE',
-		ARTIST:'ぬゆり',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'200',
-		TIME:'',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:527
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:890
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1372
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:489
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:926
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1492
-		}
-	},
-	{
-		TITLE:'tricky trick',
-		GENRE:'DUBSTEP',
-		ARTIST:'kamome sano',
-		FOLDER:'INFINITAS',
-		CATEGORY:'',
-		BPM:'165',
-		TIME:'',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:434
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:668
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1173
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:429
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:671
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1274
-		}
-	},
-	{
-		TITLE:'sync',
-		GENRE:'TRANCE',
-		ARTIST:'OutPhase (TaQ/dj TAKA)',
-		FOLDER:'5th Style',
-		CATEGORY:'',
-		BPM:'167',
-		TIME:'2:02',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:549
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:982
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1204
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:796
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:1030
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1208
-		}
-	},
-	{
-		TITLE:'SURVIVOR',
-		GENRE:'GRAVITY POP',
-		ARTIST:'SOUND HOLIC Vs. ZYTOKINE feat. Nana Takahashi',
-		FOLDER:'copula',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:363
-		},
-		SPH:{
-			DIFFICULT:7,
-			NOTES:658
-		},
-		SPA:{
-			DIFFICULT:9,
-			NOTES:1014
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:494
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:703
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1135
-		}
-	},
-	{
-		TITLE:'NITROUS CANNON',
-		GENRE:'MACHINEGUN PSYSTYLE',
-		ARTIST:'かめりあ',
-		FOLDER:'CANNON BALLERS',
-		CATEGORY:'',
-		BPM:'169',
-		TIME:'2:08',
-		SPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:713
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1055
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1875
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:696
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1054
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1852
-		}
-	},
-	{
-		TITLE:'Trill auf G',
-		GENRE:'MUSIC GAMES HARDCORE',
-		ARTIST:'BEMANI Sound Team "dj TAKA"',
-		FOLDER:'Rootage',
-		CATEGORY:'',
-		BPM:'188',
-		TIME:'2:01',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:586
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1098
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1670
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:577
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:1059
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1610
-		}
-	},
-	{
-		TITLE:'Artist',
-		GENRE:'MYSTICAL HARD DANCE',
-		ARTIST:'CANVAS feat. Quimär',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'165',
-		TIME:'1:59',
-		SPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:660
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1243
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1870
-		},
-		DPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:665
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1252
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1923
-		}
-	},
-	{
-		TITLE:'Backyard Stars',
-		GENRE:'FUTURE BASS',
-		ARTIST:'TAKU INOUE',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'175',
-		TIME:'1:56',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:540
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:844
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1155
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:543
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:838
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1222
-		}
-	},
-	{
-		TITLE:'beatAffection',
-		GENRE:'BEAT MUSIC',
-		ARTIST:'ビートまりお',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'190',
-		TIME:'2:15',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:524
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:792
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1341
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:522
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:730
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1232
-		}
-	},
-	{
-		TITLE:'Calvados Queen',
-		GENRE:'JAZZ ROCK',
-		ARTIST:'OSTER project feat. かなたん',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'220',
-		TIME:'2:06',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:502
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:777
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1242
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:500
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:760
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1244
-		}
-	},
-	{
-		TITLE:'Do What You Want',
-		GENRE:'FUTURE BASS',
-		ARTIST:'BEMANI Sound Team "SYUNN"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'160',
-		TIME:'1:43',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:352
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:644
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1027
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:351
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:688
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1085
-		}
-	},
-	{
-		TITLE:'Drop It',
-		GENRE:'DRUMSTEP/MMETAL/DJENT',
-		ARTIST:'Dazsta',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'155',
-		TIME:'1:59',
-		SPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:713
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:1032
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1419
-		},
-		DPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:731
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:1035
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1435
-		}
-	},
-	{
-		TITLE:'Duration',
-		GENRE:'DRUM & BASS',
-		ARTIST:'佐野電磁',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'180',
-		TIME:'2:00',
-		SPN:{
-			DIFFICULT:3,
-			NOTES:272
-		},
-		SPH:{
-			DIFFICULT:6,
-			NOTES:514
-		},
-		SPA:{
-			DIFFICULT:9,
-			NOTES:978
-		},
-		DPN:{
-			DIFFICULT:3,
-			NOTES:265
-		},
-		DPH:{
-			DIFFICULT:6,
-			NOTES:496
-		},
-		DPA:{
-			DIFFICULT:9,
-			NOTES:943
-		}
-	},
-	{
-		TITLE:'fairy cocktail',
-		GENRE:'エレクトロニック/エレクトロニカ/ポップ',
-		ARTIST:'Tomggg',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'134',
-		TIME:'1:59',
-		SPN:{
-			CN:true,
-			DIFFICULT:3,
-			NOTES:230
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:559
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:828
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:3,
-			NOTES:230
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:567
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:861
-		}
-	},
-	{
-		TITLE:'Friction[!]Function',
-		GENRE:'PROGRES BEAT',
-		ARTIST:'Feryquitous',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'2:02',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:560
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:911
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1634
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:553
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:1008
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1546
-		}
-	},
-	{
-		TITLE:'Hold My Hand',
-		GENRE:'MELODIC DANCE MUSIC',
-		ARTIST:'BEMANI Sound Team "Sota Fujimori"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'154',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:472
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:855
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1247
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:424
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:809
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1264
-		}
-	},
-	{
-		TITLE:'Hyper Drive feat. ぷにぷに電機',
-		GENRE:'DANCE POP',
-		ARTIST:'パソコン音楽クラブ',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'130',
-		TIME:'2:00',
-		SPN:{
-			DIFFICULT:3,
-			NOTES:335
-		},
-		SPH:{
-			DIFFICULT:7,
-			NOTES:775
-		},
-		SPA:{
-			DIFFICULT:9,
-			NOTES:1000
-		},
-		DPN:{
-			DIFFICULT:3,
-			NOTES:339
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:761
-		},
-		DPA:{
-			DIFFICULT:9,
-			NOTES:1000
-		}
-	},
-	{
-		TITLE:'LASER CRUSTER (IGNITE REMIX)',
-		GENRE:'DRUM & BASS / HYBRID TRAP',
-		ARTIST:'Remixed by BEMANI Sound Team "HuΣeR"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'174',
-		TIME:'2:06',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:399
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:908
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1824
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:380
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:848
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1700
-		}
-	},
-	{
-		TITLE:'LIGHTNING STRIKES',
-		GENRE:'Hi-GAIN ENERGY',
-		ARTIST:'BEMANI Sound Team "HuΣeR"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'174',
-		TIME:'1:54',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:471
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:854
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1639
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:473
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:950
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1763
-		}
-	},
-	{
-		TITLE:'Like+it!',
-		GENRE:'EUROBEAT',
-		ARTIST:'Ryu☆',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'165',
-		TIME:'1:38',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:541
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:885
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1197
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:505
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:871
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1071
-		}
-	},
-	{
-		TITLE:'NEWALONE',
-		GENRE:'INDUSTRIAL BASS',
-		ARTIST:'Masayoshi Iimori',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'110',
-		TIME:'1:58',
-		SPN:{
-			BSS:true,
-			DIFFICULT:4,
-			NOTES:303
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:662
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:1012
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:352
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:643
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:980
-		}
-	},
-	{
-		TITLE:'OUTER PLANETS',
-		GENRE:'EPIC STORY',
-		ARTIST:'BEMANI Sound Team "劇団レコード"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'140',
-		TIME:'2:02',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:340
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:716
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1100
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:343
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:732
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1104
-		}
-	},
-	{
-		TITLE:'Primitive Vibes',
-		GENRE:'TRIBAL FRONTIER',
-		ARTIST:'lapix',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'2:01',
-		SPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:587
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1004
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1564
-		},
-		DPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:589
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:1019
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1534
-		}
-	},
-	{
-		TITLE:'Queen Kaguya',
-		GENRE:'ORBITALIC MOON MIXTURE',
-		ARTIST:'BEMANI Sound Team "U1 overground"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'200',
-		TIME:'2:02',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:493
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:952
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1330
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:506
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:892
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1327
-		}
-	},
-	{
-		TITLE:'Rainstorm',
-		GENRE:'UPLIFTING TRANCE',
-		ARTIST:'Maozon feat. Chica',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'140',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:501
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:784
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1146
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:485
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:775
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1140
-		}
-	},
-	{
-		TITLE:'Rave Patroller',
-		GENRE:'FUTURE SKOOL BREAKBEATS HARDCORE',
-		ARTIST:'Eagle',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'175',
-		TIME:'2:07',
-		SPN:{
-			DIFFICULT:7,
-			NOTES:696
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1189
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1705
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:747
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:1289
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1667
-		}
-	},
-	{
-		TITLE:'Ska-sh All Neurons!!',
-		GENRE:'A-STYLE NEURO+"スカ"+FUNK DRUMSTEP',
-		ARTIST:'かめりあ feat. ななひら',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'183',
-		TIME:'2:04',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:497
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:739
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1176
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:502
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:692
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1139
-		}
-	},
-	{
-		TITLE:'Smashing Wedge',
-		GENRE:'HARDCORE',
-		ARTIST:'nora2r',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'215',
-		TIME:'2:01',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:492
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1141
-		},
-		SPA:{
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1957
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:555
-		},
-		DPH:{
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1270
-		},
-		DPA:{
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1969
-		}
-	},
-	{
-		TITLE:'Sugar Drippin\'',
-		GENRE:'GARAGE',
-		ARTIST:'kors k',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'135',
-		TIME:'1:58',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:391
-		},
-		SPH:{
-			DIFFICULT:7,
-			NOTES:701
-		},
-		SPA:{
-			DIFFICULT:9,
-			NOTES:1069
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:396
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:687
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1129
-		}
-	},
-	{
-		TITLE:'take me higher',
-		GENRE:'FUTURE JERSEY',
-		ARTIST:'KOTONOHOUSE',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'140',
-		TIME:'1:53',
-		SPN:{
-			DIFFICULT:4,
-			NOTES:414
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:7,
-			NOTES:647
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1015
-		},
-		DPN:{
-			DIFFICULT:4,
-			NOTES:419
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:8,
-			NOTES:648
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:959
-		}
-	},
-	{
-		TITLE:'TECHNO Style Essentials',
-		GENRE:'TECHNO',
-		ARTIST:'BEMANI Sound Team "SETUP from Berlin"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'154',
-		TIME:'1:54',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:516
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:833
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1453
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:517
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:821
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1506
-		}
-	},
-	{
-		TITLE:'THE F∀UST',
-		GENRE:'PIERROT CORE',
-		ARTIST:'Masqed Pierrot',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'170',
-		TIME:'2:07',
-		SPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:691
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1183
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1851
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:7,
-			NOTES:701
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1143
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1838
-		}
-	},
-	{
-		TITLE:'Theory',
-		GENRE:'TRAP',
-		ARTIST:'YUTO',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'102-146',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:412
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:745
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1342
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:418
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:731
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1309
-		}
-	},
-	{
-		TITLE:'TRIUMPH',
-		GENRE:'UK HARDCORE',
-		ARTIST:'AJURIKA',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'183',
-		TIME:'1:58',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:475
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:1019
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1724
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:477
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:959
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1691
-		}
-	},
-	{
-		TITLE:'UNITE THE HEART',
-		GENRE:'DANCE POP DUET',
-		ARTIST:'BEMANI Sound Team "T.Kakuta" feat. 709sec./花たん',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'185',
-		TIME:'2:12',
-		SPN:{
-			DIFFICULT:7,
-			NOTES:753
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1319
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1676
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:696
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:1259
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1633
-		}
-	},
-	{
-		TITLE:'Virus Funk',
-		GENRE:'PROGRESSIVE DISCO',
-		ARTIST:'Nhato',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'132',
-		TIME:'2:01',
-		SPN:{
-			HCN:true,
-			DIFFICULT:4,
-			NOTES:397
-		},
-		SPH:{
-			HCN:true,
-			DIFFICULT:7,
-			NOTES:785
-		},
-		SPA:{
-			HCN:true,
-			DIFFICULT:10,
-			NOTES:1119
-		},
-		DPN:{
-			HCN:true,
-			DIFFICULT:5,
-			NOTES:443
-		},
-		DPH:{
-			HCN:true,
-			DIFFICULT:7,
-			NOTES:703
-		},
-		DPA:{
-			HCN:true,
-			HBSS:true,
-			DIFFICULT:10,
-			NOTES:1009
-		}
-	},
-	{
-		TITLE:'Volcanic Dragon',
-		GENRE:'HARDCORE RAVE',
-		ARTIST:'DJ Shimamura',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'175',
-		TIME:'2:06',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:548
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:914
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1495
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:620
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:861
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1412
-		}
-	},
-	{
-		TITLE:'Voo Doo Bamboleo',
-		GENRE:'TRIBAL DANCE',
-		ARTIST:'SOUND HOLIC Vs. ZYTOKINE feat. CALEN',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'137',
-		TIME:'2:08',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:459
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:786
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1262
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:472
-		},
-		DPH:{
-			DIFFICULT:7,
-			NOTES:809
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1361
-		}
-	},
-	{
-		TITLE:'バッドエンド・シンドローム',
-		SORT:'13',
-		GENRE:'PIANO CHRONICLE',
-		ARTIST:'アリスシャッハと魔法の楽団',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'126',
-		TIME:'2:11',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:535
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:892
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1497
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:491
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:940
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1552
-		}
-	},
-	{
-		TITLE:'魅惑のYUMMYスイーツ',
-		SORT:'45',
-		GENRE:'TWINKLE POP',
-		ARTIST:'BEMANI Sound Team "TATSUYA"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'208',
-		TIME:'2:01',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:469
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:906
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1586
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:472
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:861
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1728
-		}
-	},
-	{
-		TITLE:'がっつり陰キャ!? 怪盗いいんちょの億劫^^;',
-		SORT:'51',
-		GENRE:'Hi-メランコリックコア',
-		ARTIST:'噂の怪盗少女ぷらずま★彡Prim@休業中～( _ _ ).。',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'185',
-		TIME:'1:59',
-		SPN:{
-			DIFFICULT:7,
-			NOTES:789
-		},
-		SPH:{
-			DIFFICULT:10,
-			NOTES:1399
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:2192
-		},
-		DPN:{
-			DIFFICULT:7,
-			NOTES:774
-		},
-		DPH:{
-			DIFFICULT:10,
-			NOTES:1390
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:2161
-		}
-	},
-	{
-		TITLE:'ラブキラ☆スプラッシュ',
-		SORT:'105',
-		GENRE:'HYPER POP',
-		ARTIST:'BEMANI Sound Team "Sota F." feat.いちか',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'152',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:564
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:838
-		},
-		SPA:{
-			DIFFICULT:10,
-			NOTES:1267
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:517
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:758
-		},
-		DPA:{
-			DIFFICULT:10,
-			NOTES:1100
-		}
-	},
-	{
-		TITLE:'曼荼羅恋々',
-		SORT:'109',
-		GENRE:'GOTHIC CORE',
-		ARTIST:'BEMANI Sound Team "Akhuta Works" feat. Nana Takahashi',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'198',
-		TIME:'2:03',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:561
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:894
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1392
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:558
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:861
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1344
-		}
-	},
-	{
-		TITLE:'ランカーキラーガール',
-		SORT:'148',
-		GENRE:'KILLER PUNK',
-		ARTIST:'中島由貴×いちか',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'200',
-		TIME:'2:03',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:583
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:955
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1479
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:604
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:903
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1419
-		}
-	},
-	{
-		TITLE:'錬成人間トリコロイダー',
-		SORT:'150',
-		GENRE:'特撮ハードコア',
-		ARTIST:'DJ SHARPNEL feat. ￥Cuスタ平',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'190',
-		TIME:'2:01',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:531
-		},
-		SPH:{
-			DIFFICULT:8,
-			NOTES:913
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1613
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:531
-		},
-		DPH:{
-			DIFFICULT:8,
-			NOTES:902
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1516
-		}
-	},
-	{
-		TITLE:'深淵に捧ぐレクイエム',
-		SORT:'151',
-		GENRE:'CYBER REQUIEM',
-		ARTIST:'OSTER project',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'175',
-		TIME:'1:58',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:431
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:843
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1537
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:442
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:846
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:12,
-			NOTES:1456
-		}
-	},
-	{
-		TITLE:'眠りの国のステラ',
-		SORT:'182',
-		GENRE:'空想ファンタジーシリーズ',
-		ARTIST:'BEMANI Sound Team "DJ TOTTO"',
-		FOLDER:'HEROIC VERSE',
-		CATEGORY:'',
-		BPM:'193',
-		TIME:'2:03',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:594
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:946
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1393
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:575
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:937
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1405
-		}
-	},
-	{
-		TITLE:'Divine Heaven',
-		GENRE:'BIG ANTHEM',
-		ARTIST:'Absolute The 4th',
-		FOLDER:'CastHour',
-		CATEGORY:'',
-		BPM:'150',
-		TIME:'2:06',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:476
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:1006
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1503
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:472
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:9,
-			NOTES:983
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:11,
-			NOTES:1567
-		}
-	},
-	{
-		TITLE:'Get On Your Feet',
-		GENRE:'HYBRID TRANCE',
-		ARTIST:'Nhato',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'155',
-		TIME:'2:01',
-		SPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:5,
-			NOTES:573
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:914
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1384
-		},
-		DPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:5,
-			NOTES:587
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:944
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1347
-		}
-	},
-	{
-		TITLE:'Hat Surprise (Season 2)',
-		GENRE:'UK HARDCORE',
-		ARTIST:'Hommarju',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'180',
-		TIME:'1:57',
-		SPN:{
-			DIFFICULT:5,
-			NOTES:514
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:928
-		},
-		SPA:{
-			DIFFICULT:12,
-			NOTES:1729
-		},
-		DPN:{
-			DIFFICULT:5,
-			NOTES:524
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:947
-		},
-		DPA:{
-			DIFFICULT:12,
-			NOTES:1703
-		}
-	},
-	{
-		TITLE:'Next Level',
-		GENRE:'DRUM & BASS',
-		ARTIST:'Maozon',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'174',
-		TIME:'1:57',
-		SPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:477
-		},
-		SPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:817
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1100
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:5,
-			NOTES:473
-		},
-		DPH:{
-			CN:true,
-			DIFFICULT:8,
-			NOTES:816
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1135
-		}
-	},
-	{
-		TITLE:'OVER VOLTAGE',
-		GENRE:'HARDSTYLE',
-		ARTIST:'Yuta Imai',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'160',
-		TIME:'2:08',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:560
-		},
-		SPH:{
-			HCN:true,
-			HBSS:true,
-			DIFFICULT:9,
-			NOTES:935
-		},
-		SPA:{
-			HCN:true,
-			HBSS:true,
-			DIFFICULT:11,
-			NOTES:1332
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:583
-		},
-		DPH:{
-			HCN:true,
-			HBSS:true,
-			DIFFICULT:9,
-			NOTES:954
-		},
-		DPA:{
-			HCN:true,
-			HBSS:true,
-			DIFFICULT:11,
-			NOTES:1371
-		}
-	},
-	{
-		TITLE:'Red Soul',
-		GENRE:'HARDCORE',
-		ARTIST:'RoughSketch',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'180',
-		TIME:'2:02',
-		SPN:{
-			DIFFICULT:6,
-			NOTES:543
-		},
-		SPH:{
-			DIFFICULT:9,
-			NOTES:915
-		},
-		SPA:{
-			DIFFICULT:11,
-			NOTES:1494
-		},
-		DPN:{
-			DIFFICULT:6,
-			NOTES:532
-		},
-		DPH:{
-			DIFFICULT:9,
-			NOTES:931
-		},
-		DPA:{
-			DIFFICULT:11,
-			NOTES:1463
-		}
-	},
-	{
-		TITLE:'STAR BEAT',
-		GENRE:'COLOUR BASS',
-		ARTIST:'MK',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'158',
-		TIME:'1:56',
-		SPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:427
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:8,
-			NOTES:880
-		},
-		SPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1230
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:4,
-			NOTES:446
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:8,
-			NOTES:882
-		},
-		DPA:{
-			CN:true,
-			DIFFICULT:10,
-			NOTES:1271
-		}
-	},
-	{
-		TITLE:'《ORDERBREAKER》',
-		SORT:'135',
-		GENRE:'GODSPEED',
-		ARTIST:'Blacklolita',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'166',
-		TIME:'1:59',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:511
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:815
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1257
-		},
-		DPN:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:6,
-			NOTES:521
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:9,
-			NOTES:750
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:11,
-			NOTES:1298
-		}
-	},
-	{
-		TITLE:'Ōu Legends',
-		SORT:'202',
-		GENRE:'TOHOKU NEURO DENSETSU',
-		ARTIST:'かめりあ',
-		FOLDER:'RESIDENT',
-		CATEGORY:'',
-		BPM:'191',
-		TIME:'2:02',
-		SPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:581
-		},
-		SPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1068
-		},
-		SPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1687
-		},
-		DPN:{
-			CN:true,
-			DIFFICULT:6,
-			NOTES:600
-		},
-		DPH:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:10,
-			NOTES:1063
-		},
-		DPA:{
-			CN:true,
-			BSS:true,
-			DIFFICULT:12,
-			NOTES:1701
 		}
 	}
 ];

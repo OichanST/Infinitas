@@ -74,6 +74,12 @@ function dataInit(){
 					}
 				}
 				
+				if(rec.SPL){
+					for(let key in playData[i].SPA){
+						rec.SPL[key] = playData[i].SPL[key];
+					}
+				}
+				
 				if(rec.DPN){
 					for(let key in playData[i].DPN){
 						rec.DPN[key] = playData[i].DPN[key];
@@ -89,6 +95,12 @@ function dataInit(){
 				if(rec.DPA){
 					for(let key in playData[i].DPA){
 						rec.DPA[key] = playData[i].DPA[key];
+					}
+				}
+				
+				if(rec.DPL){
+					for(let key in playData[i].DPA){
+						rec.DPL[key] = playData[i].DPL[key];
 					}
 				}
 				
@@ -189,6 +201,27 @@ function init(){
 					PLAYRESULT:rec[spdp + "A"].PLAYRESULT,
 					EXSCORE:rec[spdp + "A"].EXSCORE,
 					MISSCOUNT:rec[spdp + "A"].MISSCOUNT
+				});
+			}
+		}
+		if(rec[spdp + "L"]){
+			if(rec[spdp + "L"].DIFFICULT == lv){
+				mergedMusicData.push({
+					TITLE:rec.TITLE,
+					SORT:rec.SORT,
+					BPM:rec.BPM,
+					NOTES:rec[spdp + "L"].NOTES,
+					type:"L",
+					BSS:rec[spdp + "L"].BSS,
+					HBSS:rec[spdp + "L"].HBSS,
+					CN:rec[spdp + "L"].CN,
+					HCN:rec[spdp + "L"].HCN,
+					DIFFICULT:rec[spdp + "L"].DIFFICULT,
+					OPEN:rec[spdp + "L"].OPEN,
+					CLEARSTATUS:rec[spdp + "L"].CLEARSTATUS,
+					PLAYRESULT:rec[spdp + "L"].PLAYRESULT,
+					EXSCORE:rec[spdp + "L"].EXSCORE,
+					MISSCOUNT:rec[spdp + "L"].MISSCOUNT
 				});
 			}
 		}
@@ -502,6 +535,10 @@ function makeInitData(rec){
 	if(rec.SPA){
 		copyData.SPA = JSON.parse(JSON.stringify(initialData));
 	}
+	// SPLデータのコピー
+	if(rec.SPL){
+		copyData.SPL = JSON.parse(JSON.stringify(initialData));
+	}
 	// DPNデータのコピー
 	if(rec.DPN){
 		copyData.DPN = JSON.parse(JSON.stringify(initialData));
@@ -513,6 +550,10 @@ function makeInitData(rec){
 	// DPAデータのコピー
 	if(rec.DPA){
 		copyData.DPA = JSON.parse(JSON.stringify(initialData));
+	}
+	// DPLデータのコピー
+	if(rec.DPL){
+		copyData.DPL = JSON.parse(JSON.stringify(initialData));
 	}
 	// コピーデータを返却
 	return copyData;
