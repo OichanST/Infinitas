@@ -7,7 +7,7 @@ let mergedMusicData;
  */
 function dataInit(){
 	
-	localStorage.removeItem("playData");
+	//localStorage.removeItem("playData");
 	
 	// ストレージからデータを取得
 	playData = localStorage.getItem("playData");
