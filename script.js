@@ -324,16 +324,35 @@ function init(){
 		let cell = createCell();
 		
 		let divHeader = createDiv({
-			style:"font-size:3.5em;background-color:rgba(32,32,32,0.5);display:flex;justify-content:flex-start;border:5px solid rgb(255,128,0);border-radius:12px;"
+			style:"display:flex;justify-content:flex-start;"
+		});
+
+		let divCN = createDiv({
+			style:"text-align:center;margin-left:0.25em;margin-right:0.25em;"
+		});
+		
+		if(rec.BSS || rec.CN){
+			divCN.innerText = "CN";
+			divCN.setAttribute("class", "CN");
+		}else if(rec.HBSS || rec.HCN){
+			divCN.innerText = "HCN";
+			divCN.setAttribute("class", "HCN");
+		}else{
+			divCN.setAttribute("class", "NOCN");
+		}
+		
+		divHeader.appendChild(divCN);
+
+		let divHeaderSub = createDiv({
+			class:"title"
 		});
 		
 		let divStat = createDiv({
-			style:"width:0.5em;border-radius:6px 0px 0px 6px;",
 			html:"&nbsp;",
-			class:"TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_") + " TOP_" + rec.type
+			class:"STAT TOP_" + rec.CLEARSTATUS.replaceAll(" ", "_") + " TOP_" + rec.type
 		});
 		
-		divHeader.appendChild(divStat);
+		divHeaderSub.appendChild(divStat);
 		
 		let divDifficult = createDiv({
 			style:"width:1.5em;padding-top:0.2em;",
@@ -341,7 +360,7 @@ function init(){
 			class:"DIFFICULT DIF_" + rec.type
 		});
 		
-		divHeader.appendChild(divDifficult);
+		divHeaderSub.appendChild(divDifficult);
 		
 		let divTitle = createDiv({
 			style:"padding-top:0.2em;padding-bottom:0.2em;",
@@ -352,30 +371,19 @@ function init(){
 			divTitle.style.color = "gray";
 		}
 		
-		divHeader.appendChild(divTitle);
+		divHeaderSub.appendChild(divTitle);
+		
+		divHeader.appendChild(divHeaderSub);
 		
 		cell.appendChild(divHeader);
 		
 		let div1 = createDiv({
-			style:"font-size:3.0em;display:flex;justify-content:flex-start;"
+			style:"display:flex;justify-content:flex-start;",
+			class:"dataArea"
 		});
-		
-		let divCN = createDiv({
-			style:"width:2.2em;text-align:center;margin-left:0.25em;margin-right:0.25em;"
-		});
-		
-		if(rec.BSS || rec.CN){
-			divCN.innerText = "CN";
-			divCN.setAttribute("class", "CN");
-		}else if(rec.HBSS || rec.HCN){
-			divCN.innerText = "HCN";
-			divCN.setAttribute("class", "HCN");
-		}
-		
-		div1.appendChild(divCN);
 		
 		let divBPM = createDiv({
-			style:"width:6.0em;",
+			style:"width:7.0em;",
 			text:"BPM:" + rec.BPM
 		});
 
@@ -400,7 +408,8 @@ function init(){
 		if(rec.OPEN){
 		
 			let divDet = createDiv({
-				style:"font-size:3.0em;display:flex;justify-content:space-between;"
+				style:"display:flex;justify-content:space-between;",
+				class:"dataArea"
 			});
 			
 			let divA = createDiv();
@@ -461,7 +470,8 @@ function init(){
 		const ret = calc(rec.NOTES, rec.EXSCORE);
 		
 		let div5 = createDiv({
-			style:"font-size:3.0em;display:flex;justify-content:space-between;"
+			style:"display:flex;justify-content:space-between;",
+			class:"dataArea"
 		});
 		
 		let div51 = createDiv({
